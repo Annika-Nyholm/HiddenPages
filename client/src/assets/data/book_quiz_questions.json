@@ -1,0 +1,1107 @@
+{
+    "quiz": [
+        {
+            "question": "Du står framför en magisk portal. Vilken värld vill du besöka?",
+            "options": [
+                {
+                    "text": "En mystisk skog fylld av talande djur och magiska väsen.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "En futuristisk stad där robotar och människor lever sida vid sida.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Technology",
+                        "Future"
+                    ]
+                },
+                {
+                    "text": "En idyllisk by från 1800-talet där tiden verkar stå still.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Classics",
+                        "Village"
+                    ]
+                },
+                {
+                    "text": "En dyster stad fylld av gåtor och skuggfigurer.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Crime"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en gammal bok med en konstig titel. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag öppnar den direkt – jag älskar att avslöja hemligheter!",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "Jag drömmer om att skriva min egen bok en dag och inspireras.",
+                    "keywords": [
+                        "Creativity",
+                        "Biography",
+                        "Writing"
+                    ]
+                },
+                {
+                    "text": "Jag letar efter kartor och tecken på äventyr.",
+                    "keywords": [
+                        "Adventure",
+                        "Exploration",
+                        "Maps"
+                    ]
+                },
+                {
+                    "text": "Jag undersöker först vem som skrivit boken.",
+                    "keywords": [
+                        "Classics",
+                        "Authors",
+                        "History"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av berättelse lockar dig mest?",
+            "options": [
+                {
+                    "text": "En spännande historia som håller mig på helspänn.",
+                    "keywords": [
+                        "Thriller",
+                        "Suspense",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "En rörande berättelse som får mig att gråta.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Emotional"
+                    ]
+                },
+                {
+                    "text": "Ett episkt äventyr med massor av vändningar.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Epic"
+                    ]
+                },
+                {
+                    "text": "En tänkvärd bok som lär mig något nytt.",
+                    "keywords": [
+                        "Philosophy",
+                        "Self-Help",
+                        "Educational"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du får en gammal karta med en X-markering. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag letar efter en skatt!",
+                    "keywords": [
+                        "Adventure",
+                        "Treasure",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "Jag undersöker kartan noggrant för att hitta ledtrådar.",
+                    "keywords": [
+                        "Mystery",
+                        "Investigation",
+                        "Maps"
+                    ]
+                },
+                {
+                    "text": "Jag hänger upp kartan som en dekoration.",
+                    "keywords": [
+                        "Art",
+                        "Decor",
+                        "History"
+                    ]
+                },
+                {
+                    "text": "Jag skriver en historia inspirerad av kartan.",
+                    "keywords": [
+                        "Writing",
+                        "Creativity",
+                        "Fantasy"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar ett hemligt brev i en gammal bok. Vad är ditt nästa steg?",
+            "options": [
+                {
+                    "text": "Jag dechiffrerar brevet för att avslöja dess hemligheter.",
+                    "keywords": [
+                        "Mystery",
+                        "Secrets",
+                        "Investigation"
+                    ]
+                },
+                {
+                    "text": "Jag försöker kontakta brevets ägare.",
+                    "keywords": [
+                        "History",
+                        "Biography",
+                        "Connections"
+                    ]
+                },
+                {
+                    "text": "Jag skapar en novell baserad på brevet.",
+                    "keywords": [
+                        "Writing",
+                        "Creativity",
+                        "Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag läser bara för nöjes skull.",
+                    "keywords": [
+                        "Relaxation",
+                        "Classics",
+                        "Casual"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en port till en förlorad stad. Vad förväntar du dig?",
+            "options": [
+                {
+                    "text": "Gyllene tempel och oändliga skatter.",
+                    "keywords": [
+                        "Adventure",
+                        "Treasure",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "Ett samhälle fullt av visdom och kunskap.",
+                    "keywords": [
+                        "Philosophy",
+                        "History",
+                        "Learning"
+                    ]
+                },
+                {
+                    "text": "Farliga fällor och mystiska gåtor.",
+                    "keywords": [
+                        "Thriller",
+                        "Mystery",
+                        "Danger"
+                    ]
+                },
+                {
+                    "text": "Ett nytt hem där jag kan börja om.",
+                    "keywords": [
+                        "Drama",
+                        "Romance",
+                        "Self-Discovery"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Om du kunde prata med en karaktär från en bok, vem skulle det vara?",
+            "options": [
+                {
+                    "text": "En hjältemodig äventyrare.",
+                    "keywords": [
+                        "Adventure",
+                        "Fantasy",
+                        "Heroes"
+                    ]
+                },
+                {
+                    "text": "En mystisk detektiv.",
+                    "keywords": [
+                        "Mystery",
+                        "Crime",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "En djupsinnig filosof.",
+                    "keywords": [
+                        "Philosophy",
+                        "Wisdom",
+                        "Reflection"
+                    ]
+                },
+                {
+                    "text": "En kärleksfull vän.",
+                    "keywords": [
+                        "Romance",
+                        "Friendship",
+                        "Drama"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en tidsmaskin och kan resa till en tid. Vad väljer du?",
+            "options": [
+                {
+                    "text": "Förhistorisk tid med dinosaurier.",
+                    "keywords": [
+                        "Adventure",
+                        "History",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "En framtid där allt är möjligt.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Technology",
+                        "Innovation"
+                    ]
+                },
+                {
+                    "text": "1800-talets eleganta balsalar.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Romance",
+                        "Classics"
+                    ]
+                },
+                {
+                    "text": "1950-talets rock'n'roll-era.",
+                    "keywords": [
+                        "Music",
+                        "Drama",
+                        "Nostalgia"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du är en hjälte i en berättelse. Vad är din roll?",
+            "options": [
+                {
+                    "text": "En modig krigare som kämpar för rättvisa.",
+                    "keywords": [
+                        "Fantasy",
+                        "Heroes",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En listig detektiv som löser mysterier.",
+                    "keywords": [
+                        "Mystery",
+                        "Crime",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "En uppfinnare som skapar något banbrytande.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Innovation",
+                        "Technology"
+                    ]
+                },
+                {
+                    "text": "En empatisk ledare som förenar folk.",
+                    "keywords": [
+                        "Drama",
+                        "Inspiration",
+                        "Leadership"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vad får dig att välja en bok att läsa?",
+            "options": [
+                {
+                    "text": "Ett spännande omslag.",
+                    "keywords": [
+                        "Design",
+                        "Visual Appeal",
+                        "Casual"
+                    ]
+                },
+                {
+                    "text": "Rekommendationer från vänner.",
+                    "keywords": [
+                        "Social",
+                        "Trendy",
+                        "Popular"
+                    ]
+                },
+                {
+                    "text": "Ett fängslande mysterium i baksidestexten.",
+                    "keywords": [
+                        "Mystery",
+                        "Suspense",
+                        "Teasers"
+                    ]
+                },
+                {
+                    "text": "En känd författare jag beundrar.",
+                    "keywords": [
+                        "Authors",
+                        "Classics",
+                        "Trust"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du vaknar upp i en helt annan tidsepok. Vad är det första du gör?",
+            "options": [
+                {
+                    "text": "Utforskar de nya omgivningarna och möter lokalbefolkningen.",
+                    "keywords": [
+                        "Adventure",
+                        "Exploration",
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Lär mig allt jag kan om deras seder och kultur.",
+                    "keywords": [
+                        "History",
+                        "Learning",
+                        "Culture"
+                    ]
+                },
+                {
+                    "text": "Försöker hitta ett sätt att återvända hem.",
+                    "keywords": [
+                        "Thriller",
+                        "Mystery",
+                        "Escape"
+                    ]
+                },
+                {
+                    "text": "Stannar kvar och njuter av det nya livet.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Self-Discovery"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en mystisk lampa. Vad önskar du dig?",
+            "options": [
+                {
+                    "text": "Oändliga äventyr och nya världar att utforska.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Visdom och kunskap från hela världen.",
+                    "keywords": [
+                        "Philosophy",
+                        "Learning",
+                        "Insight"
+                    ]
+                },
+                {
+                    "text": "En livslång vänskap med någon speciell.",
+                    "keywords": [
+                        "Romance",
+                        "Friendship",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Att alla mysterier i världen ska avslöjas.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Secrets"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilket slags bibliotek lockar dig mest?",
+            "options": [
+                {
+                    "text": "Ett oändligt bibliotek där varje bok är en ny värld.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Ett antikt bibliotek fyllt med historiska skatter.",
+                    "keywords": [
+                        "History",
+                        "Classics",
+                        "Antiques"
+                    ]
+                },
+                {
+                    "text": "Ett futuristiskt bibliotek med holografiska böcker.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Technology",
+                        "Innovation"
+                    ]
+                },
+                {
+                    "text": "Ett dolt bibliotek där böckerna viskar sina hemligheter.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Secrets"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du får välja en magisk kraft. Vilken tar du?",
+            "options": [
+                {
+                    "text": "Förmågan att resa genom tid och rum.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Adventure",
+                        "Time Travel"
+                    ]
+                },
+                {
+                    "text": "Förmågan att läsa andras tankar.",
+                    "keywords": [
+                        "Mystery",
+                        "Insight",
+                        "Psychology"
+                    ]
+                },
+                {
+                    "text": "Förmågan att skapa vackra berättelser med ett ord.",
+                    "keywords": [
+                        "Writing",
+                        "Creativity",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Förmågan att bli vän med alla varelser.",
+                    "keywords": [
+                        "Romance",
+                        "Friendship",
+                        "Harmony"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en skattkista i skogen. Vad hoppas du att den innehåller?",
+            "options": [
+                {
+                    "text": "Ett magiskt föremål som kan förändra världen.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Artifacts"
+                    ]
+                },
+                {
+                    "text": "Guld och rikedomar bortom dina drömmar.",
+                    "keywords": [
+                        "Adventure",
+                        "Treasure",
+                        "Wealth"
+                    ]
+                },
+                {
+                    "text": "En karta till fler äventyr.",
+                    "keywords": [
+                        "Exploration",
+                        "Maps",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Ett kärleksbrev från en förlorad tid.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Mystery"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Om du kunde leva i en bokvärld, vilken skulle det vara?",
+            "options": [
+                {
+                    "text": "En magisk värld där drakar och trollkarlar existerar.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Dragons"
+                    ]
+                },
+                {
+                    "text": "En högteknologisk framtid fylld av innovation.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Technology",
+                        "Future"
+                    ]
+                },
+                {
+                    "text": "En charmig småstad fylld med hjärtliga relationer.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Community"
+                    ]
+                },
+                {
+                    "text": "En gåtfull stad där varje gata har en historia.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Secrets"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "En okänd resande erbjuder dig en gåva. Vad väljer du?",
+            "options": [
+                {
+                    "text": "En kompass som alltid pekar mot äventyr.",
+                    "keywords": [
+                        "Adventure",
+                        "Exploration",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "En bok fylld med världens alla hemligheter.",
+                    "keywords": [
+                        "Mystery",
+                        "Secrets",
+                        "Wisdom"
+                    ]
+                },
+                {
+                    "text": "En penna som kan skriva ner dina drömmar.",
+                    "keywords": [
+                        "Writing",
+                        "Creativity",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "En blomma som symboliserar evig kärlek.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Symbolism"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vad inspirerar dig mest när du läser?",
+            "options": [
+                {
+                    "text": "Hjältar som övervinner alla hinder.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Heroes"
+                    ]
+                },
+                {
+                    "text": "Känslosamma berättelser som känns äkta.",
+                    "keywords": [
+                        "Drama",
+                        "Romance",
+                        "Emotional"
+                    ]
+                },
+                {
+                    "text": "Intrikata mysterier som håller mig nyfiken.",
+                    "keywords": [
+                        "Mystery",
+                        "Suspense",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "text": "Insiktsfulla böcker som får mig att tänka.",
+                    "keywords": [
+                        "Philosophy",
+                        "Self-Help",
+                        "Educational"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Om du kunde vara en bokkaraktär, vem skulle du vara?",
+            "options": [
+                {
+                    "text": "En äventyrare som reser genom farliga världar.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "En klok vis man eller kvinna med stora hemligheter.",
+                    "keywords": [
+                        "Philosophy",
+                        "Wisdom",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "En romantisk drömmare som söker kärlek.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Dreamer"
+                    ]
+                },
+                {
+                    "text": "En listig detektiv som avslöjar sanningen.",
+                    "keywords": [
+                        "Mystery",
+                        "Crime",
+                        "Investigation"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken bokgenre skulle du vilja prova mer av?",
+            "options": [
+                {
+                    "text": "Fantasi med episka äventyr.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Epic"
+                    ]
+                },
+                {
+                    "text": "Skrämmande mysterier och brott.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Crime"
+                    ]
+                },
+                {
+                    "text": "Romantiska berättelser med oväntade vändningar.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Surprises"
+                    ]
+                },
+                {
+                    "text": "Självutveckling och livsinsikter.",
+                    "keywords": [
+                        "Self-Help",
+                        "Philosophy",
+                        "Educational"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du stöter på en dagbok från en okänd person. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag läser den och skrattar åt de humoristiska berättelserna!",
+                    "keywords": [
+                        "Comedy",
+                        "Lighthearted",
+                        "Whimsical"
+                    ]
+                },
+                {
+                    "text": "Jag försöker lösa gåtorna som döljer sig i texten.",
+                    "keywords": [
+                        "Mystery",
+                        "Suspense",
+                        "Investigation"
+                    ]
+                },
+                {
+                    "text": "Jag analyserar hur dagboken beskriver samhället på den tiden.",
+                    "keywords": [
+                        "Society",
+                        "Culture",
+                        "History"
+                    ]
+                },
+                {
+                    "text": "Jag återvinner den och funderar på människans påverkan på miljön.",
+                    "keywords": [
+                        "Nature",
+                        "Environment",
+                        "Sustainability"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hör en märklig viskning från ett gammalt hus. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag springer in och undersöker!",
+                    "keywords": [
+                        "Horror",
+                        "Thriller",
+                        "Investigation"
+                    ]
+                },
+                {
+                    "text": "Jag flyr så snabbt jag kan och hoppas det inte följer efter mig.",
+                    "keywords": [
+                        "Fear",
+                        "Escape"
+                    ]
+                },
+                {
+                    "text": "Jag försöker kommunicera med vad det än är.",
+                    "keywords": [
+                        "Mystery",
+                        "Secrets",
+                        "Symbols"
+                    ]
+                },
+                {
+                    "text": "Jag ignorerar det och njuter av promenaden istället.",
+                    "keywords": [
+                        "Lighthearted",
+                        "Whimsical"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "En okänd person bjuder in dig till ett hemligt möte. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag går, nyfiken på vad som kan hända.",
+                    "keywords": [
+                        "Mystery",
+                        "Adventure",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "Jag avböjer artigt – jag föredrar att hålla mig till säkra situationer.",
+                    "keywords": [
+                        "Lighthearted",
+                        "Harmony"
+                    ]
+                },
+                {
+                    "text": "Jag försöker få reda på vem som står bakom inbjudan.",
+                    "keywords": [
+                        "Investigation",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "Jag skriver ner mötet som inspiration för min nästa berättelse.",
+                    "keywords": [
+                        "Writing",
+                        "Creativity"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en karta till en gömd skatt. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag samlar ett gäng vänner och ger mig ut på äventyr!",
+                    "keywords": [
+                        "Adventure",
+                        "Treasure",
+                        "Friendship"
+                    ]
+                },
+                {
+                    "text": "Jag studerar kartan för att förstå dess historia.",
+                    "keywords": [
+                        "History",
+                        "Maps",
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Jag undrar om det kan vara en fälla och är försiktig.",
+                    "keywords": [
+                        "Suspense",
+                        "Thriller",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "Jag ramponerar kartan i ett försök att rädda träden som den gjordes av.",
+                    "keywords": [
+                        "Nature",
+                        "Environment"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du får möjlighet att uppfinna något helt nytt. Vad gör du?",
+            "options": [
+                {
+                    "text": "En maskin som hjälper till att bevara regnskogar.",
+                    "keywords": [
+                        "Technology",
+                        "Environment",
+                        "Sustainability"
+                    ]
+                },
+                {
+                    "text": "En robot som berättar skämt och lättar upp stämningen.",
+                    "keywords": [
+                        "Comedy",
+                        "Lighthearted",
+                        "Innovation"
+                    ]
+                },
+                {
+                    "text": "En tidsmaskin så jag kan utforska historiska perioder.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Time Travel",
+                        "History"
+                    ]
+                },
+                {
+                    "text": "En bokmaskin som skriver böcker utifrån mina tankar.",
+                    "keywords": [
+                        "Creativity",
+                        "Writing",
+                        "Technology"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "En magisk bok erbjuder dig en unik förmåga. Vilken väljer du?",
+            "options": [
+                {
+                    "text": "Förmågan att tala med djur.",
+                    "keywords": [
+                        "Fantasy",
+                        "Nature",
+                        "Whimsical"
+                    ]
+                },
+                {
+                    "text": "Kraften att förvandla rädsla till mod.",
+                    "keywords": [
+                        "Self-Help",
+                        "Emotional",
+                        "Philosophy"
+                    ]
+                },
+                {
+                    "text": "Förmågan att skriva böcker som får folk att skratta.",
+                    "keywords": [
+                        "Comedy",
+                        "Writing",
+                        "Lighthearted"
+                    ]
+                },
+                {
+                    "text": "Kraften att resa genom tiden.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Time Travel",
+                        "Adventure"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du träffar en vän som avslöjar att de är en vampyr. Hur reagerar du?",
+            "options": [
+                {
+                    "text": "Jag frågar om deras livshistoria – det låter fascinerande!",
+                    "keywords": [
+                        "Horror",
+                        "Mystery",
+                        "Biography"
+                    ]
+                },
+                {
+                    "text": "Jag springer därifrån, livrädd.",
+                    "keywords": [
+                        "Fear",
+                        "Escape",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "Jag försöker lära mig mer om deras samhälle.",
+                    "keywords": [
+                        "Society",
+                        "Culture",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "text": "Jag ber dem att skriva en bok om sina äventyr.",
+                    "keywords": [
+                        "Writing",
+                        "Creativity"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du kan skapa en egen värld att leva i. Hur ser den ut?",
+            "options": [
+                {
+                    "text": "En harmonisk värld där alla lever i samklang med naturen.",
+                    "keywords": [
+                        "Nature",
+                        "Harmony",
+                        "Sustainability"
+                    ]
+                },
+                {
+                    "text": "En plats full av magi och vänliga drakar.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Whimsical"
+                    ]
+                },
+                {
+                    "text": "En futuristisk stad där teknik gör livet enklare.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Technology",
+                        "Innovation"
+                    ]
+                },
+                {
+                    "text": "En värld där mysterier och äventyr aldrig tar slut.",
+                    "keywords": [
+                        "Adventure",
+                        "Mystery",
+                        "Epic"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en bok som påstår sig vara förbannad. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag öppnar den direkt – jag är inte rädd för lite skräck!",
+                    "keywords": [
+                        "Horror",
+                        "Thriller",
+                        "Fear"
+                    ]
+                },
+                {
+                    "text": "Jag låter den vara – bäst att inte utmana ödet.",
+                    "keywords": [
+                        "Suspense",
+                        "Escape",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "Jag undersöker dess bakgrund och historia.",
+                    "keywords": [
+                        "Mystery",
+                        "History",
+                        "Investigation"
+                    ]
+                },
+                {
+                    "text": "Jag läser den och hoppas den inspirerar mig till att skriva något själv.",
+                    "keywords": [
+                        "Writing",
+                        "Creativity",
+                        "Biography"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du kan träffa en känd person från historien. Vem väljer du?",
+            "options": [
+                {
+                    "text": "Leonardo da Vinci – hans uppfinningar fascinerar mig.",
+                    "keywords": [
+                        "History",
+                        "Innovation",
+                        "Biography"
+                    ]
+                },
+                {
+                    "text": "Jane Austen – hennes berättelser är odödliga.",
+                    "keywords": [
+                        "Classics",
+                        "Romance",
+                        "Authors"
+                    ]
+                },
+                {
+                    "text": "En okänd hjälte vars historia aldrig berättades.",
+                    "keywords": [
+                        "Adventure",
+                        "Discovery",
+                        "Heroes"
+                    ]
+                },
+                {
+                    "text": "Någon som kan lära mig något nytt och inspirera mig.",
+                    "keywords": [
+                        "Self-Help",
+                        "Educational",
+                        "Wisdom"
+                    ]
+                }
+            ]
+        }
+    ]
+}

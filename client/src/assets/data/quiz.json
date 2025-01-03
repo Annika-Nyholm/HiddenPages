@@ -1,0 +1,1114 @@
+{
+    "quiz": [
+        {
+            "question": "Du öppnar en hemlig dörr i ett gammalt bibliotek. Vilken typ av bok hoppas du hitta?",
+            "options": [
+                {
+                    "text": "En bok om magiska världar och fantastiska äventyr.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "En futuristisk berättelse om liv på andra planeter.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Aliens",
+                        "Space Opera"
+                    ]
+                },
+                {
+                    "text": "En spännande deckare som utspelar sig i en dimmig storstad.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Crime"
+                    ]
+                },
+                {
+                    "text": "En rörande historia om kärlek och förlust.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Emotional"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en bok med ett gåtfullt mönster på omslaget. Vad kan den handla om?",
+            "options": [
+                {
+                    "text": "En karta som leder till en bortglömd skatt.",
+                    "keywords": [
+                        "Adventure",
+                        "Treasure",
+                        "Maps"
+                    ]
+                },
+                {
+                    "text": "Forntida myter och legender från en svunnen tid.",
+                    "keywords": [
+                        "Mythology",
+                        "History",
+                        "Legends"
+                    ]
+                },
+                {
+                    "text": "En spökhistoria från en gammal herrgård.",
+                    "keywords": [
+                        "Horror",
+                        "Ghosts",
+                        "Supernatural"
+                    ]
+                },
+                {
+                    "text": "En självbiografi från en berömd upptäcktsresande.",
+                    "keywords": [
+                        "Biography",
+                        "Exploration",
+                        "History"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av huvudperson lockar dig mest?",
+            "options": [
+                {
+                    "text": "En modig äventyrare som söker det okända.",
+                    "keywords": [
+                        "Adventure",
+                        "Exploration",
+                        "Heroes"
+                    ]
+                },
+                {
+                    "text": "En forskare som försöker lösa universums mysterier.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Technology",
+                        "Innovation"
+                    ]
+                },
+                {
+                    "text": "En privatdetektiv med en mörk bakgrund.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Crime"
+                    ]
+                },
+                {
+                    "text": "En ung person som navigerar livet och sina drömmar.",
+                    "keywords": [
+                        "Coming-of-age",
+                        "Drama",
+                        "Inspiration"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du får välja en bok att ta med till en öde ö. Vilken väljer du?",
+            "options": [
+                {
+                    "text": "En guide till att överleva i naturen.",
+                    "keywords": [
+                        "Non-fiction",
+                        "Survival",
+                        "Nature"
+                    ]
+                },
+                {
+                    "text": "En romantisk saga om hopp och kärlek.",
+                    "keywords": [
+                        "Romance",
+                        "Hope",
+                        "Heartwarming"
+                    ]
+                },
+                {
+                    "text": "En episk berättelse om ett kungadöme i fara.",
+                    "keywords": [
+                        "Fantasy",
+                        "Epic",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En samling korta och roliga berättelser.",
+                    "keywords": [
+                        "Comedy",
+                        "Short Stories",
+                        "Lighthearted"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar ett förtrollat bokmärke. Vad vill du läsa med det?",
+            "options": [
+                {
+                    "text": "Berättelser som tar dig tillbaka i tiden.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Time Travel",
+                        "History"
+                    ]
+                },
+                {
+                    "text": "Böcker som ger dig nya insikter och perspektiv.",
+                    "keywords": [
+                        "Philosophy",
+                        "Self-Help",
+                        "Educational"
+                    ]
+                },
+                {
+                    "text": "Fascinerande historier om teknologi och framtid.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Technology",
+                        "Future"
+                    ]
+                },
+                {
+                    "text": "Skräckberättelser som får hjärtat att slå snabbare.",
+                    "keywords": [
+                        "Horror",
+                        "Thriller",
+                        "Suspense"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av bok får dig att förlora dig i läsningen?",
+            "options": [
+                {
+                    "text": "En fantasifull saga med magiska inslag.",
+                    "keywords": [
+                        "Fantasy",
+                        "Whimsical",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "En deckare där allt hänger på en liten ledtråd.",
+                    "keywords": [
+                        "Mystery",
+                        "Crime",
+                        "Investigation"
+                    ]
+                },
+                {
+                    "text": "En resa genom galaxer fylld av äventyr.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Space",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En bok som får mig att tänka djupt om livet.",
+                    "keywords": [
+                        "Philosophy",
+                        "Insight",
+                        "Existentialism"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du har en chans att intervjua en fiktiv karaktär. Vem väljer du?",
+            "options": [
+                {
+                    "text": "En trollkarl från en magisk akademi.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Wizards"
+                    ]
+                },
+                {
+                    "text": "En hacker från en dystopisk framtid.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Technology",
+                        "Cyberpunk"
+                    ]
+                },
+                {
+                    "text": "En överlevare från en post-apokalyptisk värld.",
+                    "keywords": [
+                        "Dystopian",
+                        "Survival",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En osynlig detektiv som löser de svåraste fallen.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Detectives"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av illustration föredrar du i en bok?",
+            "options": [
+                {
+                    "text": "Detaljerade kartor som väcker nyfikenhet.",
+                    "keywords": [
+                        "Maps",
+                        "Adventure",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Stilrena diagram och tekniska ritningar.",
+                    "keywords": [
+                        "Science",
+                        "Technology",
+                        "Innovation"
+                    ]
+                },
+                {
+                    "text": "Porträtt av karaktärer och scener.",
+                    "keywords": [
+                        "Art",
+                        "Drama",
+                        "Classics"
+                    ]
+                },
+                {
+                    "text": "Enkla men stämningsfulla illustrationer.",
+                    "keywords": [
+                        "Minimalism",
+                        "Atmosphere",
+                        "Whimsical"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du får en magisk penna. Vad skriver du med den?",
+            "options": [
+                {
+                    "text": "En episk saga om hjältar och drakar.",
+                    "keywords": [
+                        "Fantasy",
+                        "Epic",
+                        "Heroes"
+                    ]
+                },
+                {
+                    "text": "En framtidsvision om samhället om 100 år.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Futurism",
+                        "Society"
+                    ]
+                },
+                {
+                    "text": "En spännande berättelse om hemligheter och mysterier.",
+                    "keywords": [
+                        "Mystery",
+                        "Secrets",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "En filosofisk text om livet och dess mening.",
+                    "keywords": [
+                        "Philosophy",
+                        "Existentialism",
+                        "Insight"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av berättelse inspirerar dig mest?",
+            "options": [
+                {
+                    "text": "Berättelser om mod och överlevnad.",
+                    "keywords": [
+                        "Survival",
+                        "Courage",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Livshistorier som ger hopp och inspiration.",
+                    "keywords": [
+                        "Biography",
+                        "Hope",
+                        "Inspiration"
+                    ]
+                },
+                {
+                    "text": "Fantasifulla berättelser med oväntade vändningar.",
+                    "keywords": [
+                        "Fantasy",
+                        "Whimsical",
+                        "Plot Twist"
+                    ]
+                },
+                {
+                    "text": "Futuristiska berättelser om en annan värld.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Aliens",
+                        "Space"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar en låda fylld med gamla manuskript. Vilket manuskript läser du först?",
+            "options": [
+                {
+                    "text": "En karta över en förlorad kontinent.",
+                    "keywords": [
+                        "Maps",
+                        "Adventure",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "Ett dokument om en mystisk kult i det förflutna.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "History"
+                    ]
+                },
+                {
+                    "text": "En kärlekshistoria skriven med poetiska ord.",
+                    "keywords": [
+                        "Romance",
+                        "Poetry",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "En rapport om teknologins utveckling över tid.",
+                    "keywords": [
+                        "Science",
+                        "Technology",
+                        "Innovation"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du får en biljett till en litterär tidsmaskin. Vilken epok vill du läsa om?",
+            "options": [
+                {
+                    "text": "Medeltiden, med dess riddare och slott.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Medieval",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Framtiden, där mänskligheten har koloniserat rymden.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Space",
+                        "Futurism"
+                    ]
+                },
+                {
+                    "text": "1800-talets romantiska period.",
+                    "keywords": [
+                        "Classics",
+                        "Romance",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Nutiden, med spännande och moderna teman.",
+                    "keywords": [
+                        "Contemporary",
+                        "Thriller",
+                        "Realism"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av äventyr fascinerar dig mest?",
+            "options": [
+                {
+                    "text": "En farofylld resa genom en magisk värld.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "En vetenskaplig expedition till havets botten.",
+                    "keywords": [
+                        "Science",
+                        "Exploration",
+                        "Nature"
+                    ]
+                },
+                {
+                    "text": "Ett mysterium som kräver skarpa sinnen att lösa.",
+                    "keywords": [
+                        "Mystery",
+                        "Crime",
+                        "Detective"
+                    ]
+                },
+                {
+                    "text": "En kärlekshistoria som utspelar sig över kontinenter.",
+                    "keywords": [
+                        "Romance",
+                        "Travel",
+                        "Drama"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken miljö föredrar du i en berättelse?",
+            "options": [
+                {
+                    "text": "En djup och förtrollad skog.",
+                    "keywords": [
+                        "Fantasy",
+                        "Nature",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "En futuristisk stad fylld med neonljus.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Cyberpunk",
+                        "Urban"
+                    ]
+                },
+                {
+                    "text": "En historisk plats med dramatisk bakgrund.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Drama",
+                        "Culture"
+                    ]
+                },
+                {
+                    "text": "En liten by med hemligheter bakom varje dörr.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Village"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du får skriva ett kapitel i en bok. Vilken genre väljer du?",
+            "options": [
+                {
+                    "text": "Fantasy, med drakar och episka slag.",
+                    "keywords": [
+                        "Fantasy",
+                        "Epic",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Sci-fi, där människa och AI möts.",
+                    "keywords": [
+                        "Science Fiction",
+                        "AI",
+                        "Technology"
+                    ]
+                },
+                {
+                    "text": "En thriller, med en plot twist ingen förväntar sig.",
+                    "keywords": [
+                        "Thriller",
+                        "Suspense",
+                        "Crime"
+                    ]
+                },
+                {
+                    "text": "En poetisk novell fylld av känslor.",
+                    "keywords": [
+                        "Poetry",
+                        "Romance",
+                        "Emotional"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av relationer i böcker intresserar dig mest?",
+            "options": [
+                {
+                    "text": "Vänskap som överlever alla prövningar.",
+                    "keywords": [
+                        "Friendship",
+                        "Adventure",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Komplexa relationer mellan familjemedlemmar.",
+                    "keywords": [
+                        "Drama",
+                        "Family",
+                        "Emotional"
+                    ]
+                },
+                {
+                    "text": "Romantik som övervinner stora hinder.",
+                    "keywords": [
+                        "Romance",
+                        "Hope",
+                        "Heartwarming"
+                    ]
+                },
+                {
+                    "text": "Professionella samarbeten i spännande miljöer.",
+                    "keywords": [
+                        "Thriller",
+                        "Mystery",
+                        "Collaboration"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av konflikt driver en bra berättelse?",
+            "options": [
+                {
+                    "text": "Ett klassiskt gott mot ont-scenario.",
+                    "keywords": [
+                        "Fantasy",
+                        "Heroes",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En kamp mellan vetenskap och etik.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Philosophy",
+                        "Technology"
+                    ]
+                },
+                {
+                    "text": "Ett mysterium som kräver mental skärpa.",
+                    "keywords": [
+                        "Mystery",
+                        "Crime",
+                        "Detective"
+                    ]
+                },
+                {
+                    "text": "En intern kamp inom huvudpersonen.",
+                    "keywords": [
+                        "Drama",
+                        "Psychology",
+                        "Character Study"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Om du kunde vara en karaktär i en bok, vem skulle du vara?",
+            "options": [
+                {
+                    "text": "En trollkarl som behärskar elementens krafter.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Wizards"
+                    ]
+                },
+                {
+                    "text": "En utforskare som kartlägger okända världar.",
+                    "keywords": [
+                        "Adventure",
+                        "Exploration",
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "En mästerdetektiv med skarpt sinne.",
+                    "keywords": [
+                        "Mystery",
+                        "Detective",
+                        "Crime"
+                    ]
+                },
+                {
+                    "text": "En poet som beskriver världens skönhet.",
+                    "keywords": [
+                        "Poetry",
+                        "Romance",
+                        "Art"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vad inspirerar dig mest i en bok?",
+            "options": [
+                {
+                    "text": "En historia om triumf över svårigheter.",
+                    "keywords": [
+                        "Drama",
+                        "Inspiration",
+                        "Courage"
+                    ]
+                },
+                {
+                    "text": "Tankeväckande idéer om framtidens möjligheter.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Philosophy",
+                        "Future"
+                    ]
+                },
+                {
+                    "text": "Fantasifulla världar fyllda med magi.",
+                    "keywords": [
+                        "Fantasy",
+                        "World-building",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Komplexa och oförutsägbara mysterier.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Suspense"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av slut föredrar du i en bok?",
+            "options": [
+                {
+                    "text": "Ett lyckligt slut där allt faller på plats.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Happy Ending"
+                    ]
+                },
+                {
+                    "text": "Ett öppet slut som lämnar rum för tolkning.",
+                    "keywords": [
+                        "Philosophy",
+                        "Suspense",
+                        "Existentialism"
+                    ]
+                },
+                {
+                    "text": "En oväntad twist som ändrar allt.",
+                    "keywords": [
+                        "Thriller",
+                        "Plot Twist",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "Ett epilog som binder ihop hela berättelsen.",
+                    "keywords": [
+                        "Classics",
+                        "Fantasy",
+                        "Epic"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du kliver in i ett gammalt bibliotek med hyllor som sträcker sig mot himlen. En bok börjar glöda i mörkret. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag öppnar den och avslöjar dess magiska hemligheter.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "Jag antecknar dess mönster och letar efter en kod.",
+                    "keywords": [
+                        "Adventure",
+                        "Puzzles",
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Jag undersöker om den tillhör en förbjuden samling.",
+                    "keywords": [
+                        "Thriller",
+                        "Crime",
+                        "History"
+                    ]
+                },
+                {
+                    "text": "Jag studerar bokens författare och dess historiska betydelse.",
+                    "keywords": [
+                        "Classics",
+                        "Biography",
+                        "Authors"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "En mystisk främling ger dig en nyckel och säger: 'Denna öppnar en berättelse som kan förändra allt.' Vad låser du upp?",
+            "options": [
+                {
+                    "text": "En förtrollad portal till en annan dimension.",
+                    "keywords": [
+                        "Fantasy",
+                        "Portal",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "En låda med planer för en futuristisk uppfinning.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Innovation",
+                        "Technology"
+                    ]
+                },
+                {
+                    "text": "En gömd dagbok full av förbjudna hemligheter.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "Ett gammalt skrin med brev från en svunnen tid.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Drama",
+                        "Letters"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du står framför fyra dörrar, alla leder till en annan berättelse. Vilken väljer du?",
+            "options": [
+                {
+                    "text": "Den första dörren, som glöder av ett mystiskt ljus.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Den andra dörren, som är täckt av högtidliga symboler.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Culture",
+                        "Symbols"
+                    ]
+                },
+                {
+                    "text": "Den tredje dörren, som är täckt av futuristiska ledningar.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Technology",
+                        "Future"
+                    ]
+                },
+                {
+                    "text": "Den fjärde dörren, som verkar vara en vanlig dörr men har ett krypterat lås.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Puzzles"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du reser till en avlägsen plats för att lösa en gammal gåta. Vilken typ av ledtråd hittar du först?",
+            "options": [
+                {
+                    "text": "Ett pergament med kryptiska symboler.",
+                    "keywords": [
+                        "Mystery",
+                        "Symbols",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En maskin som verkar komma från framtiden.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Innovation",
+                        "Technology"
+                    ]
+                },
+                {
+                    "text": "Ett smycke som tillhör en kunglig familj.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Drama",
+                        "Royalty"
+                    ]
+                },
+                {
+                    "text": "En nyckel till ett dolt bibliotek.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Secrets"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Vilken typ av magisk bok skulle du vilja hitta?",
+            "options": [
+                {
+                    "text": "En som avslöjar framtidens hemligheter.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Futurism",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "En som innehåller en trollformel för att skapa fred.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Hope"
+                    ]
+                },
+                {
+                    "text": "En som beskriver bortglömda civilisationer.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Culture",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "En som är fylld av gåtor och utmaningar.",
+                    "keywords": [
+                        "Mystery",
+                        "Puzzles",
+                        "Thriller"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du hittar ett förseglat brev i en gammal kista. Vad hoppas du att det handlar om?",
+            "options": [
+                {
+                    "text": "En berättelse om förlorad kärlek.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Heartwarming"
+                    ]
+                },
+                {
+                    "text": "En karta som leder till en gömd skatt.",
+                    "keywords": [
+                        "Adventure",
+                        "Maps",
+                        "Treasure"
+                    ]
+                },
+                {
+                    "text": "En bekännelse om en olöst gåta.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "En vision om framtida världar.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Future",
+                        "Philosophy"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du vaknar i en bokvärld där karaktärerna kommer till liv. Vilken typ av historia är det?",
+            "options": [
+                {
+                    "text": "En värld där magi styr och drakar flyger över himlen.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Dragons"
+                    ]
+                },
+                {
+                    "text": "En dystopisk stad där alla kämpar för överlevnad.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Dystopia",
+                        "Survival"
+                    ]
+                },
+                {
+                    "text": "Ett vackert landskap där kärlek blomstrar.",
+                    "keywords": [
+                        "Romance",
+                        "Nature",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "En plats full av dolda intriger och gåtor.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Suspense"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "En bok med märkliga illustrationer faller från en hylla. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag försöker förstå vad bilderna betyder.",
+                    "keywords": [
+                        "Mystery",
+                        "Art",
+                        "Interpretation"
+                    ]
+                },
+                {
+                    "text": "Jag använder dem för att navigera till en magisk plats.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Maps"
+                    ]
+                },
+                {
+                    "text": "Jag söker efter liknande konst i historien.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Art",
+                        "Culture"
+                    ]
+                },
+                {
+                    "text": "Jag undersöker om bilderna innehåller vetenskapliga ledtrådar.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Technology",
+                        "Innovation"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "En mystisk karaktär erbjuder dig en bok. Den är tom, men kan fyllas med vilken historia som helst. Vad väljer du?",
+            "options": [
+                {
+                    "text": "Ett episkt äventyr med magiska varelser.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Epic"
+                    ]
+                },
+                {
+                    "text": "En spännande thriller som håller mig på helspänn.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "En romantisk historia som värmer hjärtat.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Heartwarming"
+                    ]
+                },
+                {
+                    "text": "En vetenskaplig resa genom tid och rum.",
+                    "keywords": [
+                        "Science Fiction",
+                        "Time Travel",
+                        "Exploration"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": "Du får en chans att skriva om slutet på en bok. Hur ändrar du det?",
+            "options": [
+                {
+                    "text": "Jag skapar en oväntad twist som överraskar alla.",
+                    "keywords": [
+                        "Thriller",
+                        "Plot Twist",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "Jag skriver ett lyckligt slut som knyter ihop allt.",
+                    "keywords": [
+                        "Romance",
+                        "Drama",
+                        "Happy Ending"
+                    ]
+                },
+                {
+                    "text": "Jag lämnar det öppet för att låta läsarna fundera.",
+                    "keywords": [
+                        "Philosophy",
+                        "Suspense",
+                        "Existentialism"
+                    ]
+                },
+                {
+                    "text": "Jag lägger till en epilog för att visa vad som hände sedan.",
+                    "keywords": [
+                        "Classics",
+                        "Drama",
+                        "Epilogue"
+                    ]
+                }
+            ]
+        }
+    ]
+}
