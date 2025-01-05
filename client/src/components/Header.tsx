@@ -5,7 +5,7 @@ export const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	const toggleMenu = () => {
-		setMenuOpen(!menuOpen);
+		setMenuOpen((prev) => !prev);
 	};
 
 	return (
@@ -18,18 +18,24 @@ export const Header = () => {
 								className='hamburger-menu'
 								onClick={toggleMenu}
 							>
-								<div
-									className={`hamburger-icon ${
-										menuOpen ? 'open' : ''
-									}`}
-								>
-								<span>M</span>
-								</div>
+								{!menuOpen && (
+									<img
+										src='/MenuOpen.png'
+										alt='Open menu'
+										className='menu-icon'
+										width={44}
+										height={44}
+									/>
+								)}
 
 								{menuOpen && (
-									<div className='close-icon'>
-										<span>X</span>
-									</div>
+									<img
+										src='/Close.png'
+										alt='Close menu'
+										className='close-icon'
+										width={44}
+										height={44}
+									/>
 								)}
 							</div>
 							<nav className='nav left-menu'>
@@ -68,6 +74,7 @@ export const Header = () => {
 						<div className='banner-end banner-left'></div>
 						<div className='banner-end banner-right'></div>
 					</article>
+					
 					{menuOpen && (
 						<nav className='mobile-menu'>
 							<ul>

@@ -1,11 +1,17 @@
 .main-banner {
-	width: 100%;
+	position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background: transparent;
+
 	.banner-content {
 		display: flex;
 		position: relative;
 		justify-content: center;
 		align-items: center;
-		padding-block: 3rem;
+		padding-block-start: 3rem;
+        padding-block-end: 1.5rem;
 		.banner-main {
 			position: relative;
 			z-index: 10;
@@ -28,15 +34,15 @@
 		}
 
         .hamburger-menu {
-            display: none; /* Dold som standard */
+            display: none; 
         }
 		.nav {
 			ul {
-				width: 200px;
+				min-width: 200px;
 				font-size: 1.125rem;
 				display: flex;
 				justify-content: center;
-				gap: 1rem;
+				gap: 1.5rem;
 				list-style: none;
 				color: #f3e5ab;
 
@@ -79,6 +85,7 @@
 @media (max-width: 768px) {
     .main-banner {
         .banner-content {
+            justify-content: space-between;
             .banner-main {
                 width: 100%;
             }
@@ -87,49 +94,52 @@
             }
         
             .hamburger-menu {
+                position: absolute;
+                left: 0;
                 display: block;
+                order: 1;
+                cursor: pointer;
+                img {
+                    display: block;
+                }
+                
             }
-        }
-    }
-    .close-icon {
-        /* Sätt in en kryssikon här */
-        width: 30px;
-        height: 30px;
-        background-color: #F3E5AB;
-        /* Add your custom styles */
-    }
-
-    /* Gör mobile-menu synlig */
-    .mobile-menu {
-        display: flex;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: rgba(255, 255, 255, 0.8);
-        padding: 1rem;
-        z-index: 1;
-
-        ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-            width: 100%;
-
-            li {
-                a {
-                    text-decoration: none;
-                    color: #003366;
-                    font-size: 1.125rem;
+            .nav-logo {
+            order: 2; 
+            margin: 0 auto; 
+            }
+            .mobile-menu {
+                display: flex;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background: rgba(255, 255, 255, 0.8);
+                padding: 1rem;
+                z-index: 1;
+        
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    width: 100%;
+        
+                    li {
+                        a {
+                            text-decoration: none;
+                            color: #003366;
+                            font-size: 1.125rem;
+                        }
+                    }
                 }
             }
+        
+            .banner-end {
+                display: none;
+            }
         }
-    }
-
-    .banner-end {
-        display: none;
     }
 }
 
