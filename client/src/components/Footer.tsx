@@ -20,8 +20,12 @@ export const Footer = () => {
 						</li>
 					</ul>
 				</nav>
-				<article className="footer-info">
-                    <p>Hidden Pages är en quiz-app för bokälskare! Utforska och få personliga rekommendationer för din nästa stora läsupplevelse.</p>
+				<article className='footer-info'>
+					<p>
+						Hidden Pages är en quiz-app för bokälskare! Utforska och
+						få personliga rekommendationer för din nästa stora
+						läsupplevelse.
+					</p>
 				</article>
 			</footer>
 		</>

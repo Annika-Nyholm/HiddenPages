@@ -15,34 +15,32 @@ export const Header = () => {
 					<article className='banner-main'>
 						<div className='banner-outer'>
 							<button
-								className="hamburger-menu"
-								aria-label={menuOpen ? "Stäng menyn" : "Öppna menyn"}
+								className='hamburger-menu'
+								aria-label={
+									menuOpen ? 'Stäng menyn' : 'Öppna menyn'
+								}
 								aria-expanded={menuOpen}
-								aria-controls="main-menu"
+								aria-controls='main-menu'
 								onClick={toggleMenu}
 							>
 								{!menuOpen && (
-									
-										<img
-											src='/MenuOpen.png'
-											alt='Open menu'
-											className='menu-icon'
-											width={44}
-											height={44}
-										/>
-									
+									<img
+										src='/MenuOpen.png'
+										alt='Open menu'
+										className='menu-icon'
+										width={44}
+										height={44}
+									/>
 								)}
 
 								{menuOpen && (
-									
-										<img
-											src='/Close.png'
-											alt='Close menu'
-											className='close-icon'
-											width={44}
-											height={44}
-										/>
-									
+									<img
+										src='/Close.png'
+										alt='Close menu'
+										className='close-icon'
+										width={44}
+										height={44}
+									/>
 								)}
 							</button>
 							<nav className='nav left-menu'>
@@ -81,7 +79,7 @@ export const Header = () => {
 						<div className='banner-end banner-left'></div>
 						<div className='banner-end banner-right'></div>
 					</article>
-					
+
 					{menuOpen && (
 						<nav className='mobile-menu'>
 							<ul>
