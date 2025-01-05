@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../styles/components/footer.scss';
 
 export const Footer = () => {
@@ -7,16 +8,16 @@ export const Footer = () => {
 				<nav className='footer-nav'>
 					<ul>
 						<li>
-							<a href='/'>Hem</a>
+							<Link to='/'>Hem</Link>
 						</li>
 						<li>
-							<a href='/quiz'>Quiz</a>
+							<Link to='/quiz'>Quiz</Link>
 						</li>
 						<li>
-							<a href='/recommendations'>Mina böcker</a>
+							<Link to='/recommendations'>Mina böcker</Link>
 						</li>
 						<li>
-							<a href='/'>FAQ</a>
+							<Link to='/'>FAQ</Link>
 						</li>
 					</ul>
 				</nav>
