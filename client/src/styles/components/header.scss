@@ -49,6 +49,11 @@
 				a {
 					color: #f3e5ab;
 					text-decoration: none;
+
+					&:hover {
+						text-decoration: underline;
+						text-decoration-color: #d4af37;
+					}
 				}
 			}
 		}
@@ -84,6 +89,7 @@
 }
 @media (max-width: 768px) {
     .main-banner {
+		min-width: 360px;
         .banner-content {
             justify-content: space-between;
             .banner-main {
@@ -131,6 +137,9 @@
                             text-decoration: none;
                             color: #003366;
                             font-size: 1.125rem;
+							&:hover {
+								text-decoration: underline;
+							}
                         }
                     }
                 }
