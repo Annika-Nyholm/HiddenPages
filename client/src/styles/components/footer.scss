@@ -6,7 +6,7 @@
 	background-color: #58061b;
 	display: flex;
 	align-items: center;
-	padding: 2rem;
+	padding: 1rem;
 	color: #f3e5ab;
 
 	.footer-nav {
@@ -42,6 +42,9 @@
 	.footer-wrapper {
 		flex-direction: column;
 		justify-content: flex-start;
+        padding-block: 1rem 0;
+        padding-inline: 1rem;
+        
 
 		.footer-nav {
 			width: 100%;
@@ -52,6 +55,7 @@
 		}
 		.footer-info {
 			width: 100%;
+            padding: 1rem;
 		}
 	}
 }
