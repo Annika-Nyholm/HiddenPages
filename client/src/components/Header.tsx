@@ -14,8 +14,13 @@ export const Header = () => {
 				<div className='banner-content'>
 					<article className='banner-main'>
 						<div className='banner-outer'>
-							<div
+							<button
 								className='hamburger-menu'
+								aria-label={
+									menuOpen ? 'Stäng menyn' : 'Öppna menyn'
+								}
+								aria-expanded={menuOpen}
+								aria-controls='main-menu'
 								onClick={toggleMenu}
 							>
 								{!menuOpen && (
@@ -37,7 +42,7 @@ export const Header = () => {
 										height={44}
 									/>
 								)}
-							</div>
+							</button>
 							<nav className='nav left-menu'>
 								<ul>
 									<li>
@@ -74,7 +79,7 @@ export const Header = () => {
 						<div className='banner-end banner-left'></div>
 						<div className='banner-end banner-right'></div>
 					</article>
-					
+
 					{menuOpen && (
 						<nav className='mobile-menu'>
 							<ul>
