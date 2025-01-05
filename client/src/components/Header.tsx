@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../styles/components/header.scss';
+import { Link } from 'react-router-dom';
 
 export const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -46,32 +47,32 @@ export const Header = () => {
 							<nav className='nav left-menu'>
 								<ul>
 									<li>
-										<a href='/'>Hem</a>
+										<Link to='/'>Hem</Link>
 									</li>
 									<li>
-										<a href='/quiz'>Quiz</a>
+										<Link to='/quiz'>Quiz</Link>
 									</li>
 								</ul>
 							</nav>
 							<nav className='nav-logo'>
-								<a href='/'>
+								<Link to='/'>
 									<img
 										src='/HiddenP_logo.webp'
 										alt='hidden pages logo'
 										width={200}
 										height={130}
 									/>
-								</a>
+								</Link>
 							</nav>
 							<nav className='nav right-menu'>
 								<ul>
 									<li>
-										<a href='/recommendations'>
+										<Link to='/recommendations'>
 											Mina böcker
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a href='/'>FAQ</a>
+										<Link to='/'>FAQ</Link>
 									</li>
 								</ul>
 							</nav>
@@ -84,16 +85,16 @@ export const Header = () => {
 						<nav className='mobile-menu'>
 							<ul>
 								<li>
-									<a href='/'>Hem</a>
+									<Link to='/'>Hem</Link>
 								</li>
 								<li>
-									<a href='/quiz'>Quiz</a>
+									<Link to='/quiz'>Quiz</Link>
 								</li>
 								<li>
-									<a href='/recommendations'>Mina böcker</a>
+									<Link to='/recommendations'>Mina böcker</Link>
 								</li>
 								<li>
-									<a href='/'>FAQ</a>
+									<Link to='/'>FAQ</Link>
 								</li>
 							</ul>
 						</nav>

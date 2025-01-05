@@ -92,6 +92,7 @@
 		min-width: 360px;
 		.banner-content {
 			justify-content: space-between;
+			padding-block-start: 2rem;
 			.banner-main {
 				width: 100%;
 			}
@@ -126,7 +127,7 @@
 				left: 0;
 				width: 100%;
 				background: rgba(255, 255, 255, 0.8);
-				padding: 1rem;
+				padding: 0.5rem;
 				z-index: 1;
 
 				ul {
