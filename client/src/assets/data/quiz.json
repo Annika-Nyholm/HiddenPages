@@ -1,6 +1,7 @@
 {
     "quiz": [
         {
+            "id": 31,
             "question": "Du öppnar en hemlig dörr i ett gammalt bibliotek. Vilken typ av bok hoppas du hitta?",
             "options": [
                 {
@@ -38,6 +39,7 @@
             ]
         },
         {
+            "id": 32,
             "question": "Du hittar en bok med ett gåtfullt mönster på omslaget. Vad kan den handla om?",
             "options": [
                 {
@@ -75,6 +77,7 @@
             ]
         },
         {
+            "id": 33,
             "question": "Vilken typ av huvudperson lockar dig mest?",
             "options": [
                 {
@@ -112,6 +115,7 @@
             ]
         },
         {
+            "id": 34,
             "question": "Du får välja en bok att ta med till en öde ö. Vilken väljer du?",
             "options": [
                 {
@@ -149,6 +153,7 @@
             ]
         },
         {
+            "id": 35,
             "question": "Du hittar ett förtrollat bokmärke. Vad vill du läsa med det?",
             "options": [
                 {
@@ -186,6 +191,7 @@
             ]
         },
         {
+            "id": 36,
             "question": "Vilken typ av bok får dig att förlora dig i läsningen?",
             "options": [
                 {
@@ -223,6 +229,7 @@
             ]
         },
         {
+            "id": 37,
             "question": "Du har en chans att intervjua en fiktiv karaktär. Vem väljer du?",
             "options": [
                 {
@@ -260,6 +267,7 @@
             ]
         },
         {
+            "id": 38,
             "question": "Vilken typ av illustration föredrar du i en bok?",
             "options": [
                 {
@@ -297,6 +305,7 @@
             ]
         },
         {
+            "id": 39,
             "question": "Du får en magisk penna. Vad skriver du med den?",
             "options": [
                 {
@@ -334,6 +343,7 @@
             ]
         },
         {
+            "id": 40,
             "question": "Vilken typ av berättelse inspirerar dig mest?",
             "options": [
                 {
@@ -371,6 +381,7 @@
             ]
         },
         {
+            "id": 41,
             "question": "Du hittar en låda fylld med gamla manuskript. Vilket manuskript läser du först?",
             "options": [
                 {
@@ -408,6 +419,7 @@
             ]
         },
         {
+            "id": 42,
             "question": "Du får en biljett till en litterär tidsmaskin. Vilken epok vill du läsa om?",
             "options": [
                 {
@@ -445,6 +457,7 @@
             ]
         },
         {
+            "id": 43,
             "question": "Vilken typ av äventyr fascinerar dig mest?",
             "options": [
                 {
@@ -482,6 +495,7 @@
             ]
         },
         {
+            "id": 44,
             "question": "Vilken miljö föredrar du i en berättelse?",
             "options": [
                 {
@@ -519,6 +533,7 @@
             ]
         },
         {
+            "id": 45,
             "question": "Du får skriva ett kapitel i en bok. Vilken genre väljer du?",
             "options": [
                 {
@@ -556,6 +571,7 @@
             ]
         },
         {
+            "id": 46,
             "question": "Vilken typ av relationer i böcker intresserar dig mest?",
             "options": [
                 {
@@ -593,6 +609,7 @@
             ]
         },
         {
+            "id": 47,
             "question": "Vilken typ av konflikt driver en bra berättelse?",
             "options": [
                 {
@@ -630,6 +647,7 @@
             ]
         },
         {
+            "id": 48,
             "question": "Om du kunde vara en karaktär i en bok, vem skulle du vara?",
             "options": [
                 {
@@ -667,6 +685,7 @@
             ]
         },
         {
+            "id": 49,
             "question": "Vad inspirerar dig mest i en bok?",
             "options": [
                 {
@@ -704,6 +723,7 @@
             ]
         },
         {
+            "id": 50,
             "question": "Vilken typ av slut föredrar du i en bok?",
             "options": [
                 {
@@ -741,6 +761,7 @@
             ]
         },
         {
+            "id": 51,
             "question": "Du kliver in i ett gammalt bibliotek med hyllor som sträcker sig mot himlen. En bok börjar glöda i mörkret. Vad gör du?",
             "options": [
                 {
@@ -778,6 +799,7 @@
             ]
         },
         {
+            "id": 52,
             "question": "En mystisk främling ger dig en nyckel och säger: 'Denna öppnar en berättelse som kan förändra allt.' Vad låser du upp?",
             "options": [
                 {
@@ -815,6 +837,7 @@
             ]
         },
         {
+            "id": 53,
             "question": "Du står framför fyra dörrar, alla leder till en annan berättelse. Vilken väljer du?",
             "options": [
                 {
@@ -852,6 +875,7 @@
             ]
         },
         {
+            "id": 54,
             "question": "Du reser till en avlägsen plats för att lösa en gammal gåta. Vilken typ av ledtråd hittar du först?",
             "options": [
                 {
@@ -889,6 +913,7 @@
             ]
         },
         {
+            "id": 55,
             "question": "Vilken typ av magisk bok skulle du vilja hitta?",
             "options": [
                 {
@@ -926,6 +951,7 @@
             ]
         },
         {
+            "id": 56,
             "question": "Du hittar ett förseglat brev i en gammal kista. Vad hoppas du att det handlar om?",
             "options": [
                 {
@@ -963,6 +989,7 @@
             ]
         },
         {
+            "id": 57,
             "question": "Du vaknar i en bokvärld där karaktärerna kommer till liv. Vilken typ av historia är det?",
             "options": [
                 {
@@ -1000,6 +1027,7 @@
             ]
         },
         {
+            "id": 58,
             "question": "En bok med märkliga illustrationer faller från en hylla. Vad gör du?",
             "options": [
                 {
@@ -1037,6 +1065,7 @@
             ]
         },
         {
+            "id": 59,
             "question": "En mystisk karaktär erbjuder dig en bok. Den är tom, men kan fyllas med vilken historia som helst. Vad väljer du?",
             "options": [
                 {
@@ -1074,6 +1103,7 @@
             ]
         },
         {
+            "id": 60,
             "question": "Du får en chans att skriva om slutet på en bok. Hur ändrar du det?",
             "options": [
                 {

@@ -1,6 +1,7 @@
 {
     "quiz": [
         {
+            "id": 1,
             "question": "Du står framför en magisk portal. Vilken värld vill du besöka?",
             "options": [
                 {
@@ -38,6 +39,7 @@
             ]
         },
         {
+            "id": 2,
             "question": "Du hittar en gammal bok med en konstig titel. Vad gör du?",
             "options": [
                 {
@@ -75,6 +77,7 @@
             ]
         },
         {
+            "id": 3,
             "question": "Vilken typ av berättelse lockar dig mest?",
             "options": [
                 {
@@ -112,6 +115,7 @@
             ]
         },
         {
+            "id": 4,
             "question": "Du får en gammal karta med en X-markering. Vad gör du?",
             "options": [
                 {
@@ -149,6 +153,7 @@
             ]
         },
         {
+            "id": 5,
             "question": "Du hittar ett hemligt brev i en gammal bok. Vad är ditt nästa steg?",
             "options": [
                 {
@@ -186,6 +191,7 @@
             ]
         },
         {
+            "id": 6,
             "question": "Du hittar en port till en förlorad stad. Vad förväntar du dig?",
             "options": [
                 {
@@ -223,6 +229,7 @@
             ]
         },
         {
+            "id": 7,
             "question": "Om du kunde prata med en karaktär från en bok, vem skulle det vara?",
             "options": [
                 {
@@ -260,6 +267,7 @@
             ]
         },
         {
+            "id": 8,
             "question": "Du hittar en tidsmaskin och kan resa till en tid. Vad väljer du?",
             "options": [
                 {
@@ -297,6 +305,7 @@
             ]
         },
         {
+            "id": 9,
             "question": "Du är en hjälte i en berättelse. Vad är din roll?",
             "options": [
                 {
@@ -334,6 +343,7 @@
             ]
         },
         {
+            "id": 10,
             "question": "Vad får dig att välja en bok att läsa?",
             "options": [
                 {
@@ -371,6 +381,7 @@
             ]
         },
         {
+            "id": 11,
             "question": "Du vaknar upp i en helt annan tidsepok. Vad är det första du gör?",
             "options": [
                 {
@@ -408,6 +419,7 @@
             ]
         },
         {
+            "id": 12,
             "question": "Du hittar en mystisk lampa. Vad önskar du dig?",
             "options": [
                 {
@@ -445,6 +457,7 @@
             ]
         },
         {
+            "id": 13,
             "question": "Vilket slags bibliotek lockar dig mest?",
             "options": [
                 {
@@ -482,6 +495,7 @@
             ]
         },
         {
+            "id": 14,
             "question": "Du får välja en magisk kraft. Vilken tar du?",
             "options": [
                 {
@@ -519,6 +533,7 @@
             ]
         },
         {
+            "id": 15,
             "question": "Du hittar en skattkista i skogen. Vad hoppas du att den innehåller?",
             "options": [
                 {
@@ -556,6 +571,7 @@
             ]
         },
         {
+            "id": 16,
             "question": "Om du kunde leva i en bokvärld, vilken skulle det vara?",
             "options": [
                 {
@@ -593,6 +609,7 @@
             ]
         },
         {
+            "id": 17,
             "question": "En okänd resande erbjuder dig en gåva. Vad väljer du?",
             "options": [
                 {
@@ -630,6 +647,7 @@
             ]
         },
         {
+            "id": 18,
             "question": "Vad inspirerar dig mest när du läser?",
             "options": [
                 {
@@ -667,6 +685,7 @@
             ]
         },
         {
+            "id": 19,
             "question": "Om du kunde vara en bokkaraktär, vem skulle du vara?",
             "options": [
                 {
@@ -704,6 +723,7 @@
             ]
         },
         {
+            "id": 20,
             "question": "Vilken bokgenre skulle du vilja prova mer av?",
             "options": [
                 {
@@ -741,6 +761,7 @@
             ]
         },
         {
+            "id": 21,
             "question": "Du stöter på en dagbok från en okänd person. Vad gör du?",
             "options": [
                 {
@@ -778,6 +799,7 @@
             ]
         },
         {
+            "id": 22,
             "question": "Du hör en märklig viskning från ett gammalt hus. Vad gör du?",
             "options": [
                 {
@@ -813,6 +835,7 @@
             ]
         },
         {
+            "id": 23,
             "question": "En okänd person bjuder in dig till ett hemligt möte. Vad gör du?",
             "options": [
                 {
@@ -847,6 +870,7 @@
             ]
         },
         {
+            "id": 24,
             "question": "Du hittar en karta till en gömd skatt. Vad gör du?",
             "options": [
                 {
@@ -883,6 +907,7 @@
             ]
         },
         {
+            "id": 25,
             "question": "Du får möjlighet att uppfinna något helt nytt. Vad gör du?",
             "options": [
                 {
@@ -920,6 +945,7 @@
             ]
         },
         {
+            "id": 26,
             "question": "En magisk bok erbjuder dig en unik förmåga. Vilken väljer du?",
             "options": [
                 {
@@ -957,6 +983,7 @@
             ]
         },
         {
+            "id": 27,
             "question": "Du träffar en vän som avslöjar att de är en vampyr. Hur reagerar du?",
             "options": [
                 {
@@ -993,6 +1020,7 @@
             ]
         },
         {
+            "id": 28,
             "question": "Du kan skapa en egen värld att leva i. Hur ser den ut?",
             "options": [
                 {
@@ -1030,6 +1058,7 @@
             ]
         },
         {
+            "id": 29,
             "question": "Du hittar en bok som påstår sig vara förbannad. Vad gör du?",
             "options": [
                 {
@@ -1067,6 +1096,7 @@
             ]
         },
         {
+            "id": 30,
             "question": "Du kan träffa en känd person från historien. Vem väljer du?",
             "options": [
                 {
