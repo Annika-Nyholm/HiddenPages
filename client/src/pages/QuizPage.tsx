@@ -1,7 +1,12 @@
+import { Quiz } from '../components/Quiz';
+import '../styles/pages/quizPage.scss';
+
 export const QuizPage = () => {
 	return (
 		<>
-			<h2>Hidden Quiz Page *smile*</h2>
+			<section className='quizpage-wrapper'>
+				<Quiz />
+			</section>
 		</>
 	);
 };
