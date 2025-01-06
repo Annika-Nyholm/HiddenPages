@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { fetchBooks } from '../services/api';
 import { IGoogleBooksResponse } from '../models/apiInterfaces';
-import '../components/bookSearch.scss';
+import '../styles/components/bookSearch.scss';
 
 export const BookSearch = () => {
 	const [searchQuery, setSearchQuery] = useState<string>('');
