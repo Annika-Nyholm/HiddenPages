@@ -1,4 +1,6 @@
-@use './utils' as *;
+@use './variables';
+@use './mixins' as *;
+
 
 // @font-face {
 // 	font-family: 'rusilla_serifregular';
@@ -20,13 +22,7 @@
 //}
 
 
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
+
 
 body {
     font-family: 'Old Standard TT', serif;
@@ -36,12 +32,28 @@ body {
 }
 
 h1 {
-	font-family: serif;
+	font-size: 3rem;
 }
+h2 {
+	font-size: 2rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+
+p {
+	font-size: 1.125rem;
+}
+
+ul {
+	list-style: none;
+}
+label {
+	font-size: 1.125rem;
+}
+
 
 button {
     font-family: 'OldStandard TT', serif;
     font-weight: 700;
-    
-    
 }
