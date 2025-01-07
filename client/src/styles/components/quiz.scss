@@ -1,17 +1,20 @@
-@use '../variables' as *;
-@use '../mixins' as *;
-@use '../base' as *;
+// @use '../variables' as *;
+// @use '../mixins' as *;
+// @use '../base' as *;
 
 .quiz-start {
 	background-color: rgba(white, 0.5);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
 	padding: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 
 	h2 {
-		padding-block: 1rem;
-	}
-    
+        color: $navy-color;
+    }
+
 	.start-button {
 		align-self: flex-end;
 		@include CTAbutton-style(
@@ -38,15 +41,14 @@
         h3 {
 			color: $navy-color;
 		}
-
-		li {
-            padding-block-end: 1rem;
-		}
-
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
 		input {
             margin-right: 0.5rem;
 		}
-
         label {
             cursor: pointer;
             padding: 0.5rem;
@@ -87,4 +89,58 @@
 			align-self: flex-end;
 		}
 	}
+}
+@media (max-width: 768px) {
+    .quiz-start {
+        max-width: 90%;
+        padding-inline: 2rem;
+        padding-block: 4rem;
+        gap: 1rem;
+        h2 {
+            font-size: 1.5rem;
+        }
+        .start-button {
+            align-self: center;
+        }
+        p {
+            font-size: 1rem;
+            font-style: italic;
+        }
+    } 
+    
+    .quiz-wrapper {
+        max-width: 90%;
+        padding: 1rem;
+    
+        .question-card {
+            gap: 1rem;
+            
+            h3 {
+                font-size: 1.125rem;
+            }
+
+    
+            li {
+                padding-block-end: 0;
+            }
+    
+            input {
+                margin-right: 0.3rem;
+            }
+    
+            label {
+                font-size: 1rem;
+            }
+    
+            .button-wrapper {
+                display: flex;
+                gap: 1rem;
+                align-self: center;
+            }
+    
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
 }
