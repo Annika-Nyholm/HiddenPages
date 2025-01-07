@@ -33,7 +33,7 @@ export const Quiz = () => {
 
 		if (currentQuestionIndex < quiz.length - 1) {
 			setCurrentQuestionIndex((prev) => prev + 1);
-		} 
+		}
 	};
 
 	const handlePrevQuestion = () => {
@@ -49,6 +49,10 @@ export const Quiz = () => {
 			<>
 				<article className='quiz-start'>
 					<h2>Välkommen till Quizet!</h2>
+					<p>
+						Något peppande och inspirerande skulle kanske kunna stå
+						här. Let´s go!
+					</p>
 					<button
 						className='start-button'
 						type='button'
@@ -93,7 +97,7 @@ export const Quiz = () => {
 					<div className='button-wrapper'>
 						{currentQuestionIndex > 0 && (
 							<button
-							className='back-button'
+								className='back-button'
 								type='button'
 								aria-label='backa en fråga'
 								onClick={handlePrevQuestion}
@@ -103,7 +107,7 @@ export const Quiz = () => {
 						)}
 						{currentQuestionIndex < quiz.length - 1 ? (
 							<button
-							className='next-button'
+								className='next-button'
 								type='button'
 								aria-label='nästa fråga'
 								onClick={handleNextQuestion}
