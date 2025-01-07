@@ -1,0 +1,82 @@
+@mixin CTAbutton-style(
+	$bg-color,
+	$text-color,
+	$hover-bg-color,
+	$shadow-color,
+	$light-color,
+	$gold-color
+) {
+	background-color: $bg-color;
+	color: $text-color;
+	text-transform: uppercase;
+	padding: 0.75rem 1rem;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0px 2px 4px rgba($shadow-color, 0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+	&::before {
+		content: attr(
+			data-content
+		); /* Dynamiskt content baserat på HTML-atribut */
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: linear-gradient(90deg, $light-color, $gold-color);
+		background-clip: text;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-size: inherit;
+		font-weight: inherit;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		pointer-events: none;
+	}
+
+	&:hover {
+		transform: translateY(-1px);
+		box-shadow: 0px 4px 6px rgba($shadow-color, 0.3);
+
+		&::before {
+			background: linear-gradient(270deg, $gold-color, $light-color);
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+	}
+
+	&:active {
+		transform: translateY(1px);
+		box-shadow: 0px 1px 3px rgba($shadow-color, 0.2);
+	}
+}
+
+@mixin button-style($bg-color, $text-color, $hover-bg-color, $shadow-color) {
+	background-color: $bg-color;
+	color: $text-color;
+	text-transform: uppercase;
+	padding: 0.75rem 1rem;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	position: relative;
+	box-shadow: 0px 2px 4px rgba($shadow-color, 0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+	&:hover {
+		transform: translateY(-1px);
+		background-color: $hover-bg-color;
+		box-shadow: 0px 4px 6px rgba($shadow-color, 0.3);
+	}
+
+	&:active {
+		transform: translateY(1px);
+		box-shadow: 0px 1px 3px rgba($shadow-color, 0.2);
+	}
+}

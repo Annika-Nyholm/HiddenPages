@@ -1,66 +1,90 @@
+@use '../variables' as *;
+@use '../mixins' as *;
+@use '../base' as *;
+
 .quiz-start {
-	background-color: rgba(#f3e5ab, 0.5);
+	background-color: rgba(white, 0.5);
 	backdrop-filter: blur(10px);
 	-webkit-backdrop-filter: blur(10px);
-	padding: 2rem;
-    h2 {
-        padding-block: 1rem;
-    }
-    button {
-        align-self: flex-end;
-        background-color: #01274d;
-        color: transparent;
-        text-transform: uppercase;
-        padding: 0.75rem 1rem;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        position: relative;
-        overflow: hidden;
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+	padding: 6rem;
 
-        &::before {
-            content: 'Starta Quiz';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(90deg, #f3e5ab, #d4af37);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-size: inherit;
-            font-weight: inherit;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            pointer-events: none;
-        }
-
-        &:hover {
-            transform: translateY(-1px);
-            background-color: #012243;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-
-            &::before {
-                background: linear-gradient(270deg, #d4af37, #f3e5ab);
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-        }
-        &:active {
-            transform: translateY(1px);
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-        }
-    }
+	h2 {
+		padding-block: 1rem;
+	}
     
+	.start-button {
+		align-self: flex-end;
+		@include CTAbutton-style(
+			$navy-color,
+			transparent,
+			$darker-navy-color,
+			black,
+			$light-color,
+			$gold-color
+		);
+	}
 }
 .quiz-wrapper {
-    background-color: rgba(#f3e5ab, 0.5);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    padding: 2rem;
+	background-color: rgba($light-color, 0.5);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	padding: 3rem;
+
+	.question-card {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+		
+        h3 {
+			color: $navy-color;
+		}
+
+		li {
+            padding-block-end: 1rem;
+		}
+
+		input {
+            margin-right: 0.5rem;
+		}
+
+        label {
+            cursor: pointer;
+            padding: 0.5rem;
+        }
+
+        .button-wrapper {
+            display: flex;
+            gap: 1rem;
+            //align-self: flex-end;
+        }
+
+		.next-button {
+			@include button-style(
+				$red-color,
+				$light-color,
+				$lighter-red-color,
+				black
+			);
+		}
+		.back-button {
+			@include button-style(
+				$light-color,
+				$red-color,
+				$darker-light-color,
+				black
+			);
+		}
+		.submit-button {
+			@include button-style(
+				$navy-color,
+				$gold-color,
+				$darker-navy-color,
+				black
+			);
+		}
+
+		p {
+			align-self: flex-end;
+		}
+	}
 }

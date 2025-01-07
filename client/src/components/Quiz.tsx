@@ -50,8 +50,10 @@ export const Quiz = () => {
 				<article className='quiz-start'>
 					<h2>Välkommen till Quizet!</h2>
 					<button
+						className='start-button'
 						type='button'
 						aria-label='Starta quiz'
+						data-content='Starta quiz'
 						onClick={startQuiz}
 					>
 						Starta Quiz
@@ -91,6 +93,7 @@ export const Quiz = () => {
 					<div className='button-wrapper'>
 						{currentQuestionIndex > 0 && (
 							<button
+							className='back-button'
 								type='button'
 								aria-label='backa en fråga'
 								onClick={handlePrevQuestion}
@@ -100,6 +103,7 @@ export const Quiz = () => {
 						)}
 						{currentQuestionIndex < quiz.length - 1 ? (
 							<button
+							className='next-button'
 								type='button'
 								aria-label='nästa fråga'
 								onClick={handleNextQuestion}
@@ -108,6 +112,7 @@ export const Quiz = () => {
 							</button>
 						) : (
 							<button
+								className='submit-button'
 								type='button'
 								aria-label='generera bokrekommendationer'
 								onClick={() => {
