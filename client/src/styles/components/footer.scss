@@ -3,11 +3,13 @@
 	bottom: 0;
 	width: 100%;
 	min-width: 360px;
-	background-color: #58061b;
+	padding: 1rem;
+	background-color: $red-color;
+	color: $light-color;
 	display: flex;
 	align-items: center;
-	padding: 1rem;
-	color: #f3e5ab;
+	flex-shrink: 0;
+	z-index: 10;
 
 	.footer-nav {
 		width: 50%;
@@ -19,12 +21,12 @@
 			gap: 1rem;
 			li {
 				a {
-					color: #f3e5ab;
+					color: $light-color;
 					text-decoration: none;
 
 					&:hover {
 						text-decoration: underline;
-						text-decoration-color: #d4af37;
+						text-decoration-color: $gold-color;
 					}
 				}
 			}
@@ -34,6 +36,7 @@
 		width: 50%;
 		padding: 2rem;
 		p {
+			font-style: italic;
 			max-width: 440px;
 		}
 	}
@@ -44,6 +47,7 @@
 		justify-content: flex-start;
         padding-block: 1rem 0;
         padding-inline: 1rem;
+		gap: 1rem;
         
 
 		.footer-nav {
@@ -56,6 +60,7 @@
 		.footer-info {
 			width: 100%;
             padding: 1rem;
+			font-size: 1rem;
 		}
 	}
 }

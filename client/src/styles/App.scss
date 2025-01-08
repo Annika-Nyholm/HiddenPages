@@ -1,8 +1,13 @@
 #root {
-	min-height: 100vh;
+	height: 100vh;
+    min-width: 360px;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 *,

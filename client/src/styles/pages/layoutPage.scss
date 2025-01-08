@@ -1,4 +1,7 @@
 main {
+    position: relative;
+    flex-grow: 1;
+    overflow: hidden;
     width: 100%;
-    min-width: 360px;
+    //min-width: 360px;
 }
