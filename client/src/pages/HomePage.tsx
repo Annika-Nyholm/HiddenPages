@@ -35,7 +35,7 @@ export const HomePage = () => {
 						behövde.
 					</p>
 					<p>Ta quizet och låt äventyret börja!</p>
-					<button type='button' onClick={handleClick}>Till Quizet</button>
+					<button data-content='Till quizet' type='button' onClick={handleClick}>Till Quizet</button>
 				</article>
 			</section>
 		</>

@@ -1,48 +1,26 @@
 .homepage-wrapper {
 	width: 100%;
-	height: 100vh;
-	background-image: url('/StockCake-vintage-library-room.jpg');
+	min-height: 100%;
+	background-image: url('/StockCake-vintage-library-room.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-block-start: calc(139px + 43px);
+	padding-block-end: 2rem;
 
 	.home-text {
 		width: 80%;
 		max-width: 660px;
-		max-height: calc(
-			100vh - 139px - 196px - 43px - 1rem
-		); //header, footer, open mobile nav, margin-bottom heights
-		overflow-y: auto;
 		background-color: rgba($light-color, 0.5);
 		-webkit-backdrop-filter: blur(20px);
 		backdrop-filter: blur(20px);
 		padding: 1rem;
-		margin-bottom: 1rem;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-
-		&::-webkit-scrollbar {
-			width: 10px; // Scrollbarens bredd
-		}
-
-		&::-webkit-scrollbar-thumb {
-			background-color: rgba($gold-color, 0.6);
-			border: 2px solid rgba($light-color, 0.5);
-			border-radius: 6px;
-		}
-		
-		&::-webkit-scrollbar-track {
-			background-color: rgba($light-color, 0.5);
-			border-radius: 6px; 
-		}
-
-		// // För Firefox
-		// scrollbar-width: thin; // 
-		// scrollbar-color: $gold-color rgba($light-color, 0.5); // Handtagets färg och spårets färg
 
 		h2 {
 			text-align: center;
@@ -54,60 +32,72 @@
 			padding-block: 0.5rem;
 			font-size: 1.125rem;
 		}
+
 		button {
 			align-self: flex-end;
-			background-color: $navy-color;
-			color: transparent;
-			text-transform: uppercase;
-			padding: 0.75rem 1rem;
-			border: none;
-			border-radius: 10px;
-			cursor: pointer;
-			position: relative;
-			overflow: hidden;
-			box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-			transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-			&::before {
-				content: 'Till Quizet';
-				position: absolute;
-				top: 0;
-				left: 0;
-				right: 0;
-				bottom: 0;
-				background: linear-gradient(90deg, $light-color, $gold-color);
-				background-clip: text;
-				-webkit-background-clip: text;
-				-webkit-text-fill-color: transparent;
-				font-size: inherit;
-				font-weight: inherit;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				pointer-events: none;
-			}
-
-			&:hover {
-				transform: translateY(-1px);
-				background-color: $darker-navy-color;
-				box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-
-				&::before {
-					background: linear-gradient(
-						270deg,
-						$gold-color,
-						$light-color
-					);
-					background-clip: text;
-					-webkit-background-clip: text;
-					-webkit-text-fill-color: transparent;
-				}
-			}
-			&:active {
-				transform: translateY(1px);
-				box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-			}
+			@include CTAbutton-style(
+				$navy-color,
+				transparent,
+				$darker-navy-color,
+				black,
+				$light-color,
+				$gold-color
+			);
 		}
+		// button {
+		// 	align-self: flex-end;
+		// 	background-color: $navy-color;
+		// 	color: transparent;
+		// 	text-transform: uppercase;
+		// 	padding: 0.75rem 1rem;
+		// 	border: none;
+		// 	border-radius: 10px;
+		// 	cursor: pointer;
+		// 	position: relative;
+		// 	overflow: hidden;
+		// 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+		// 	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+		// 	&::before {
+		// 		content: 'Till Quizet';
+		// 		position: absolute;
+		// 		top: 0;
+		// 		left: 0;
+		// 		right: 0;
+		// 		bottom: 0;
+		// 		background: linear-gradient(90deg, $light-color, $gold-color);
+		// 		background-clip: text;
+		// 		-webkit-background-clip: text;
+		// 		-webkit-text-fill-color: transparent;
+		// 		font-size: inherit;
+		// 		font-weight: inherit;
+		// 		display: flex;
+		// 		justify-content: center;
+		// 		align-items: center;
+		// 		pointer-events: none;
+		// 	}
+
+		// 	&:hover {
+		// 		transform: translateY(-1px);
+		// 		background-color: $darker-navy-color;
+		// 		box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+
+		// 		&::before {
+		// 			background: linear-gradient(
+		// 				270deg,
+		// 				$gold-color,
+		// 				$light-color
+		// 			);
+		// 			background-clip: text;
+		// 			-webkit-background-clip: text;
+		// 			-webkit-text-fill-color: transparent;
+		// 		}
+		// 	}
+		// 	&:active {
+		// 		transform: translateY(1px);
+		// 		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+		// 	}
+		// }
 	}
 }
 @media (max-width: 768px) {
