@@ -76,7 +76,9 @@ export const Quiz = () => {
 			.map((k) => k.keyword);
 		console.log('Nyckelord som används för sökning: ', keywordsForSearch);
 
-		navigate('/recommendations', { state: { keywords: keywordsForSearch } });
+		navigate('/recommendations', {
+			state: { keywords: keywordsForSearch },
+		});
 	};
 
 	if (!isQuizStarted) {

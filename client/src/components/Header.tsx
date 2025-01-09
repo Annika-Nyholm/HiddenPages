@@ -91,7 +91,9 @@ export const Header = () => {
 									<Link to='/quiz'>Quiz</Link>
 								</li>
 								<li>
-									<Link to='/recommendations'>Mina böcker</Link>
+									<Link to='/recommendations'>
+										Mina böcker
+									</Link>
 								</li>
 								<li>
 									<Link to='/'>FAQ</Link>
