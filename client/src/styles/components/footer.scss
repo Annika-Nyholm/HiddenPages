@@ -1,15 +1,10 @@
 .footer-wrapper {
-	position: absolute;
-	bottom: 0;
 	width: 100%;
-	min-width: 360px;
 	padding: 1rem;
 	background-color: $red-color;
 	color: $light-color;
 	display: flex;
 	align-items: center;
-	flex-shrink: 0;
-	z-index: 10;
 
 	.footer-nav {
 		width: 50%;
@@ -45,10 +40,9 @@
 	.footer-wrapper {
 		flex-direction: column;
 		justify-content: flex-start;
-        padding-block: 1rem 0;
-        padding-inline: 1rem;
+		padding-block: 1rem 0;
+		padding-inline: 1rem;
 		gap: 1rem;
-        
 
 		.footer-nav {
 			width: 100%;
@@ -59,7 +53,7 @@
 		}
 		.footer-info {
 			width: 100%;
-            padding: 1rem;
+			padding: 1rem;
 			font-size: 1rem;
 		}
 	}

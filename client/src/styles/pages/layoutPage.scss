@@ -1,7 +1,31 @@
-main {
-    position: relative;
+.home-layout {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
-    overflow: hidden;
-    width: 100%;
-    //min-width: 360px;
+    main {
+        position: relative;
+        flex-grow: 1;
+        display: flex;
+    }
+    footer {
+        position: relative;
+    }
 }
+
+.app-layout {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    main {
+        position: relative;
+        flex-grow: 1;
+        display: flex;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+
+}
+
+

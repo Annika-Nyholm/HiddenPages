@@ -21,7 +21,7 @@
 	&::before {
 		content: attr(
 			data-content
-		); /* Dynamiskt content baserat på HTML-atribut */
+		); /* Dynamiskt content baserat på HTML-attribut */
 		position: absolute;
 		top: 0;
 		left: 0;
