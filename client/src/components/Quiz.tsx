@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { IQuestion } from '../models/IQuiz';
 import { fetchRandomQuiz } from '../services/quiz';
 import '../styles/components/quiz.scss';
+import { useNavigate } from 'react-router-dom';
 
 export const Quiz = () => {
 	const [quiz, setQuiz] = useState<IQuestion[]>([]);
@@ -9,6 +10,8 @@ export const Quiz = () => {
 	const [userAnswers, setUserAnswers] = useState<number[]>([]);
 	const [selectedOption, setSelectedOption] = useState<number | null>(null);
 	const [isQuizStarted, setIsQuizStarted] = useState<boolean>(false);
+
+	const navigate = useNavigate();
 
 	const startQuiz = () => {
 		const questions = fetchRandomQuiz(5);
@@ -44,6 +47,38 @@ export const Quiz = () => {
 		}
 	};
 
+	const getSortedKeywords = (
+		keywords: string[]
+	): { keyword: string; count: number }[] => {
+		const frequencyMap = keywords.reduce((acc, keyword) => {
+			acc[keyword] = (acc[keyword] || 0) + 1;
+			return acc;
+		}, {} as Record<string, number>);
+
+		return Object.entries(frequencyMap)
+			.map(([keyword, count]) => ({ keyword, count }))
+			.sort((a, b) => b.count - a.count);
+	};
+
+	const handleShowRecommendations = () => {
+		const allKeywords = userAnswers
+			.map(
+				(answerIndex, index) =>
+					quiz[index].options[answerIndex]?.keywords || []
+			)
+			.flat();
+
+		const sortedKeywords = getSortedKeywords(allKeywords);
+		console.log('Sorterade nyckelord och frekvens: ', sortedKeywords);
+
+		const keywordsForSearch = sortedKeywords
+			.slice(0, 5)
+			.map((k) => k.keyword);
+		console.log('Nyckelord som används för sökning: ', keywordsForSearch);
+
+		navigate('/recommendations', { state: { keywords: keywordsForSearch } });
+	};
+
 	if (!isQuizStarted) {
 		return (
 			<>
@@ -67,7 +102,7 @@ export const Quiz = () => {
 		);
 	}
 
-	if (quiz.length === 0) return <p>Loading...</p>;
+	if (quiz.length === 0) return <p>Loading...</p>; /* skapa/använd SPINNER */
 
 	const currentQuestion = quiz[currentQuestionIndex];
 
@@ -119,19 +154,7 @@ export const Quiz = () => {
 								className='submit-button'
 								type='button'
 								aria-label='generera bokrekommendationer'
-								onClick={() => {
-									const allKeywords = userAnswers
-										.map(
-											(answerIndex, index) =>
-												quiz[index].options[answerIndex]
-													?.keywords || []
-										)
-										.flat(); // Flatten för att få alla nyckelord i en array
-									console.log(
-										'Rekommendationer baserat på: ',
-										allKeywords
-									); //bättre lösning kommer senare
-								}}
+								onClick={handleShowRecommendations}
 							>
 								Visa rekommendationer
 							</button>
