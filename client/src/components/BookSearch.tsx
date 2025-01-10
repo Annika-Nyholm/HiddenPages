@@ -1,29 +1,36 @@
-import { useState } from 'react';
-import { fetchBooks } from '../services/api';
+import { useCallback, useEffect } from 'react';
+import { fetchBooks } from '../services/apiService';
 import { IGoogleBooksResponse } from '../models/apiInterfaces';
 import '../styles/components/bookSearch.scss';
+import {
+	getFromLocalStorage,
+	saveToLocalStorage,
+} from '../services/localStorageService';
+import { BookList } from './BookList';
+import { useBooks } from '../hooks/useBooks';
+
 
 interface BookSearchProps {
 	keywords: string[];
 }
 
 export const BookSearch = ({ keywords }: BookSearchProps) => {
-	const [books, setBooks] = useState<IGoogleBooksResponse['items']>([]);
-	const [loading, setLoading] = useState<boolean>(false);
-	const [error, setError] = useState<string>('');
+	const { books, loading, error, setBooks, setLoading, setError } = useBooks();
 
-	const handleSearch = async () => {
+	const handleSearch = useCallback(async () => {
 		if (keywords.length === 0) return;
 
 		setLoading(true);
 		setError('');
 		try {
 			const searchQuery =
-				keywords.join('') + ' -non-fiction -reference -manual -guide';
+				keywords.join(' ') + ' -non-fiction -reference -manual -guide';
 			const response: IGoogleBooksResponse = await fetchBooks(
 				searchQuery
 			);
-			console.log('svar från api: ', response.items);
+			console.log('Svar från API: ', response.items);
+
+			saveToLocalStorage('bookRecommendations', response.items || []);
 			setBooks(response.items || []);
 		} catch (err) {
 			console.error(err);
@@ -31,36 +38,20 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 		} finally {
 			setLoading(false);
 		}
-	};
+	}, [keywords, setBooks, setError, setLoading]);
 
-	if (!loading && books.length === 0 && !error) {
-		handleSearch();
-	}
+	useEffect(() => {
+		const savedBooks = getFromLocalStorage('bookRecommendations');
+		if (savedBooks) {
+			setBooks(savedBooks);
+		} else {
+			handleSearch();
+		}
+	}, [keywords, setBooks, handleSearch]);
 
 	return (
 		<>
-			<section className='book-search'>
-				<h2>Bokrekommendationer</h2>
-				{loading && <p>Laddar böcker...</p>}{' '}
-				{/* fixa någon typ av LOADER spinner */}
-				{error && <p className='error-message'>{error}</p>}{' '}
-				{/* fixa någon typ av ERROR msg popup */}
-				<article className='book-list'>
-					{books.length === 0 && !loading && !error && (
-						<p>Inga resultat.</p>
-					)}
-					{books.map((book) => (
-						<div key={book.id} className='book-item'>
-							<h3>{book.volumeInfo.title}</h3>
-							<img
-								src={book.volumeInfo.imageLinks?.thumbnail}
-								alt={book.volumeInfo.title}
-							/>
-							<p>{book.volumeInfo.authors?.join(', ')}</p>
-						</div>
-					))}
-				</article>
-			</section>
+			<BookList books={books} loading={loading} error={error} />
 		</>
 	);
 };
