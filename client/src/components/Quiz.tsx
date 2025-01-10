@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { IQuestion } from '../models/IQuiz';
-import { fetchRandomQuiz } from '../services/quiz';
+import { fetchRandomQuiz } from '../services/quizService';
 import '../styles/components/quiz.scss';
 import { useNavigate } from 'react-router-dom';
+import { removeFromLocalStorage } from '../services/localStorageService';
 
 export const Quiz = () => {
 	const [quiz, setQuiz] = useState<IQuestion[]>([]);
@@ -14,6 +15,8 @@ export const Quiz = () => {
 	const navigate = useNavigate();
 
 	const startQuiz = () => {
+		removeFromLocalStorage('bookRecommendations');
+
 		const questions = fetchRandomQuiz(5);
 		setQuiz(questions);
 		setIsQuizStarted(true);
