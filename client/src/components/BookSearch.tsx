@@ -1,7 +1,6 @@
 import { useCallback, useEffect } from 'react';
 import { fetchBooks } from '../services/apiService';
 import { IGoogleBooksResponse } from '../models/apiInterfaces';
-import '../styles/components/bookSearch.scss';
 import {
 	getFromLocalStorage,
 	saveToLocalStorage,
@@ -9,13 +8,13 @@ import {
 import { BookList } from './BookList';
 import { useBooks } from '../hooks/useBooks';
 
-
 interface BookSearchProps {
 	keywords: string[];
 }
 
 export const BookSearch = ({ keywords }: BookSearchProps) => {
-	const { books, loading, error, setBooks, setLoading, setError } = useBooks();
+	const { books, loading, error, setBooks, setLoading, setError } =
+		useBooks();
 
 	const handleSearch = useCallback(async () => {
 		if (keywords.length === 0) return;
@@ -24,7 +23,7 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 		setError('');
 		try {
 			const searchQuery =
-				keywords.join(' ') + ' -non-fiction -reference -manual -guide';
+				keywords.join(' ') + ' -non-fiction -reference -manual -guide' + '&printType=books'; 
 			const response: IGoogleBooksResponse = await fetchBooks(
 				searchQuery
 			);

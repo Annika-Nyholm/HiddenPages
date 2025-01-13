@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import { BookSearch } from '../components/BookSearch';
+import '../styles/pages/bookRecommendationPage.scss';
 
 export const BookRecommendationsPage = () => {
 	const location = useLocation();
@@ -7,7 +8,9 @@ export const BookRecommendationsPage = () => {
 
 	return (
 		<>
-			<BookSearch keywords={keywords} />
+			<section className='recommendation-wrapper'>
+				<BookSearch keywords={keywords} />
+			</section>
 		</>
 	);
 };
