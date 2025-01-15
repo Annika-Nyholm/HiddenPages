@@ -1,16 +1,19 @@
+import { useNavigate } from 'react-router-dom';
 import '../styles/components/bookCard.scss';
 
 interface IBookCardProps {
+	id: string;
 	title: string;
 	authors: string[];
 	imageURL: string;
 	rating?: number; // Betyg från Google Books
 	ratingsCount?: number;
-	genre?: string; // Genre
-	year?: string; // Publiceringsår
+	genre?: string;
+	year?: string;
 }
 
 export const BookCard = ({
+	id,
 	title = 'Saknar titel',
 	authors = ['Okänd författare'],
 	imageURL = 'placeholder.webp', //SÄTT PLACEHOLDER BILD!
@@ -19,7 +22,12 @@ export const BookCard = ({
 	genre,
 	year,
 }: IBookCardProps) => {
-	
+	const navigate = useNavigate();
+
+	const handleClick = () => {
+		navigate(`/book/:${id}`);
+	};
+
 	const displayAuthors = () => {
 		if (authors.length <= 2) {
 			return authors.join(', ');
@@ -41,25 +49,33 @@ export const BookCard = ({
 
 	return (
 		<>
-			<section className='card'>
+			<section
+				className='card'
+				role='button'
+				tabIndex={0}
+				onClick={handleClick}
+			>
 				<article className='card-image'>
 					<img
 						src={imageURL}
-						alt={title}
+						alt={`Bokomslag för boktitel: ${title}`}
 						width={100}
 						height={150}
 						loading='lazy'
 					/>
 				</article>
 				<article className='card-content'>
-					<h3>{title}</h3>
-					<p>
-						{displayAuthors()} - {year?.split('-')[0]}
-					</p>
+					<div className='card-text'>
+						<h3>{title}</h3>
+						<p>
+							{displayAuthors()} - {year?.split('-')[0]}
+						</p>
 
-					{displayRating()}
+						{displayRating()}
 
-					{genre && <p>Genre: {genre}</p>}
+						{genre && <p>Genre: {genre}</p>}
+						<span className='click-indicator'>Mer info →</span>
+					</div>
 				</article>
 			</section>
 		</>
