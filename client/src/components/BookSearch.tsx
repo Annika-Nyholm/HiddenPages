@@ -23,7 +23,9 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 		setError('');
 		try {
 			const searchQuery =
-				keywords.join(' ') + ' -non-fiction -reference -manual -guide' + '&printType=books'; 
+				keywords.join(' ') +
+				' -non-fiction -reference -manual -guide' +
+				'&printType=books';
 			const response: IGoogleBooksResponse = await fetchBooks(
 				searchQuery
 			);

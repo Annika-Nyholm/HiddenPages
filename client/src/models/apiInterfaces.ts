@@ -9,8 +9,8 @@ export interface IVolumeInfo {
 		thumbnail: string;
 	};
 	averageRating?: number;
-	ratingsCount?: number;  
-	categories?: string[];   
+	ratingsCount?: number;
+	categories?: string[];
 }
 
 export interface IGoogleBooksResponse {
