@@ -1,68 +1,107 @@
 .card {
 	flex: 0 0 auto;
-	width: 500px;
-	height: 395px;
-	overflow: hidden;
+	width: 31.25rem;
+	height: 20rem;
+	overflow-block: hidden;
+	background: linear-gradient(
+		90deg,
+		transparent 10%,
+		rgba($light-color, 0.7) 10%
+	);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-	background-color: $light-color;
+	cursor: pointer;
+	transition: transform 0.2s, box-shadow 0.2s;
+	//scroll-snap-align: start;
+	&:hover {
+		transform: scale(1.02);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	}
+	&:focus {
+		outline: 2px solid $gold-color;
+		outline-offset: 4px;
+	}
 
 	.card-image {
-		width: 50%;
-		height: 100%;
-		overflow: hidden;
-		aspect-ratio: 1.58;
+		flex: 0 0 30%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		aspect-ratio: 6 / 9;
 
 		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
+			width: 80%;
+			height: 80%;
+			object-fit: contain;
 		}
 	}
 	.card-content {
-		width: 50%;
-		padding: 1rem;
+		flex: 1;
 		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
+		align-items: center;
 		justify-content: center;
-		gap: 1rem;
+		padding: 1rem;
+
+		.card-text {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			gap: 1rem;
+
+			h3 {
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				-webkit-line-clamp: 3;
+				line-clamp: 3;
+				text-overflow: ellipsis;
+			}
+
+			.click-indicator {
+				align-self: flex-end;
+				font-style: italic;
+			}
+		}
 	}
 }
 @media (max-width: 768px) {
 	.card {
-		position: relative;
-		width: 90%;
-		height: 350px;
+		width: 15rem;
+		height: 26rem;
 		flex-direction: column;
+		background: rgba($light-color, 0.7);
+		scroll-snap-align: start;
 
 		.card-image {
 			width: 100%;
-			height: 100%;
-            img {
-                object-fit: contain;
-            }
+			height: 80%;
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: center;
+			}
 		}
 
 		.card-content {
-			position: absolute;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			background: $background-white;
-			backdrop-filter: blur(10px);
-			text-align: center;
 			justify-content: flex-start;
-			padding: 0;
-			gap: 0.5rem;
+			padding: 0.5rem;
 
-			h3 {
-				font-size: 1.125rem;
-			}
-			p {
-				font-size: 1rem;
+			.card-text {
+				width: 100%;
+				gap: 0;
+
+				h3 {
+					font-size: 1rem;
+				}
+				p {
+					display: none;
+				}
 			}
 		}
 	}
