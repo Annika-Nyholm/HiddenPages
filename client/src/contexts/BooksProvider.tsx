@@ -4,12 +4,10 @@ import { BooksContext } from "./BooksContext";
 
 export const BooksProvider = ({ children }: { children: ReactNode }) => {
 	const [books, setBooks] = useState<IGoogleBooksResponse['items']>([]);
-	const [loading, setLoading] = useState<boolean>(false);
-	const [error, setError] = useState<string>('');
 	
 	return (
 		<BooksContext.Provider
-			value={{ books, loading, error, setBooks, setLoading, setError }}
+			value={{ books, setBooks }}
 		>
 			{children}
 		</BooksContext.Provider>

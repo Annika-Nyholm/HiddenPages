@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { fetchBooks } from '../services/apiService';
 import { IGoogleBooksResponse } from '../models/apiInterfaces';
 import {
@@ -13,8 +13,9 @@ interface BookSearchProps {
 }
 
 export const BookSearch = ({ keywords }: BookSearchProps) => {
-	const { books, loading, error, setBooks, setLoading, setError } =
-		useBooks();
+	const { books, setBooks } = useBooks();
+	const [loading, setLoading] = useState(false);
+	const [error, setError] = useState('');
 
 	const handleSearch = useCallback(async () => {
 		if (keywords.length === 0) return;
@@ -39,7 +40,7 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 		} finally {
 			setLoading(false);
 		}
-	}, [keywords, setBooks, setError, setLoading]);
+	}, [keywords, setBooks]);
 
 	useEffect(() => {
 		const savedBooks = getFromLocalStorage('bookRecommendations');
@@ -52,7 +53,9 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 
 	return (
 		<>
-			<BookList books={books} loading={loading} error={error} />
+			{loading && <p>Laddar böcker...</p>} {/* SPINNER??? */}
+			{error && <p className="error-message">{error}</p>} 
+			<BookList books={books} />
 		</>
 	);
 };

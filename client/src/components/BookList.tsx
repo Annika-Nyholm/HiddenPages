@@ -5,11 +5,9 @@ import { BookCard } from './BookCard';
 
 interface IBookListProps {
 	books: IGoogleBooksResponse['items'];
-	loading: boolean;
-	error: string;
 }
 
-export const BookList = ({ books, loading, error }: IBookListProps) => {
+export const BookList = ({ books }: IBookListProps) => {
 	const listRef = useRef<HTMLDivElement | null>(null);
 
 	const scrollList = (direction: 'left' | 'right') => {
@@ -23,15 +21,9 @@ export const BookList = ({ books, loading, error }: IBookListProps) => {
 	};
 	return (
 		<>
-			{loading && <p>Laddar böcker...</p>}{' '}
-			{/* fixa någon typ av LOADER spinner */}
-			{error && <p className='error-message'>{error}</p>}{' '}
-			{/* fixa någon typ av ERROR msg popup */}
 			<div className='book-list-wrapper'>
 				<article ref={listRef} className='book-list'>
-					{books.length === 0 && !loading && !error && (
-						<p>Inga resultat.</p>
-					)}
+					{books.length === 0 && <p>Inga resultat.</p>}
 					{books.map((book) => {
 						const imageUrl =
 							book.volumeInfo.imageLinks?.medium ||
