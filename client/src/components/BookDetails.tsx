@@ -1,10 +1,16 @@
 import { IVolumeInfo } from '../models/apiInterfaces';
+import '../styles/components/bookDetails.scss';
+import { sanitizeHtml } from '../utils/HTMLsanitize';
 
 interface IBookDetailsProps {
 	book: IVolumeInfo;
 }
 
 export const BookDetails = ({ book }: IBookDetailsProps) => {
+	const sanitizedDescription = sanitizeHtml(
+		book.description || 'Ingen beskrivning tillgänglig.'
+	);
+	console.log('rensad html', sanitizedDescription);
 	return (
 		<>
 			<section className='book-details-wrapper'>
@@ -20,16 +26,27 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 						height={300}
 					/>
 				</article>
-				<article className='details-fact'>
+				<article className='details-fact text-box'>
+					<h3>Om boken:</h3>
 					<ul>
-						<li>Titel: {book.title}</li>
-						<li>Publicerad: {book.publishedDate} </li>
-						<li>Författare: {book.authors.join(', ')} </li>
-						<li>Kategorier: {book.categories?.join(', ')} </li>
+						<li>
+							<strong>Titel:</strong> {book.title}
+						</li>
+						<li>
+							<strong>Publicerad:</strong> {book.publishedDate}{' '}
+						</li>
+						<li>
+							<strong>Författare:</strong>{' '}
+							{book.authors.join(', ')}{' '}
+						</li>
+						<li>
+							<strong>Kategorier:</strong>{' '}
+							{book.categories?.join(', ')}{' '}
+						</li>
 						{book.averageRating && (
 							<li>
-								Betyg: {book.averageRating} / 5 (
-								{book.ratingsCount} röster){' '}
+								<strong>Betyg:</strong> {book.averageRating} / 5
+								({book.ratingsCount} röster){' '}
 							</li>
 						)}
 					</ul>
@@ -40,11 +57,13 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 					>
 						Se mer info från Google Books
 					</a>
-					
 				</article>
-				<article className='details-synposis'>
-					<h3>Synopsis</h3>
-					<p>{book.description || 'Ingen beskrivning tillgänglig'}</p>
+				<article
+					className='details-synopsis text-box'
+					dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
+				>
+					{/* <p dangerouslySetInnerHTML={{ __html: sanitizedDescription }}></p> */}
+					{/* <p>{book.description}</p> */}
 				</article>
 			</section>
 		</>
