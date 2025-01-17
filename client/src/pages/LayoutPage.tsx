@@ -7,14 +7,15 @@ export const LayoutPage = () => {
 	const location = useLocation();
 
 	const isHomePage = location.pathname === '/';
+	const isBookDetailsPage = location.pathname.includes('/book/');
 
 	return (
-		<div className={isHomePage ? 'home-layout' : 'app-layout'}>
-			<Header />
+		<div className={isHomePage ? 'home-layout' : isBookDetailsPage ? 'book-details-layout' : 'app-layout'}>
+			{!isBookDetailsPage && <Header />}
 			<main>
 				<Outlet></Outlet>
 			</main>
-			<Footer />
+			{!isBookDetailsPage &&<Footer />}
 		</div>
 	);
 };
