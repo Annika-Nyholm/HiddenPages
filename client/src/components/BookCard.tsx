@@ -25,7 +25,7 @@ export const BookCard = ({
 	const navigate = useNavigate();
 
 	const handleClick = () => {
-		navigate(`/book/:${id}`);
+		navigate(`/book/${id}`);
 	};
 
 	const displayAuthors = () => {
