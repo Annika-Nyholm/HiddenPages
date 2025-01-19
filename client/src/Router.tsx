@@ -3,6 +3,7 @@ import { HomePage } from './pages/HomePage';
 import { LayoutPage } from './pages/LayoutPage';
 import { QuizPage } from './pages/QuizPage';
 import { BookRecommendationsPage } from './pages/BookRecommendationsPage';
+import { BookDetailsPage } from './pages/BookDetailsPage';
 
 export const Router = createBrowserRouter([
 	{
@@ -15,13 +16,16 @@ export const Router = createBrowserRouter([
 			},
 			{
 				path: '/quiz',
-                element: <QuizPage />,
+				element: <QuizPage />,
 			},
-            {
-                path: '/recommendations',
-                element: <BookRecommendationsPage />
-            }
-
+			{
+				path: '/recommendations',
+				element: <BookRecommendationsPage />,
+			},
+			{
+				path: '/book/:bookId',
+				element: <BookDetailsPage />,
+			},
 		],
 	},
 ]);

@@ -13,6 +13,11 @@ const API_KEY = import.meta.env.VITE_GOOGLE_BOOKS_API_KEY;
 export const fetchBooks = async (
 	searchQuery: string
 ): Promise<IGoogleBooksResponse> => {
+	if (!searchQuery || searchQuery.trim() === '') {
+		console.warn('Search query is empty. Skipping API call.');
+		throw new Error('Search query cannot be empty.');
+	}
+
 	try {
 		const response: AxiosResponse<IGoogleBooksResponse> = await api.get(
 			'volumes',
@@ -25,8 +30,23 @@ export const fetchBooks = async (
 		);
 		return response.data;
 	} catch (error) {
-		console.error('error fetching books: ', error);
-		throw new Error('Failed to fetch books. Please try again later.');
+		if (axios.isAxiosError(error)) {
+			
+			if (error.response?.status === 429) {
+				console.warn(
+					'Rate limit exceeded. Please wait before retrying.'
+				);
+				throw new Error('Too many requests. Please try again later.');
+			}
+
+			throw new Error(
+				`Failed to fetch books. Status: ${
+					error.response?.status || 'Unknown'
+				}`
+			);
+		}
+
+		throw new Error('An unexpected error occurred.');
 	}
 };
 

@@ -1,0 +1,108 @@
+.card {
+	flex: 0 0 auto;
+	width: 31.25rem;
+	height: 20rem;
+	overflow-block: hidden;
+	background: linear-gradient(
+		90deg,
+		transparent 10%,
+		rgba($light-color, 0.7) 10%
+	);
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+	display: flex;
+	cursor: pointer;
+	transition: transform 0.2s, box-shadow 0.2s;
+	//scroll-snap-align: start;
+	&:hover {
+		transform: scale(1.02);
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	}
+	&:focus {
+		outline: 2px solid $gold-color;
+		outline-offset: 4px;
+	}
+
+	.card-image {
+		flex: 0 0 30%;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		aspect-ratio: 6 / 9;
+
+		img {
+			width: 80%;
+			height: 80%;
+			object-fit: contain;
+		}
+	}
+	.card-content {
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 1rem;
+
+		.card-text {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: center;
+			gap: 1rem;
+
+			h3 {
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
+				-webkit-line-clamp: 3;
+				line-clamp: 3;
+				text-overflow: ellipsis;
+			}
+
+			.click-indicator {
+				align-self: flex-end;
+				font-style: italic;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.card {
+		width: 15rem;
+		height: 26rem;
+		flex-direction: column;
+		background: rgba($light-color, 0.7);
+		scroll-snap-align: start;
+
+		.card-image {
+			width: 100%;
+			height: 80%;
+			display: flex;
+			justify-content: flex-start;
+			align-items: flex-start;
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				object-position: center;
+			}
+		}
+
+		.card-content {
+			justify-content: flex-start;
+			padding: 0.5rem;
+
+			.card-text {
+				width: 100%;
+				gap: 0;
+
+				h3 {
+					font-size: 1rem;
+				}
+				p {
+					display: none;
+				}
+			}
+		}
+	}
+}

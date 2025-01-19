@@ -1,11 +1,15 @@
 import { RouterProvider } from 'react-router-dom';
 import { Router } from './Router';
-import './App.scss';
+import './styles/App.scss';
+import { BooksProvider } from './contexts/BooksProvider';
+
 
 function App() {
 	return (
 		<>
-      <RouterProvider router={Router}></RouterProvider>
+			<BooksProvider>
+				<RouterProvider router={Router}></RouterProvider>
+			</BooksProvider>
 		</>
 	);
 }

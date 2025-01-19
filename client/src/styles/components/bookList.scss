@@ -1,0 +1,66 @@
+.book-list-wrapper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+
+	.book-list {
+		display: flex;
+		flex-direction: row;
+		gap: 3rem;
+		overflow-x: auto;
+		scroll-behavior: smooth;
+		scroll-snap-type: x mandatory;
+		width: 100%;
+		padding-block: 2rem;
+		padding-left: 1rem;
+		background-color: rgba($background-white, 0.3);
+		-webkit-backdrop-filter: blur(5px);
+		backdrop-filter: blur(5px);
+
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		-webkit-overflow-scrolling: touch;
+	}
+	.scroll-button {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 3rem;
+		height: 3rem;
+		background-color: rgba($darker-navy-color, 0.8);
+		border: none;
+		color: $light-color;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		cursor: pointer;
+		z-index: 10;
+		font-size: 1.5rem;
+	}
+	.scroll-left {
+		left: 1rem;
+	}
+
+	.scroll-right {
+		right: 1rem;
+	}
+}
+@media (max-width: 768px) {
+	.book-list-wrapper {
+		.book-list {
+			padding-left: 1rem;
+			gap: 1rem;
+			scroll-snap-type: x mandatory;
+			-webkit-overflow-scrolling: touch;
+		}
+		@media (max-height: 800px) {
+			.book-list {
+				padding-block: 1rem;
+			}
+		}
+	}
+}
