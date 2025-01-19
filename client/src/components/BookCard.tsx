@@ -54,6 +54,12 @@ export const BookCard = ({
 				role='button'
 				tabIndex={0}
 				onClick={handleClick}
+				onKeyDown={(e) => {
+					if (e.key === 'Enter' || e.key === ' ') {
+						e.preventDefault();
+						handleClick();
+					}
+				}}
 			>
 				<article className='card-image'>
 					<img
