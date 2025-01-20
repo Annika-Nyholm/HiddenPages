@@ -16,7 +16,7 @@ export const BookCard = ({
 	id,
 	title = 'Saknar titel',
 	authors = ['Okänd författare'],
-	imageURL = 'placeholder.webp', //SÄTT PLACEHOLDER BILD!
+	imageURL = '/HP-placeholder-img.webp',
 	rating,
 	ratingsCount,
 	genre,
@@ -25,14 +25,20 @@ export const BookCard = ({
 	const navigate = useNavigate();
 
 	const handleClick = () => {
-		navigate(`/book/${id}`);
+		navigate(`/book/${id}`, { state: { fromBookList: true } });
 	};
 
 	const displayAuthors = () => {
+		if (!Array.isArray(authors) || authors.length === 0) {
+			return 'Författare saknas';
+		}
+
 		if (authors.length <= 2) {
 			return authors.join(', ');
 		}
+
 		const displayedAuthors = authors.slice(0, 2).join(', ');
+
 		return `${displayedAuthors} och fler`;
 	};
 
@@ -45,6 +51,12 @@ export const BookCard = ({
 				{ratingsCount === 1 ? 'röst' : 'röster'})
 			</p>
 		);
+	};
+
+	const handleImageError = (
+		event: React.SyntheticEvent<HTMLImageElement, Event>
+	) => {
+		event.currentTarget.src = '/HP-placeholder-img.webp';
 	};
 
 	return (
@@ -68,6 +80,7 @@ export const BookCard = ({
 						width={100}
 						height={150}
 						loading='lazy'
+						onError={handleImageError}
 					/>
 				</article>
 				<article className='card-content'>

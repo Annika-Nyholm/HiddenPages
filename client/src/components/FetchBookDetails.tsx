@@ -4,6 +4,7 @@ import { fetchBookDetails } from '../services/apiService';
 import { IVolumeInfo } from '../models/apiInterfaces';
 import { BooksContext } from '../contexts/BooksContext';
 import { BookDetails } from './BookDetails';
+import { LoadingSpinner } from './LoadingSpinner';
 
 export const FetchBookDetails = () => {
 	const { bookId } = useParams<{ bookId: string }>();
@@ -55,7 +56,7 @@ export const FetchBookDetails = () => {
 		console.log('bookDetails uppdaterades: ', bookDetails);
 	}, [bookDetails]);
 
-	if (loading) return <p>Laddar bokinformation...</p>;
+	if (loading) return <LoadingSpinner />;
 	if (error) return <p className='error-message'>{error}</p>;
 	if (!bookDetails) return <p>Ingen information hittades för denna boken.</p>;
 
