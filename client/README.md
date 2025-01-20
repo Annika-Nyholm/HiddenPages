@@ -1,50 +1,76 @@
-# React + TypeScript + Vite
+## Technologies Used
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-   **React** - A JavaScript library for building user interfaces.
+-   **TypeScript** - A statically typed superset of JavaScript that provides type safety.
+-   **Vite** - A next-generation build tool for faster and optimized development.
+-   **SCSS** - A CSS preprocessor to enhance the styling.
+-   **React Router** - For handling routing and navigation between pages.
+-   **DOMPurify** - For sanitizing HTML content.
+-   **Azure Static Web Apps** - For hosting the app.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **Book Recommendations**: Explore up to 10 of book recommendations based on your preferencences.
+-   **Quiz**: Take fun and interactive quiz to discover books that match your interests.
+-   **Book Details**: View detailed information about each book, including ratings, descriptions, and more.
+-   **Responsive Design**: Fully responsive layout that works seamlessly across all devices.
+-   **404 Page**: Custom 404 error page to guide users when they land on a non-existing page.
+-   **Clean and Modern UI**: A simple, user-friendly design for easy navigation.
 
-## Expanding the ESLint configuration
+## Installation and Usage
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerequisites
 
-- Configure the top-level `parserOptions` property like this:
+To run the project locally, make sure you have the following installed:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+-   **Node.js** (version 16 or higher)
+-   **npm** (Node package manager, comes with Node.js)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Steps to Set Up Locally
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. **Clone the repository:**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+  ```bash
+  git clone <repository-url>
+  ```
+
+2. **Navigate to the project folder:**
+
+  ```bash
+  cd <project-folder>
+  ```
+
+3. **Install dependencies:**
+
+  ```bash
+  npm install
+  ```
+
+4. **Start the development server:**
+
+  ```bash
+  npm run dev
+  This will start the project on http://localhost:3000 by default.
+  ```
+
+5. **Build for Production: To create an optimized build for production, run:**
+
+  ```bash
+  npm run build
+  ```
+
+6. **Preview the Build Locally: To preview the build, run:**
+
+  ```bash
+  npx serve dist
+  ```
+
+## Deployment
+
+This project is deployed on **Azure Static Web Apps**.
+
+### Deployment Process
+
+- The project is connected to **GitHub**, and every commit triggers an automatic build and deployment.
+- The **build** script generates the optimized production files, which are served from the `dist` folder.
+- The `index.html` file in the `dist` folder is used to serve all routes, ensuring that **React Router** handles client-side navigation correctly.
