@@ -25,12 +25,9 @@
 		h2 {
 			text-align: center;
 			padding-block: 0.5rem;
-			color: $navy-color;
-			font-size: 2rem;
 		}
 		p {
 			padding-block: 0.5rem;
-			font-size: 1.125rem;
 		}
 		button {
 			align-self: flex-end;
@@ -45,15 +42,5 @@
 		}
 	}
 }
-@media (max-width: 768px) {
-	.homepage-wrapper {
-		.home-text {
-			h2 {
-				font-size: 1.5rem;
-			}
-			p {
-				font-size: 1rem;
-			}
-		}
-	}
-}
+// @media (max-width: 768px) {
+//}

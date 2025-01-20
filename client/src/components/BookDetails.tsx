@@ -63,8 +63,6 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 					className='details-synopsis text-box'
 					dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
 				>
-					{/* <p dangerouslySetInnerHTML={{ __html: sanitizedDescription }}></p> */}
-					{/* <p>{book.description}</p> */}
 				</article>
 			</section>
 		</>

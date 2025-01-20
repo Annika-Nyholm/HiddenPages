@@ -34,3 +34,14 @@ button {
 img {
 	display: block;
 }
+@media (max-width: 768px) {
+	h2 {
+		font-size: 1.5rem;
+	}
+	h3 {
+		font-size: 1.125rem;
+	}
+	p {
+		font-size: 1rem;
+	}
+}
