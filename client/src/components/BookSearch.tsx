@@ -7,6 +7,7 @@ import {
 } from '../services/localStorageService';
 import { BookList } from './BookList';
 import { useBooks } from '../hooks/useBooks';
+import { LoadingSpinner } from './LoadingSpinner';
 
 interface BookSearchProps {
 	keywords: string[];
@@ -53,7 +54,7 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 
 	return (
 		<>
-			{loading && <p>Laddar böcker...</p>} {/* SPINNER??? */}
+			{loading && <LoadingSpinner />}
 			{error && <p className="error-message">{error}</p>} 
 			<BookList books={books} />
 		</>
