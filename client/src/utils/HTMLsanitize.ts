@@ -22,17 +22,18 @@ export const sanitizeHtml = (html: string): string => {
 		.replace(/<\/i>/g, '</em>')
 		.replace(/<br\s*\/?>/g, '</p><p>');
 
-	const sentenceRegex = /([^.!?]+[.!?]+)(?=\s|$)/g;
+	// Regex för att dela upp meningar men ignorera förkortningar, ellipser och enstaka bokstäver
+	const sentenceRegex =
+		/(?<!\b[a-zA-Z]\.)(?<!\b(?:[A-Z]|[a-z]{1,2})\.\s|\.\.\.|[.!?]\s?[A-Za-z])([^.!?]+[.!?]+)(?=\s|$)/g;
+
 	sanitizedHtml = sanitizedHtml.replace(sentenceRegex, (sentence) => {
 		const trimmed = sentence.trim();
 
-		if (trimmed === '.') {
+		// Ignorera enstaka punkter eller ellipser
+		if (trimmed === '.' || trimmed === '...') {
 			return ' ';
 		}
 
-		if (trimmed.endsWith('P.D.')) {
-			return `<p>${trimmed}</p>`;
-		}
 		return `<p>${trimmed}</p>`;
 	});
 
@@ -43,6 +44,7 @@ export const sanitizeHtml = (html: string): string => {
 			: `<p class="quote">“${text}”</p>`;
 	});
 
+	// Kontrollera om HTML börjar eller slutar med <p> och justera
 	if (!sanitizedHtml.startsWith('<p>')) {
 		sanitizedHtml = `<p>${sanitizedHtml}`;
 	}
