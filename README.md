@@ -1,3 +1,15 @@
+# About Hidden Pages
+
+Hidden Pages is designed to provide a seamless and engaging experience for book lovers. When users visit the app, they are greeted with a warm and inviting homepage that introduces the concept of discovering personalized book recommendations through a fun quiz.
+
+By taking the quiz, users can share their preferences, enabling the app to suggest a curated list of books tailored to their interests. The recommendations are presented in an interactive, scrollable layout, where each book card provides a snapshot of the title, author, and key details.
+
+If a user finds a book intriguing, they can click on the card to navigate to the book’s detail page. This page offers an in-depth view of the book, including its genre, average ratings, and a description. For users who want to share their discoveries, the app supports deep linking—sending a book detail link to a friend will open the same book for them to view directly.
+
+To ensure a smooth experience, users accessing a shared link without prior navigation in the app are redirected to the homepage when they use the back button. This allows new visitors to explore Hidden Pages and enjoy the quiz for their personalized recommendations.
+
+With its clean design, mobile responsiveness, and intuitive navigation, Hidden Pages makes discovering books a delightful journey for every user.
+
 ## Technologies Used
 
 -   **React** - A JavaScript library for building user interfaces.
