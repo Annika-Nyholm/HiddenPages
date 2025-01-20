@@ -1,19 +1,7 @@
 {
     "routes": [
         {
-            "route": "/book/*",
-            "serve": "/index.html"
-        },
-        {
-            "route": "/quiz/*",
-            "serve": "/index.html"
-        },
-        {
-            "route": "/recommendations/*",
-            "serve": "/index.html"
-        },
-        {
-            "route": "/*",
+            "route": "/**",
             "serve": "/index.html"
         }
     ]
