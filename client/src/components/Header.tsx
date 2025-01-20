@@ -85,18 +85,18 @@ export const Header = () => {
 						<nav className='mobile-menu'>
 							<ul>
 								<li>
-									<Link to='/'>Hem</Link>
+									<Link to='/' onClick={toggleMenu}>Hem</Link>
 								</li>
 								<li>
-									<Link to='/quiz'>Quiz</Link>
+									<Link to='/quiz' onClick={toggleMenu}>Quiz</Link>
 								</li>
 								<li>
-									<Link to='/recommendations'>
+									<Link to='/recommendations' onClick={toggleMenu}>
 										Mina böcker
 									</Link>
 								</li>
 								<li>
-									<Link to='/'>FAQ</Link>
+									<Link to='/' onClick={toggleMenu}>FAQ</Link>
 								</li>
 							</ul>
 						</nav>
