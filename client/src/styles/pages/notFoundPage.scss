@@ -1,0 +1,41 @@
+.notfound-container {
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 2rem;
+	background-color: $light-color;
+	color: #333;
+    width: 100%;
+	min-height: 100dvh;
+    overflow-y: auto;
+    .notfound-title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: $navy-color;
+    }
+    .notfound-description {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .notfound-image {
+        max-width: 300px;
+        margin: 1rem 0;
+    }
+    .notfound-suggestion {
+        a {
+            color: $darker-navy-color;
+            text-decoration: none;
+            font-weight: bold;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+    .notfound-footer {
+        margin-top: 2rem;
+        font-size: 0.9rem;
+        color: $navy-color;
+    }
+}

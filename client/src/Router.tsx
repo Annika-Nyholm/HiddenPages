@@ -4,6 +4,7 @@ import { LayoutPage } from './pages/LayoutPage';
 import { QuizPage } from './pages/QuizPage';
 import { BookRecommendationsPage } from './pages/BookRecommendationsPage';
 import { BookDetailsPage } from './pages/BookDetailsPage';
+import { NotFoundPage } from './pages/NotFoundPage';
 
 export const Router = createBrowserRouter([
 	{
@@ -27,5 +28,9 @@ export const Router = createBrowserRouter([
 				element: <BookDetailsPage />,
 			},
 		],
+	},
+	{
+		path: '*',
+		element: <NotFoundPage />,
 	},
 ]);
