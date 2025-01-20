@@ -14,6 +14,7 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 	return (
 		<>
 			<section className='book-details-wrapper'>
+				<h2>Bokinformation</h2>
 				<article className='details-image'>
 					<img
 						src={

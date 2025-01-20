@@ -13,4 +13,24 @@
 
     padding-inline: 2rem;
     padding-block: 2rem;
+    button {
+        color: $light-color;
+        font-size: 1rem;
+        font-style: italic;
+        background: transparent;
+        padding: 1rem;
+        border: none;
+        display: flex;
+        cursor: pointer;
+        margin-bottom: 1rem;
+        svg {
+            padding: 2px;
+        }
+    }
+}
+@media (max-width: 900px) {
+    .details-page-wrapper {
+        padding-inline: 0;
+        padding-block: 1rem;
+    }
 }
