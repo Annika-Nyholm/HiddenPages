@@ -10,6 +10,10 @@ To ensure a smooth experience, users accessing a shared link without prior navig
 
 With its clean design, mobile responsiveness, and intuitive navigation, Hidden Pages makes discovering books a delightful journey for every user.
 
+## Live Demo
+
+Check out the live version of Hidden Pages: [Hidden Pages App](https://salmon-cliff-059181903.4.azurestaticapps.net/)
+
 ## Technologies Used
 
 -   **React** - A JavaScript library for building user interfaces.
