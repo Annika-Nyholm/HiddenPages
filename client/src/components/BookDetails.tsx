@@ -10,7 +10,9 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 	const sanitizedDescription = sanitizeHtml(
 		book.description || 'Ingen beskrivning tillgänglig.'
 	);
-	console.log('rensad html', sanitizedDescription);
+	
+	const authors = Array.isArray(book.authors) ? book.authors : [];
+
 	return (
 		<>
 			<section className='book-details-wrapper'>
@@ -38,7 +40,7 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 						</li>
 						<li>
 							<strong>Författare:</strong>{' '}
-							{book.authors.join(', ')}{' '}
+							{authors.length > 0 ? authors.join(', ') : 'Okänd författare'}{' '}
 						</li>
 						<li>
 							<strong>Kategorier:</strong>{' '}
