@@ -1,0 +1,1842 @@
+{
+    "genre_questions": [
+        {
+            "id": 1,
+            "question": "Du upptäcker en bok där en ung hjälte ger sig ut på ett episkt äventyr för att rädda världen från förgörelse. Vad tilltalar dig mest med denna berättelse?",
+            "options": [
+                {
+                    "text": "Jag älskar när huvudpersonen kämpar mot övermäktiga fiender i en magisk och förtrollad värld.",
+                    "keywords": [
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag tycker om äventyr där huvudpersonen får utforska nya och okända världar med både faror och mysterier.",
+                    "keywords": [
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag lockas av hjälten som genomgår personlig utveckling och växer till en mäktig ledare genom sina prövningar.",
+                    "keywords": [
+                        "Heroic Fantasy",
+                        "Coming of Age"
+                    ]
+                },
+                {
+                    "text": "Jag gillar berättelser om episka strider där den unge hjälten måste bekämpa onda krafter för att rädda världen.",
+                    "keywords": [
+                        "Epic Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om hjältar som kämpar mot onda makter i en mer realistisk värld där varje beslut har stora konsekvenser.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Adventure"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "En bok om en ensam detektiv som navigerar genom mörka gator för att lösa ett mystiskt mordfallet i en regnig stad. Vad väcker din nyfikenhet mest?",
+            "options": [
+                {
+                    "text": "Jag älskar när karaktären dras in i en komplex och dyster mordutredning.",
+                    "keywords": [
+                        "Crime",
+                        "Detective Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag lockas av mörka, atmosfäriska berättelser som har en mörk och mystisk ton.",
+                    "keywords": [
+                        "Noir"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om en detektiv som måste använda sin list för att lösa svåra gåtor.",
+                    "keywords": [
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "Jag söker spänning och oväntade vändningar genom hela boken.",
+                    "keywords": [
+                        "Thriller"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "En bok om en ung kvinna som försöker överleva och kämpa för rättvisa under en svår tid i historien. Vad lockar dig mest i denna berättelse?",
+            "options": [
+                {
+                    "text": "Jag älskar berättelser om starka kvinnor som kämpar för rättvisa i en fiktiv historisk värld.",
+                    "keywords": [
+                        "Historical Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag söker djupt känslomässiga berättelser om karaktärers inre resa och utveckling.",
+                    "keywords": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag gillar berättelser där karaktärerna navigerar genom farliga historiska omständigheter och utmaningar.",
+                    "keywords": [
+                        "Historical Drama"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om karaktärer som kämpar för överlevnad och rättvisa i en turbulent tid.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Adventure"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "I en värld där magi är förbjudet, en ung individ måste dölja sina krafter och slåss mot ett korrupt system. Vad tilltalar dig mest med denna berättelse?",
+            "options": [
+                {
+                    "text": "Jag älskar berättelser där magi är förbjuden och karaktärerna måste dölja sina krafter för att överleva i en hemlig och farlig värld.",
+                    "keywords": [
+                        "Urban Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag söker berättelser om karaktärer som lever i en mörk och förtryckt värld där de måste kämpa mot ett korrupt system och göra svåra val.",
+                    "keywords": [
+                        "Dystopian Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag tycker om historier om modiga individer som slåss mot ett orättvist system i en värld där mörka krafter hotar att förstöra allt.",
+                    "keywords": [
+                        "Dark Fantasy",
+                        "Political Thriller"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om hjältemodiga karaktärer som kämpar för det goda i en värld fylld av mysterier och magi, där inget är som det verkar.",
+                    "keywords": [
+                        "Epic Fantasy",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag lockas av berättelser om karaktärer som döljer sina övernaturliga krafter i en värld som förnekar deras existens.",
+                    "keywords": [
+                        "Magical Realism"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "En bok som följer en ung kvinna i en historisk roman om hennes kamp för rättvisa i en förtryckt tid. Vad lockar dig mest i denna historia?",
+            "options": [
+                {
+                    "text": "Jag gillar när karaktärerna går igenom svåra tider och övervinner förtryck i en historisk setting.",
+                    "keywords": [
+                        "Historical Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag lockas av starka kvinnor som kämpar för sina rättigheter i en romantisk historisk miljö.",
+                    "keywords": [
+                        "Historical Romance"
+                    ]
+                },
+                {
+                    "text": "Jag tycker om berättelser där starka karaktärer kämpar mot förtryck i dramatiska historiska händelser.",
+                    "keywords": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om historiska miljöer där karaktärerna måste navigera genom krig och sociala orättvisor.",
+                    "keywords": [
+                        "War Fiction"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Du hittar en bok om en tidsresa till en förlorad civilisation. Vad lockar dig mest med denna berättelse?",
+            "options": [
+                {
+                    "text": "Jag älskar att utforska gamla världar och deras mysterier.",
+                    "keywords": [
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag lockas av tidsresor och de oförutsägbara effekterna av att förändra historien.",
+                    "keywords": [
+                        "Science Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om karaktärer som måste överleva i en förlorad civilisation.",
+                    "keywords": [
+                        "Survival Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag tycker om att läsa om äventyr där historien och framtiden kolliderar.",
+                    "keywords": [
+                        "Time Travel"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Du hittar en bok om en dystopisk framtid där samhället är uppdelat i strikta klasser. Vad tilltalar dig med denna bok?",
+            "options": [
+                {
+                    "text": "Jag gillar berättelser om dystopiska samhällen där allt står på spel.",
+                    "keywords": [
+                        "Dystopian Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag lockas av berättelser om människors kamp för frihet i en förtryckt värld.",
+                    "keywords": [
+                        "Post-apocalyptic Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag tycker om när karaktärerna står inför ett kollapsande samhälle och tvingas navigera genom dess konsekvenser.",
+                    "keywords": [
+                        "Apocalyptic Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om hur teknologiska framsteg kan skapa ojämlikhet och sociala orättvisor.",
+                    "keywords": [
+                        "Cyberpunk"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "En bok om en ung person som upptäcker en värld av hemliga sällskap och gamla traditioner fångar din uppmärksamhet. Vad lockar dig mest?",
+            "options": [
+                {
+                    "text": "Jag älskar mysterier och dolda världar som ingen annan känner till.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om en ung hjälte som hittar sin plats i en mystisk värld.",
+                    "keywords": [
+                        "Coming-of-Age",
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag är fascinerad av historier om gamla traditioner och deras betydelse i dagens samhälle.",
+                    "keywords": [
+                        "Historical Fiction",
+                        "Cultural Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag gillar när berättelser kombinerar äventyr med en djupare undersökning av människans natur.",
+                    "keywords": [
+                        "Adventure",
+                        "Psychological Fiction"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "En bok om ett rymdäventyr där en ensam astronaut måste rädda sin besättning lockar dig. Vad tilltalar dig mest?",
+            "options": [
+                {
+                    "text": "Jag älskar spänningen och isoleringen som kommer med rymden.",
+                    "keywords": [
+                        "Space",
+                        "Survival",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "text": "Jag söker en berättelse om mod och att stå ensam mot överväldigande odds.",
+                    "keywords": [
+                        "Courage",
+                        "Space Opera",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag vill utforska de psykologiska effekterna av att vara ensam i rymden.",
+                    "keywords": [
+                        "Psychological Thriller",
+                        "Science Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag är fascinerad av vetenskapen bakom rymdfärder och teknologin som gör dem möjliga.",
+                    "keywords": [
+                        "Hard Science Fiction",
+                        "Technology"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Du hittar en bok om en ung kvinna som blir indragen i en farlig internationell konspiration. Vad lockar dig mest med denna berättelse?",
+            "options": [
+                {
+                    "text": "Jag gillar spänningsromaner som håller mig på kanten av stolen.",
+                    "keywords": [
+                        "Thriller",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "Jag söker en berättelse där en kvinna måste använda sitt intellekt för att lösa ett komplext problem.",
+                    "keywords": [
+                        "Feminist Fiction",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "Jag älskar böcker som kombinerar action med en djupare berättelse om lojalitet och svek.",
+                    "keywords": [
+                        "Espionage",
+                        "Action",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om någon som tvingas balansera sina egna moraliska värderingar i en farlig värld.",
+                    "keywords": [
+                        "Espionage",
+                        "Moral Fiction",
+                        "Thriller"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "En bok om en magisk värld där människor och djur kommunicerar telepatiskt väcker ditt intresse. Vad lockar dig mest?",
+            "options": [
+                {
+                    "text": "Jag älskar idéen om en magisk värld där kommunikation sträcker sig bortom ord.",
+                    "keywords": [
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag gillar historier där karaktärerna måste övervinna stora hinder i en magisk värld.",
+                    "keywords": [
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag söker en berättelse som blandar magi med episka strider och hjältemod.",
+                    "keywords": [
+                        "Epic Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om de moraliska dilemman som kan uppstå i en värld av magi och telepati.",
+                    "keywords": [
+                        "Dark Fantasy"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Du hittar en bok om en passionerad kärlekshistoria mellan två personer från helt olika världar. Vad tilltalar dig mest med denna berättelse?",
+            "options": [
+                {
+                    "text": "Jag älskar romantiska berättelser som bryter barriärer och normer.",
+                    "keywords": [
+                        "Romance"
+                    ]
+                },
+                {
+                    "text": "Jag söker en berättelse om hur kärlek kan övervinna alla hinder.",
+                    "keywords": [
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag gillar när kärlekshistorier är komplexa och utforskar kulturella skillnader.",
+                    "keywords": [
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag är intresserad av historier om förlorad kärlek och de känslomässiga konsekvenserna.",
+                    "keywords": [
+                        "Romantic Fiction"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "question": "En bok om en grupp ungdomar som upptäcker att de har övernaturliga krafter. Vad lockar dig mest?",
+            "options": [
+                {
+                    "text": "Jag älskar böcker om ungdomar som kämpar för att förstå och kontrollera sina krafter.",
+                    "keywords": [
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag söker en berättelse om att växa upp och acceptera sina skillnader.",
+                    "keywords": [
+                        "Young Adult"
+                    ]
+                },
+                {
+                    "text": "Jag gillar historier där ungdomarna måste arbeta tillsammans för att rädda världen.",
+                    "keywords": [
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag är fascinerad av övernaturliga krafter och deras inverkan på individens liv.",
+                    "keywords": [
+                        "Supernatural Fiction"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Du träffar en charmig detektiv på en livlig bar en regnig kväll. När ni börjar prata om hans senaste fall, erbjuder han dig tre möjliga vägar att gå. Vad väljer du?",
+            "options": [
+                {
+                    "text": "Jag går med honom på ett äventyr för att lösa ett mysterium som involverar en försvunnen person och en hemlig organisation.",
+                    "keywords": [
+                        "Thriller"
+                    ]
+                },
+                {
+                    "text": "Jag bestämmer mig för att hjälpa honom att lösa ett mordmysterium där kärlek, svek och gamla hemligheter står på spel.",
+                    "keywords": [
+                        "Romantic Suspense",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag följer med på en galen jakt för att hitta en förlorad skatt, där vi träffar färgstarka karaktärer och vi skrattar åt de oväntade händelserna.",
+                    "keywords": [
+                        "Comedy"
+                    ]
+                },
+                {
+                    "text": "Jag går med på att hjälpa honom lösa ett mysterium som för oss till en annan dimension, där magi och övernaturliga krafter är verkliga.",
+                    "keywords": [
+                        "Fantasy"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "question": "Du träder in i ett hektiskt kontor där en ung kvinna arbetar bland ett gäng erfarna och dominanta män. Hon slår sig fram och kämpar för att bevisa sig. Vad tilltalar dig mest med hennes historia?",
+            "options": [
+                {
+                    "text": "Jag älskar berättelser om kvinnor som måste övervinna hinder och visa sitt värde i en värld som är emot dem.",
+                    "keywords": [
+                        "Drama",
+                        "Women's Fiction",
+                        "Empowerment"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om hur en kvinna förändrar sitt yrkesliv och samhällsstruktur genom att utmana föråldrade normer.",
+                    "keywords": [
+                        "Rebellion",
+                        "Contemporary Fiction",
+                        "Romance"
+                    ]
+                },
+                {
+                    "text": "Jag gillar historier om personlig utveckling där en kvinna bygger sitt självförtroende och övervinner fördomar.",
+                    "keywords": [
+                        "Self-Discovery",
+                        "Inspirational Fiction",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag är intresserad av att utforska hur sociala strukturer och maktspel påverkar individer och deras framgångar.",
+                    "keywords": [
+                        "Psychological Fiction",
+                        "Society",
+                        "Thriller"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Du vaknar upp i en framtid där världen är uppdelad mellan teknologiskt avancerade städer och utarmade ödemarker. När du börjar förstå hur mänskliga relationer förändrats av teknologi, vad drar du till dig mest i den här berättelsen?",
+            "options": [
+                {
+                    "text": "Jag älskar att läsa om hur teknologi formar människors liv och påverkar deras samhälleliga roller.",
+                    "keywords": [
+                        "Social Commentary",
+                        "Dystopia"
+                    ]
+                },
+                {
+                    "text": "Jag söker en historia som utforskar de etiska frågor kring AI och människans framtid i en teknologisk värld.",
+                    "keywords": [
+                        "Cyberpunk",
+                        "Philosophical Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om en grupp människor som kämpar för att överleva i en dystopisk värld där teknologi har gått för långt.",
+                    "keywords": [
+                        "Survival",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag vill förstå hur människor bevarar sina mänskliga värderingar och förhållanden i en högteknologisk värld.",
+                    "keywords": [
+                        "Humanity",
+                        "Romance"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Du står ombord på ett gammalt piratskepp, vinden piskar ansiktet och horisonten glittrar med löften om en legendarisk skatt. Vad lockar dig mest med denna berättelse om pirater och äventyr?",
+            "options": [
+                {
+                    "text": "Jag älskar episka äventyr där karaktärerna ger sig ut på en farofylld resa för att hitta en legendarisk skatt.",
+                    "keywords": [
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om den inre konflikten och de farliga val som piraterna måste göra för att finna skatten.",
+                    "keywords": [
+                        "Drama",
+                        "Psychological Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag söker en berättelse om lojalitet och svek där pirater måste navigera sina egna moraliska dilemman.",
+                    "keywords": [
+                        "Thriller",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "Jag gillar när en pirathistoria blandar humor och riskfyllda äventyr med oväntade vändningar.",
+                    "keywords": [
+                        "Comedy",
+                        "Romance"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Du vandrar genom en liten, avlägsen by där varje hus verkar hålla på sina hemligheter. Invånarna är både välkomnande och mystiska, och du börjar känna att ingen är riktigt som de verkar vara. Vad tilltalar dig mest med denna berättelse?",
+            "options": [
+                {
+                    "text": "Jag älskar när ett mysterium avslöjas långsamt och varje person har både sina förtjänster och sina mörka sidor.",
+                    "keywords": [
+                        "Mystery",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag söker en berättelse där alla verkar ha något att dölja och ingenting är som det först verkar.",
+                    "keywords": [
+                        "Suspense",
+                        "Gothic Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag gillar när en liten by där alla är något excentriska ger upphov till roliga och absurda situationer.",
+                    "keywords": [
+                        "Comedy"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa om en långsam, noggrant uppbyggd upplösning där varje detalj och alla små ledtrådar leder till sanningen.",
+                    "keywords": [
+                        "Crime Fiction",
+                        "Noir"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Du möter en hjälte som måste rädda världen från en mystisk fara. Hur utvecklas berättelsen enligt din smak?",
+            "options": [
+                {
+                    "text": "Jag älskar när hjältar slåss mot onda krafter i en magisk värld fylld av äventyr.",
+                    "keywords": [
+                        "Epic",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Jag föredrar en berättelse där hjälten är en brottsbekämpare i en mörk och futuristisk stad.",
+                    "keywords": [
+                        "Dystopia",
+                        "Action"
+                    ]
+                },
+                {
+                    "text": "Jag vill läsa en humoristisk berättelse där en oväntad hjälte räddar världen på det mest absurda sätt.",
+                    "keywords": [
+                        "Comedy",
+                        "Parody"
+                    ]
+                },
+                {
+                    "text": "Jag är fascinerad av gripande berättelser där en osannolik kärlekshistoria driver hjälten att bekämpa faran.",
+                    "keywords": [
+                        "Romance",
+                        "Drama"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "question": "Du möter en ung man som vaknar upp utan minnen i en främmande stad och måste ta reda på vem han är. Vad vill du att berättelsen ska fokusera på?",
+            "options": [
+                {
+                    "text": "En spännande thriller där han avslöjar en konspiration som hotar världen.",
+                    "keywords": [
+                        "Thriller",
+                        "Conspiracy",
+                        "Action"
+                    ]
+                },
+                {
+                    "text": "En känslosam historia där han återupptäcker sin förlorade familj och sin plats i världen.",
+                    "keywords": [
+                        "Drama",
+                        "Family",
+                        "Romance"
+                    ]
+                },
+                {
+                    "text": "En magisk berättelse där han upptäcker att han är nyckeln till en förlorad civilisation.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En humoristisk berättelse där han snubblar genom absurda situationer och upptäcker sig själv på vägen.",
+                    "keywords": [
+                        "Comedy",
+                        "Self-Discovery",
+                        "Humor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "question": "Du går in i en antik bokhandel och hittar en dammig bok med mystiska runor. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag köper den direkt och börjar dechiffrera runorna.",
+                    "keywords": [
+                        "Fantasy",
+                        "Mystery",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Jag lämnar den – sådant här har alltid konsekvenser.",
+                    "keywords": [
+                        "Suspense",
+                        "Horror",
+                        "Escape"
+                    ]
+                },
+                {
+                    "text": "Jag frågar butikens ägare, som verkar veta mer än han avslöjar, och följer ledtrådarna han ger mig.",
+                    "keywords": [
+                        "Adventure",
+                        "Mystery",
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Jag börjar bläddra i boken, och plötsligt flammar runorna upp i ett gyllene ljus och viskar mitt namn.",
+                    "keywords": [
+                        "Magic",
+                        "Fantasy",
+                        "Intrigue"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "question": "En vän rekommenderar en bok som fått dem att gråta. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag läser den genast – jag älskar känslosamma berättelser som verkligen rör vid hjärtat!",
+                    "keywords": [
+                        "Romance",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag undviker den – istället föredrar jag något lättsamt och fyllt av skratt.",
+                    "keywords": [
+                        "Comedy",
+                        "Feel-Good"
+                    ]
+                },
+                {
+                    "text": "Jag läser den och dras med i de mörka och intensiva känslorna som formar karaktärernas liv.",
+                    "keywords": [
+                        "Tragedy",
+                        "Psychological Fiction"
+                    ]
+                },
+                {
+                    "text": "Jag läser den och upptäcker att det finns en oväntad twist som förändrar allt.",
+                    "keywords": [
+                        "Thriller",
+                        "Suspense"
+                    ]
+                }
+            ]
+        }
+    ],
+    "subject_questions": [
+        {
+            "id": 1,
+            "question": "Du befinner dig i en magisk skog och ser en drake vakta ett torn fyllt med böcker. Vad gör du?",
+            "options": [
+                {
+                    "text": "Försöker prata med draken och ta reda på vad den vet om tornets hemligheter.",
+                    "keywords": [
+                        "Magical Creatures",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "Smyger in i tornet medan draken sover för att undersöka böckerna.",
+                    "keywords": [
+                        "Adventure",
+                        "Danger"
+                    ]
+                },
+                {
+                    "text": "Studerar drakens beteende på avstånd för att förstå mer om dess natur.",
+                    "keywords": [
+                        "Dragos"
+                    ]
+                },
+                {
+                    "text": "Ritar av scenen och skriver ner mina intryck innan jag går vidare.",
+                    "keywords": [
+                        "art",
+                        "poetry"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Ett forskningslabb erbjuder dig en chans att kommunicera med djur via teknik. Vilket djur väljer du?",
+            "options": [
+                {
+                    "text": "En uggla – jag vill höra deras historier om natten och skogen.",
+                    "keywords": [
+                        "Owls",
+                        "Forest",
+                        "Wisdom"
+                    ]
+                },
+                {
+                    "text": "En val – jag vill förstå hur de uppfattar livet i havets djup.",
+                    "keywords": [
+                        "Whales",
+                        "Ocean",
+                        "Songs"
+                    ]
+                },
+                {
+                    "text": "En varg – jag är nyfiken på hur de lever i flock och överlever i vildmarken.",
+                    "keywords": [
+                        "Wolves",
+                        "Pack Behavior",
+                        "Survival"
+                    ]
+                },
+                {
+                    "text": "En katt – jag vill veta vad som verkligen pågår i deras mystiska tankar.",
+                    "keywords": [
+                        "Cats",
+                        "Mystery",
+                        "Perspective"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Du hittar ett urgammalt bibliotek som innehåller böcker om utrotade arter. Vilken bok öppnar du först?",
+            "options": [
+                {
+                    "text": "Den om dinosaurier och deras liv innan de försvann.",
+                    "keywords": [
+                        "Dinosaurs",
+                        "Prehistory",
+                        "Evolution"
+                    ]
+                },
+                {
+                    "text": "Den om mytologiska varelser som enhörningar och deras plats i gamla legender.",
+                    "keywords": [
+                        "Mythical Creatures",
+                        "Legends"
+                    ]
+                },
+                {
+                    "text": "Den om marina varelser från havens djup som ingen längre minns.",
+                    "keywords": [
+                        "Marine Life",
+                        "Exploration",
+                        "Deep Sea"
+                    ]
+                },
+                {
+                    "text": "Den om unika växter och träd som försvann med gamla civilisationer.",
+                    "keywords": [
+                        "Extinct Plants",
+                        "Ecology",
+                        "History"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "En mystisk uppfinnare erbjuder dig att testa en maskin som kan ta dig till andra dimensioner. Vart tar ni vägen?",
+            "options": [
+                {
+                    "text": "Jag reser till en värld där flygande städer svävar bland molnen och teknologin känns som magi.",
+                    "keywords": [
+                        "Sky Cities",
+                        "Innovation",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag vill till en dimension där naturen regerar och gigantiska träd bildar en evig skog full av mystiska varelser.",
+                    "keywords": [
+                        "Nature",
+                        "Mystical Creatures",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "Jag väljer en värld där allt är täckt av is och snö, där ljuset från himlen skiftar i alla regnbågens färger.",
+                    "keywords": [
+                        "Frozen Landscapes",
+                        "Aurora",
+                        "Survival"
+                    ]
+                },
+                {
+                    "text": "Jag utforskar en värld under vatten där civilisationer lever i glaskupoler bland färgglada korallrev.",
+                    "keywords": [
+                        "Underwater Cities",
+                        "Marine Life",
+                        "Imagination"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "En alkemist ger dig en flaska som kan förvandla allt till guld, men bara en gång. Vad väljer du att göra?",
+            "options": [
+                {
+                    "text": "Förvandla en sten och behålla flaskan som en relik.",
+                    "keywords": [
+                        "Alchemy",
+                        "Magic",
+                        "Greed"
+                    ]
+                },
+                {
+                    "text": "Använda den för att skapa något som hjälper mänskligheten.",
+                    "keywords": [
+                        "Philosophy",
+                        "Humanity",
+                        "Hope"
+                    ]
+                },
+                {
+                    "text": "Avslöja alkemistens hemligheter för världen.",
+                    "keywords": [
+                        "Revelation",
+                        "Science",
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Lämna flaskan orörd – vissa krafter ska inte användas.",
+                    "keywords": [
+                        "Suspense",
+                        "Morality",
+                        "Self-Control"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Du vaknar upp på ett sjukhus med ingen aning om hur du hamnade där. Vad gör du först?",
+            "options": [
+                {
+                    "text": "Pratar med läkaren och försöker minnas vad som hänt.",
+                    "keywords": [
+                        "Medicine",
+                        "Doctors"
+                    ]
+                },
+                {
+                    "text": "Utforskar sjukhuset och letar efter ledtrådar.",
+                    "keywords": [
+                        "Investigation",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "Ringer familjen för att få stöd och hjälp.",
+                    "keywords": [
+                        "Relationships",
+                        "Support"
+                    ]
+                },
+                {
+                    "text": "Lägger märke till detaljer och börjar misstänka något mystiskt.",
+                    "keywords": [
+                        "Suspense",
+                        "Clues",
+                        "Crime"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "En polis ber om din hjälp för att lösa ett mystiskt fall. Vad bidrar du med?",
+            "options": [
+                {
+                    "text": "Jag följer spåren i skogen för att hitta gömda ledtrådar.",
+                    "keywords": [
+                        "Tracking",
+                        "clues"
+                    ]
+                },
+                {
+                    "text": "Jag förhör misstänkta och försöker läsa mellan raderna.",
+                    "keywords": [
+                        "Interrogation",
+                        "Psychology",
+                        "Deception"
+                    ]
+                },
+                {
+                    "text": "Jag infiltrerar de misstänktas gömställe för att samla bevis.",
+                    "keywords": [
+                        "Undercover",
+                        "Risk",
+                        "Evidence"
+                    ]
+                },
+                {
+                    "text": "Planerar strategier för att fånga misstänkta.",
+                    "keywords": [
+                        "Tactics",
+                        "Action"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Du går förbi en brandstation där du hör larmet gå. Brandmännen frågar om din hjälp. Hur reagerar du?",
+            "options": [
+                {
+                    "text": "Hjälper till att bära utrustning – varje sekund räknas.",
+                    "keywords": [
+                        "Heroism",
+                        "Firefighters",
+                        "Action"
+                    ]
+                },
+                {
+                    "text": "Håller koll på situationen och kommunicerar med teamet.",
+                    "keywords": [
+                        "Teamwork",
+                        "Crisis",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "Filmar och dokumenterar deras modiga arbete.",
+                    "keywords": [
+                        "Documentary",
+                        "Courage",
+                        "Reality"
+                    ]
+                },
+                {
+                    "text": "Försöker lugna panikslagna människor i närheten.",
+                    "keywords": [
+                        "Humanity",
+                        "Crisis Management",
+                        "Empathy"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "En före detta olympisk atlet erbjuder att träna dig för ett stort lopp. Vad motiverar dig att tacka ja?",
+            "options": [
+                {
+                    "text": "Jag älskar utmaningar och vill se hur långt jag kan nå.",
+                    "keywords": [
+                        "Sports",
+                        "Ambition",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag vill inspirera andra att också sträva efter sina drömmar.",
+                    "keywords": [
+                        "Motivation",
+                        "Inspiration",
+                        "Leadership"
+                    ]
+                },
+                {
+                    "text": "Jag ser det som en chans att testa mina gränser och utvecklas som person.",
+                    "keywords": [
+                        "Self-Improvement",
+                        "Challenge",
+                        "Growth"
+                    ]
+                },
+                {
+                    "text": "Jag är nyfiken på vad en mästare kan lära mig om livet.",
+                    "keywords": [
+                        "Mentorship",
+                        "Wisdom",
+                        "Personal Growth"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "En vetenskapsman behöver din hjälp med att rädda en hotad djurart. Vilken roll tar du på dig?",
+            "options": [
+                {
+                    "text": "Jag fotograferar djuren för att dokumentera deras liv.",
+                    "keywords": [
+                        "Photography",
+                        "Wildlife",
+                        "Conservation"
+                    ]
+                },
+                {
+                    "text": "Jag hjälper till med forskningen för att hitta en lösning.",
+                    "keywords": [
+                        "Science",
+                        "Animals",
+                        "Investigation"
+                    ]
+                },
+                {
+                    "text": "Jag samlar in donationer för att finansiera projektet.",
+                    "keywords": [
+                        "Philanthropy",
+                        "Support",
+                        "Teamwork"
+                    ]
+                },
+                {
+                    "text": "Jag skriver artiklar för att uppmärksamma deras situation.",
+                    "keywords": [
+                        "Journalist",
+                        "Activism"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Du är en åskådare på en olycksplats och ser hur räddningstjänsten arbetar under stressiga förhållanden. Vad fokuserar du på?",
+            "options": [
+                {
+                    "text": "Jag observerar de modiga räddningsarbetarna och deras förmåga att hålla lugnet.",
+                    "keywords": [
+                        "Courage",
+                        "Heroism",
+                        "Resilience"
+                    ]
+                },
+                {
+                    "text": "Jag följer hur människorna i området hanterar chocken och sina känslor.",
+                    "keywords": [
+                        "Psychology",
+                        "Humanity",
+                        "Emotions"
+                    ]
+                },
+                {
+                    "text": "Jag reflekterar över hur samhället kan vara bättre förberett för denna typ av situationer.",
+                    "keywords": [
+                        "Society",
+                        "Preparation",
+                        "Crisis Management"
+                    ]
+                },
+                {
+                    "text": "Jag tänker på vad som krävs för att överleva och ta sig igenom svåra situationer.",
+                    "keywords": [
+                        "Survival",
+                        "Adversity",
+                        "Strength"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Du får ett hemligt meddelande från en spionorganisation som behöver din hjälp. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag förvandlas till en mästerlig spion och begär en matchande mörkdräkt och solglasögon.",
+                    "keywords": [
+                        "Espionage",
+                        "Humor"
+                    ]
+                },
+                {
+                    "text": "Jag dechiffrerar meddelandet och upptäcker en mystisk ledtråd som leder till en hemlig kärlekshistoria.",
+                    "keywords": [
+                        "Romance",
+                        "Secrets"
+                    ]
+                },
+                {
+                    "text": "Jag läser en bok om hemliga agenter och försöker förstå hur jag kan bli lika cool som dem, men med bättre stil.",
+                    "keywords": [
+                        "Action"
+                    ]
+                },
+                {
+                    "text": "Jag låtsas som inget, men inser att det här kan vara en chans att hitta en romantisk komplicerad intrig.",
+                    "keywords": [
+                        "Escape",
+                        "Suspense"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "question": "Du hittar en mystisk skattkarta i en gammal bokhandel. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag följer kartan och söker efter äventyret som väntar.",
+                    "keywords": [
+                        "Treasure Hunt",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "Jag går på en jakt efter ledtrådar och får plötsligt upptäcka gamla ruiner.",
+                    "keywords": [
+                        "Ruins",
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Jag tar kartan till en vän och vi två blir partners i jakten på den legendariska skatten.",
+                    "keywords": [
+                        "Friendship",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "Jag låter mig själv drömma om vad som kan finnas gömt, som om kartan var nyckeln till en helt ny värld.",
+                    "keywords": [
+                        "Imagination"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "question": "Du får veta att din familj döljer en stor hemlighet. Hur reagerar du?",
+            "options": [
+                {
+                    "text": "Jag konfronterar dem direkt för att få veta sanningen.",
+                    "keywords": [
+                        "Secrets",
+                        "Relationships"
+                    ]
+                },
+                {
+                    "text": "Jag undersöker på egen hand för att få svar.",
+                    "keywords": [
+                        "Investigation",
+                        "Suspense"
+                    ]
+                },
+                {
+                    "text": "Jag försöker använda hemligheten för att förstå mig själv bättre.",
+                    "keywords": [
+                        "Self-Discovery",
+                        "Growth",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Jag ignorerar det och fokuserar på att leva mitt liv som vanligt.",
+                    "keywords": [
+                        "Escape",
+                        "Peace",
+                        "Contentment"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "question": "En magisk bok börjar tala till dig och berättar om en förlorad värld. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag följer bokens råd och reser till den mystiska världen.",
+                    "keywords": [
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Jag försöker förstå hur boken fungerar och dess historia.",
+                    "keywords": [
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Jag delar bokens berättelser med andra för att sprida dess budskap.",
+                    "keywords": [
+                        "Magic",
+                        "Community"
+                    ]
+                },
+                {
+                    "text": "Jag läser vidare för att upptäcka alla hemligheter och äventyr som boken döljer.",
+                    "keywords": [
+                        "Exploration"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "question": "Du hittar ett gammalt brev som leder till en förlorad stad. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag packar mina väskor och ger mig ut på en resa för att hitta staden.",
+                    "keywords": [
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "Jag söker efter ledtrådar i gamla böcker för att lösa gåtan.",
+                    "keywords": [
+                        "History",
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Jag försöker övertala mina vänner att bli med på jakten.",
+                    "keywords": [
+                        "Teamwork",
+                        "Friendship"
+                    ]
+                },
+                {
+                    "text": "Jag letar efter legender och berättelser om staden för att förstå dess hemligheter.",
+                    "keywords": [
+                        "Mythology",
+                        "Legends"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "question": "Du befinner dig i en stad som just drabbats av en mystisk naturkatastrof. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag letar efter överlevande och hjälper dem att ta sig till en säker plats.",
+                    "keywords": [
+                        "Survival",
+                        "Adventure",
+                        "Heroism"
+                    ]
+                },
+                {
+                    "text": "Jag utforskar katastrofens epicentrum för att förstå dess mysterier.",
+                    "keywords": [
+                        "Exploration",
+                        "Danger"
+                    ]
+                },
+                {
+                    "text": "Jag samarbetar med ett team av specialister för att ta reda på hur vi kan stoppa katastrofen.",
+                    "keywords": [
+                        "Teamwork",
+                        "Action",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "text": "Jag försöker rädda den magiska artefakt som kan vara nyckeln till att lösa allt.",
+                    "keywords": [
+                        "Magic",
+                        "Legend"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "question": "Du möter en gåtfull främling som hävdar att de kan avslöja ditt livs mening. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag lyssnar och ser om de har något förnuftigt att säga.",
+                    "keywords": [
+                        "Curiosity",
+                        "Humor"
+                    ]
+                },
+                {
+                    "text": "Jag skämtar med dem och testar om de verkligen har någon magisk kraft.",
+                    "keywords": [
+                        "Curiosity",
+                        "Playfulness"
+                    ]
+                },
+                {
+                    "text": "Jag bjuder på en kopp kaffe och pratar om livet, utan att ta det så allvarligt.",
+                    "keywords": [
+                        "Friendship",
+                        "Lightheartedness",
+                        "Connection"
+                    ]
+                },
+                {
+                    "text": "Jag tackar för erbjudandet men söker istället efter mitt eget äventyr.",
+                    "keywords": [
+                        "Independence",
+                        "Exploration",
+                        "Freedom"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "question": "Du blir del av en dokumentär om människor som övervinner stora hinder. Vilken historia berättar du?",
+            "options": [
+                {
+                    "text": "Om att kämpa för en orättvisad sak och vinna.",
+                    "keywords": [
+                        "Justice",
+                        "Courage"
+                    ]
+                },
+                {
+                    "text": "Om att övervinna en personlig utmaning som förändrade mitt liv.",
+                    "keywords": [
+                        "Inspiration",
+                        "Growth",
+                        "Motivation"
+                    ]
+                },
+                {
+                    "text": "Om att upptäcka något fantastiskt som förändrade världen.",
+                    "keywords": [
+                        "Discovery"
+                    ]
+                },
+                {
+                    "text": "Om att bygga något som för alltid kommer att finnas kvar.",
+                    "keywords": [
+                        "Legacy",
+                        "Creation",
+                        "Hope"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "question": "En resebyrå erbjuder dig en gratis resa till en plats där ingen annan varit. Vad motiverar dig att tacka ja?",
+            "options": [
+                {
+                    "text": "Att upptäcka något nytt och skriva historia.",
+                    "keywords": [
+                        "Exploration",
+                        "Pioneering"
+                    ]
+                },
+                {
+                    "text": "Att inspirera andra att våga drömma stort.",
+                    "keywords": [
+                        "Motivation",
+                        "Inspiration",
+                        "Leadership"
+                    ]
+                },
+                {
+                    "text": "Att hitta inre frid i en avlägsen och orörd värld.",
+                    "keywords": [
+                        "Peace",
+                        "Nature",
+                        "Reflection"
+                    ]
+                },
+                {
+                    "text": "Att fotografera och dokumentera en unik plats.",
+                    "keywords": [
+                        "Photography",
+                        "Creativity"
+                    ]
+                }
+            ]
+        }
+    ],
+    "setting_questions": [
+        {
+            "id": 1,
+            "question": "Du hittar en mystisk bok med kartor över okända världar. Vilken värld vill du utforska först?",
+            "options": [
+                {
+                    "text": "En futuristisk stad där skyskrapor når förbi molnen och robotar styr trafiken.",
+                    "keywords": [
+                        "Futuristic",
+                        "Technology",
+                        "Urban Exploration"
+                    ]
+                },
+                {
+                    "text": "En vidsträckt, orörd djungel där gamla tempel gömmer sig bland träden och farliga varelser lurar bakom varje hörn.",
+                    "keywords": [
+                        "Jungle",
+                        "Adventure",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "En svunnen stad vid havet där pirater och sjömonster strider om skattkistor och äventyr väntar på varje strand.",
+                    "keywords": [
+                        "Pirates",
+                        "Seafaring",
+                        "Treasure"
+                    ]
+                },
+                {
+                    "text": "En förtrollad skog där träden talar och magiska varelser samlas för att fira under stjärnorna.",
+                    "keywords": [
+                        "Magic",
+                        "Wilderness"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Du vaknar upp och märker att du inte är där du somnade. Vad ser du omkring dig?",
+            "options": [
+                {
+                    "text": "En futuristisk stad där neonljus reflekteras mot regnvåta gator.",
+                    "keywords": [
+                        "Futuristic",
+                        "City"
+                    ]
+                },
+                {
+                    "text": "En blomstrande oas mitt i en öken, med tält och kameler vid horisonten.",
+                    "keywords": [
+                        "Desert",
+                        "Exploration"
+                    ]
+                },
+                {
+                    "text": "En tyst klosterträdgård där doften av örter fyller luften.",
+                    "keywords": [
+                        "Garden",
+                        "Tranquility"
+                    ]
+                },
+                {
+                    "text": "En stormig kustlinje med klippor som reser sig över ett mörkt hav.",
+                    "keywords": [
+                        "Coastline",
+                        "Drama"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Ett plötsligt ljussken bländar dig, och när du öppnar ögonen befinner du dig någon annanstans. Vad upptäcker du?",
+            "options": [
+                {
+                    "text": "Ett slott omgivet av dimhöljda berg och gamla myter.",
+                    "keywords": [
+                        "Castle",
+                        "Medieval"
+                    ]
+                },
+                {
+                    "text": "En futuristisk rymdstation där stjärnor glittrar utanför fönstren.",
+                    "keywords": [
+                        "Space",
+                        "Futuristic"
+                    ]
+                },
+                {
+                    "text": "En blomstrande stad full av marknadsstånd och exotiska dofter.",
+                    "keywords": [
+                        "Marketplace",
+                        "Vibrant"
+                    ]
+                },
+                {
+                    "text": "En lummig äng där fjärilar dansar över ett glittrande vattendrag.",
+                    "keywords": [
+                        "Meadow",
+                        "Peaceful"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Du hör ett märkligt ljud och inser att det kommer från ett ställe du aldrig har besökt förut. Vad hittar du när du går för att undersöka?",
+            "options": [
+                {
+                    "text": "En livlig jazzklubb med rökfylld atmosfär och glänsande trumpetspelare.",
+                    "keywords": [
+                        "1920s",
+                        "City",
+                        "Music"
+                    ]
+                },
+                {
+                    "text": "En glaciär där isberg kraschar i det avlägsna, iskalla vattnet.",
+                    "keywords": [
+                        "Arctic",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En övergiven spökstad med vind som ylar genom tomma fönster.",
+                    "keywords": [
+                        "Ghost Town",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "En tropisk ö med palmer som vajar i brisen och en glittrande lagun.",
+                    "keywords": [
+                        "Island",
+                        "Paradise"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "question": "En gammal bok ramlar ner från en hylla och landar framför dig. När du öppnar den, vad händer?",
+            "options": [
+                {
+                    "text": "Du dras in i en myllrande stad från renässansen där konstnärer och filosofer fyller gatorna.",
+                    "keywords": [
+                        "Renaissance",
+                        "City",
+                        "Art"
+                    ]
+                },
+                {
+                    "text": "Du står plötsligt i en ångande djungel där exotiska fåglar skränar över huvudet.",
+                    "keywords": [
+                        "Jungle",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Du befinner dig på ett rymdskepp där stjärnor och galaxer rusar förbi utanför.",
+                    "keywords": [
+                        "Space",
+                        "Futuristic"
+                    ]
+                },
+                {
+                    "text": "Du hamnar i en lugn bondby där fält och stugor sträcker sig så långt ögat kan nå.",
+                    "keywords": [
+                        "Countryside",
+                        "Peace"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Du stöter på en portal mitt i skogen. När du går igenom den, vad ser du?",
+            "options": [
+                {
+                    "text": "En gigantisk stad byggd helt i glas och metall, badande i neonljus.",
+                    "keywords": [
+                        "Futuristic",
+                        "City",
+                        "Technology"
+                    ]
+                },
+                {
+                    "text": "En vidsträckt savann där lejon vilar under akaciaträdens skugga.",
+                    "keywords": [
+                        "Savanna",
+                        "Nature",
+                        "Wildlife"
+                    ]
+                },
+                {
+                    "text": "En underjordisk grotta fylld med skimrande kristaller och ekande droppar.",
+                    "keywords": [
+                        "Underground",
+                        "Mystery",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Ett vackert tempel på en bergstopp, omgiven av dimhöljda dalar.",
+                    "keywords": [
+                        "Temple",
+                        "Mountains",
+                        "Tranquility"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Du går längs en väg som plötsligt delar sig i fyra. Vilken väg väljer du?",
+            "options": [
+                {
+                    "text": "En kullerstensväg som leder till ett slott omgivet av rosenträdgårdar.",
+                    "keywords": [
+                        "Castle",
+                        "Medieval"
+                    ]
+                },
+                {
+                    "text": "En sandig stig som försvinner in i en mystisk öken med sanddyner i fjärran.",
+                    "keywords": [
+                        "Desert"
+                    ]
+                },
+                {
+                    "text": "En bro över en flod som leder till en storstad där fabriker ryker i bakgrunden.",
+                    "keywords": [
+                        "Industrial Revolution",
+                        "City"
+                    ]
+                },
+                {
+                    "text": "En grusväg som leder till en liten kustby där fiskebåtar gungar i hamnen.",
+                    "keywords": [
+                        "Coastal Village",
+                        "Community"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Du hittar en förtrollad spegel som visar en plats när du tittar in i den. Vad ser du?",
+            "options": [
+                {
+                    "text": "Ett viktorianskt gods med stora balsalar och mörka hemligheter.",
+                    "keywords": [
+                        "Victorian",
+                        "Mansion"
+                    ]
+                },
+                {
+                    "text": "En solbelyst havsbotten där färgglada fiskar simmar genom korallrev.",
+                    "keywords": [
+                        "Underwater",
+                        "Serenity"
+                    ]
+                },
+                {
+                    "text": "En futuristisk månbas med kupoler och utsikt över jorden.",
+                    "keywords": [
+                        "Moon",
+                        "Futuristic"
+                    ]
+                },
+                {
+                    "text": "En blomstrande marknadsplats mitt i en ökenstad full av kryddor och berättelser.",
+                    "keywords": [
+                        "Desert City",
+                        "Culture"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "question": "En gammal dörr dyker upp framför dig utan förvarning. Du öppnar den och kliver in. Vad finner du?",
+            "options": [
+                {
+                    "text": "En snötäckt by där gnistrande ljus reflekteras i isen.",
+                    "keywords": [
+                        "Winter Village",
+                        "Snow",
+                        "Peace"
+                    ]
+                },
+                {
+                    "text": "En enorm, tät regnskog med ljud från okända djur överallt.",
+                    "keywords": [
+                        "Rainforest"
+                    ]
+                },
+                {
+                    "text": "En medeltida marknadsplats fylld av färgglada tält och ljudet av musiker.",
+                    "keywords": [
+                        "Medieval",
+                        "Market"
+                    ]
+                },
+                {
+                    "text": "Ett flytande slott ovanför molnen, fyllt med mystisk teknologi.",
+                    "keywords": [
+                        "Sky",
+                        "Futuristic"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "question": "Du hittar ett mystiskt brev som leder dig till en plats ingen har hört talas om. Var är du?",
+            "options": [
+                {
+                    "text": "På en gammal pir där dimman döljer vad som ligger bortom havet.",
+                    "keywords": [
+                        "Coastline"
+                    ]
+                },
+                {
+                    "text": "I hjärtat av en storstad där futuristiska tåg rusar genom luften.",
+                    "keywords": [
+                        "City",
+                        "Technology",
+                        "Future"
+                    ]
+                },
+                {
+                    "text": "I en ödelagd ruin där naturen långsamt har tagit över stenarna.",
+                    "keywords": [
+                        "Ruins",
+                        "Historical"
+                    ]
+                },
+                {
+                    "text": "Vid foten av ett vulkaniskt berg där marken glöder av lava.",
+                    "keywords": [
+                        "Volcano",
+                        "Danger"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "question": "Du öppnar en dörr som leder till en helt ny värld. Vad möter dig på andra sidan?",
+            "options": [
+                {
+                    "text": "Ett futuristiskt landskap där byggnader svävar bland molnen.",
+                    "keywords": [
+                        "Futuristic",
+                        "City"
+                    ]
+                },
+                {
+                    "text": "En liten by med kullerstensgator och ljudet av hovslag mot sten.",
+                    "keywords": [
+                        "Victorian",
+                        "Village"
+                    ]
+                },
+                {
+                    "text": "En vidsträckt skog där solen silas genom de höga träden.",
+                    "keywords": [
+                        "Forest",
+                        "Nature"
+                    ]
+                },
+                {
+                    "text": "Ett öppet hav med höga vågor och doften av saltvatten.",
+                    "keywords": [
+                        "Ocean",
+                        "Adventure"
+                    ]
+                }
+            ]
+        }
+    ]
+}

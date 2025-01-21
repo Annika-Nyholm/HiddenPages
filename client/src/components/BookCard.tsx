@@ -15,7 +15,7 @@ interface IBookCardProps {
 export const BookCard = ({
 	id,
 	title = 'Saknar titel',
-	authors = ['Okänd författare'],
+	authors = [],
 	imageURL = '/HP-placeholder-img.webp',
 	rating,
 	ratingsCount,
@@ -30,7 +30,7 @@ export const BookCard = ({
 
 	const displayAuthors = () => {
 		if (!Array.isArray(authors) || authors.length === 0) {
-			return 'Författare saknas';
+			return 'Okänd författare';
 		}
 
 		if (authors.length <= 2) {

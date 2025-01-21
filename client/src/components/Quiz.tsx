@@ -4,6 +4,7 @@ import { fetchRandomQuiz } from '../services/quizService';
 import '../styles/components/quiz.scss';
 import { useNavigate } from 'react-router-dom';
 import { removeFromLocalStorage } from '../services/localStorageService';
+import { LoadingSpinner } from './LoadingSpinner';
 
 export const Quiz = () => {
 	const [quiz, setQuiz] = useState<IQuestion[]>([]);
@@ -17,7 +18,7 @@ export const Quiz = () => {
 	const startQuiz = () => {
 		removeFromLocalStorage('bookRecommendations');
 
-		const questions = fetchRandomQuiz(5);
+		const questions = fetchRandomQuiz();
 		setQuiz(questions);
 		setIsQuizStarted(true);
 		setCurrentQuestionIndex(0);
@@ -64,23 +65,64 @@ export const Quiz = () => {
 	};
 
 	const handleShowRecommendations = () => {
-		const allKeywords = userAnswers
-			.map(
-				(answerIndex, index) =>
-					quiz[index].options[answerIndex]?.keywords || []
-			)
+		// Hämta genre nyckelord
+		const genreKeywords = userAnswers
+			.map((answerIndex, index) => {
+				const question = quiz[index];
+				if (question && question.options[answerIndex]?.keywords) {
+					return question.options[answerIndex].keywords;
+				}
+				return [];
+			})
 			.flat();
 
-		const sortedKeywords = getSortedKeywords(allKeywords);
-		console.log('Sorterade nyckelord och frekvens: ', sortedKeywords);
+		// Hämta subject nyckelord (börjar på index 3 för ämnesfrågor)
+		const subjectKeywords = userAnswers
+			.map((answerIndex, index) => {
+				const question = quiz[index + 3]; // Index börjar på 3 för ämnesfrågor
+				if (question && question.options[answerIndex]?.keywords) {
+					return question.options[answerIndex].keywords;
+				}
+				return [];
+			})
+			.flat();
 
-		const keywordsForSearch = sortedKeywords
-			.slice(0, 5)
-			.map((k) => k.keyword);
-		console.log('Nyckelord som används för sökning: ', keywordsForSearch);
+		// Hämta setting nyckelord (börjar på index 6 för miljöfrågor)
+		const settingKeywords = userAnswers
+			.map((answerIndex, index) => {
+				const question = quiz[index + 6]; // Index börjar på 6 för miljöfrågor
+				if (question && question.options[answerIndex]?.keywords) {
+					return question.options[answerIndex].keywords;
+				}
+				return [];
+			})
+			.flat();
+
+		// Använd getSortedKeywords för att sortera nyckelorden per kategori
+		const sortedGenreKeywords = getSortedKeywords(genreKeywords).slice(
+			0,
+			2
+		); // De 2 mest frekventa från genre
+		const sortedSubjectKeywords = getSortedKeywords(subjectKeywords).slice(
+			0,
+			2
+		); // De 2 mest frekventa från subject
+		const sortedSettingKeywords = getSortedKeywords(settingKeywords).slice(
+			0,
+			1
+		); // De 1 mest frekventa från setting
+
+		// Sammanställ alla nyckelord
+		const allKeywords = [
+			...sortedGenreKeywords.map((k) => k.keyword),
+			...sortedSubjectKeywords.map((k) => k.keyword),
+			...sortedSettingKeywords.map((k) => k.keyword),
+		];
+
+		console.log('Nyckelord som används för sökning: ', allKeywords);
 
 		navigate('/recommendations', {
-			state: { keywords: keywordsForSearch },
+			state: { keywords: allKeywords },
 		});
 	};
 
@@ -107,7 +149,7 @@ export const Quiz = () => {
 		);
 	}
 
-	if (quiz.length === 0) return <p>Loading...</p>; /* skapa/använd SPINNER */
+	if (quiz.length === 0) return <LoadingSpinner />; /* skapa/använd SPINNER */
 
 	const currentQuestion = quiz[currentQuestionIndex];
 
