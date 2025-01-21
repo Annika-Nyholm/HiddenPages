@@ -25,9 +25,13 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 		setError('');
 		try {
 			const searchQuery =
-				keywords.join(' ') +
-				' -non-fiction -reference -manual -guide' +
-				'&printType=books';
+				'subject:fiction ' +
+				keywords.join(' OR ') + // Fler nyckelord kan matcha
+				' -non-fiction -reference -manual -guide' + 
+				'&langRestrict=sv' + 
+				'&printType=books' + 
+				'&maxResults=10'; 
+
 			const response: IGoogleBooksResponse = await fetchBooks(
 				searchQuery
 			);
@@ -55,7 +59,7 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 	return (
 		<>
 			{loading && <LoadingSpinner />}
-			{error && <p className="error-message">{error}</p>} 
+			{error && <p className='error-message'>{error}</p>}
 			<BookList books={books} />
 		</>
 	);
