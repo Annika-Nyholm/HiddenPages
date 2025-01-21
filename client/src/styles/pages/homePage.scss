@@ -22,9 +22,10 @@
 		flex-direction: column;
 		align-items: flex-start;
 
-		h2 {
+		h1 {
 			text-align: center;
 			padding-block: 0.5rem;
+			color: $red-color;
 		}
 		p {
 			padding-block: 0.5rem;

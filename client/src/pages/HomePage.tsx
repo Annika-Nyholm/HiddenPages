@@ -12,7 +12,7 @@ export const HomePage = () => {
 		<>
 			<section className='homepage-wrapper'>
 				<article className='home-text'>
-					<h2>Välkommen till din nästa bokresa!</h2>
+					<h1>Välkommen till din nästa bokresa!</h1>
 					<p>
 						Har du någonsin känt att du bläddrar genom boksidorna
 						men ändå inte riktigt hittar rätt historia? Tänk om vi
