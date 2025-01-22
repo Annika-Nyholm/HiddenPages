@@ -9,6 +9,7 @@
 		'book fact'
 		'synopsis synopsis';
 	gap: 2rem;
+	padding-bottom: 2rem;
 	h2 {
 		//width: fit-content;
 		grid-area: h2;
@@ -98,13 +99,12 @@
 		}
 		em {
 			font-style: italic;
-			color: #59033c;
 		}
 	}
 }
 @media (max-width: 900px) {
 	.book-details-wrapper {
-		grid-template-columns: 20rem 26rem;
+		grid-template-columns: 18rem 24rem;
 		grid-template-rows: auto;
 		.details-image {
 			height: auto;
@@ -114,7 +114,7 @@
 @media (max-width: 768px) {
 	.book-details-wrapper {
 		max-width: auto;
-		grid-template-columns: 90dvw;
+		grid-template-columns: 80dvw;
 		grid-template-rows: auto;
 		grid-template-areas:
 			'h2'
@@ -128,12 +128,6 @@
 		}
 		.details-fact {
 			overflow-y: auto;
-		}
-		p {
-			font-size: 1rem;
-		}
-		h3 {
-			font-size: 1.125rem;
 		}
 	}
 }

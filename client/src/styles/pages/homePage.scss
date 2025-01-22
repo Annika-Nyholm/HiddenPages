@@ -1,15 +1,11 @@
 .homepage-wrapper {
 	width: 100%;
-	min-height: 100%;
+	min-height: 90dvh;
+	height: 100%;
 	background-image: url('/StockCake-vintage-library-room.webp');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding-block-start: calc(139px + 43px);
-	padding-block-end: 2rem;
+	@include background-cover;
+	@include center-flex;
+	@include page-padding;
 
 	.home-text {
 		width: 80%;
@@ -17,15 +13,15 @@
 		background-color: rgba($light-color, 0.5);
 		-webkit-backdrop-filter: blur(20px);
 		backdrop-filter: blur(20px);
-		padding: 1rem;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		padding: 1rem;
 
-		h1 {
+		h2 {
 			text-align: center;
 			padding-block: 0.5rem;
-			color: $red-color;
+			color: $navy-color;
 		}
 		p {
 			padding-block: 0.5rem;
@@ -43,5 +39,4 @@
 		}
 	}
 }
-// @media (max-width: 768px) {
-//}
+

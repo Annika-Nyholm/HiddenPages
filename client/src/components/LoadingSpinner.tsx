@@ -3,7 +3,7 @@ import '../styles/components/loadingSpinner.scss';
 export const LoadingSpinner = () => {
 	return (
 		<>
-			<article className="spinner-wrapper">
+			<article className="spinner">
 				<svg
                     className="bookworm"
 					height='800px'

@@ -5,6 +5,7 @@ import '../styles/components/quiz.scss';
 import { useNavigate } from 'react-router-dom';
 import { removeFromLocalStorage } from '../services/localStorageService';
 import { LoadingSpinner } from './LoadingSpinner';
+import { Popup } from './Popup';
 
 export const Quiz = () => {
 	const [quiz, setQuiz] = useState<IQuestion[]>([]);
@@ -12,6 +13,7 @@ export const Quiz = () => {
 	const [userAnswers, setUserAnswers] = useState<number[]>([]);
 	const [selectedOption, setSelectedOption] = useState<number | null>(null);
 	const [isQuizStarted, setIsQuizStarted] = useState<boolean>(false);
+	const [isPopupOpen, setPopupOpen] = useState(false);
 
 	const navigate = useNavigate();
 
@@ -28,7 +30,7 @@ export const Quiz = () => {
 
 	const handleNextQuestion = () => {
 		if (selectedOption === null) {
-			alert('Välj ett alternativ innan du går vidare!'); //Popup senare!
+			setPopupOpen(true);
 			return;
 		}
 
@@ -79,7 +81,7 @@ export const Quiz = () => {
 		// Hämta subject nyckelord (börjar på index 3 för ämnesfrågor)
 		const subjectKeywords = userAnswers
 			.map((answerIndex, index) => {
-				const question = quiz[index + 3]; // Index börjar på 3 för ämnesfrågor
+				const question = quiz[index + 3];
 				if (question && question.options[answerIndex]?.keywords) {
 					return question.options[answerIndex].keywords;
 				}
@@ -90,7 +92,7 @@ export const Quiz = () => {
 		// Hämta setting nyckelord (börjar på index 6 för miljöfrågor)
 		const settingKeywords = userAnswers
 			.map((answerIndex, index) => {
-				const question = quiz[index + 6]; // Index börjar på 6 för miljöfrågor
+				const question = quiz[index + 6];
 				if (question && question.options[answerIndex]?.keywords) {
 					return question.options[answerIndex].keywords;
 				}
@@ -98,21 +100,19 @@ export const Quiz = () => {
 			})
 			.flat();
 
-		// Använd getSortedKeywords för att sortera nyckelorden per kategori
 		const sortedGenreKeywords = getSortedKeywords(genreKeywords).slice(
 			0,
 			2
-		); // De 2 mest frekventa från genre
+		);
 		const sortedSubjectKeywords = getSortedKeywords(subjectKeywords).slice(
 			0,
 			2
-		); // De 2 mest frekventa från subject
+		);
 		const sortedSettingKeywords = getSortedKeywords(settingKeywords).slice(
 			0,
 			1
-		); // De 1 mest frekventa från setting
+		);
 
-		// Sammanställ alla nyckelord
 		const allKeywords = [
 			...sortedGenreKeywords.map((k) => k.keyword),
 			...sortedSubjectKeywords.map((k) => k.keyword),
@@ -149,7 +149,12 @@ export const Quiz = () => {
 		);
 	}
 
-	if (quiz.length === 0) return <LoadingSpinner />; /* skapa/använd SPINNER */
+	if (quiz.length === 0)
+		return (
+			<div className='spinner-wrapper'>
+				<LoadingSpinner />
+			</div>
+		); 
 
 	const currentQuestion = quiz[currentQuestionIndex];
 
@@ -212,6 +217,12 @@ export const Quiz = () => {
 					</p>
 				</article>
 			</section>
+			
+			<Popup
+				message='Välj ett alternativ innan du går vidare!'
+				isOpen={isPopupOpen}
+				onClose={() => setPopupOpen(false)}
+			/>
 		</>
 	);
 };

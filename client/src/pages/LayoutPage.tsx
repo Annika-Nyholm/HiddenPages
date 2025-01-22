@@ -6,11 +6,10 @@ import '../styles/pages/layoutPage.scss';
 export const LayoutPage = () => {
 	const location = useLocation();
 
-	const isHomePage = location.pathname === '/';
 	const isBookDetailsPage = location.pathname.includes('/book/');
 
 	return (
-		<div className={isHomePage ? 'home-layout' : isBookDetailsPage ? 'book-details-layout' : 'app-layout'}>
+		<div>
 			{!isBookDetailsPage && <Header />}
 			<main>
 				<Outlet></Outlet>

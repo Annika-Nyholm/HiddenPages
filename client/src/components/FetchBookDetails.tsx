@@ -5,14 +5,14 @@ import { IVolumeInfo } from '../models/apiInterfaces';
 import { BooksContext } from '../contexts/BooksContext';
 import { BookDetails } from './BookDetails';
 import { LoadingSpinner } from './LoadingSpinner';
+import { Popup } from './Popup';
 
 export const FetchBookDetails = () => {
 	const { bookId } = useParams<{ bookId: string }>();
-	console.log('book id från useParams: ', bookId);
-
 	const [bookDetails, setBookDetails] = useState<IVolumeInfo | null>(null);
 	const [loading, setLoading] = useState(true);
 	const [error, setError] = useState<string | null>(null);
+	const [isPopupOpen, setIsPopupOpen] = useState(false);
 
 	const context = useContext(BooksContext);
 	const books = context?.books || [];
@@ -21,14 +21,12 @@ export const FetchBookDetails = () => {
 	console.log('Books from context:', bookFromContext);
 
 	useEffect(() => {
-        console.log('useEffect kördes');
-
 		if (bookFromContext && !bookDetails) {
-            console.log('Bok från context används');
+			console.log('Bok från context används');
 			setBookDetails(bookFromContext.volumeInfo);
 			setLoading(false);
 		} else if (!bookFromContext && bookId && !bookDetails) {
-            console.log('Bok finns inte i context, hämtar från API');
+			console.log('Bok finns inte i context, hämtar från API');
 			const fetchDetails = async () => {
 				setLoading(true);
 				setError(null);
@@ -36,7 +34,7 @@ export const FetchBookDetails = () => {
 				try {
 					if (bookId) {
 						const data = await fetchBookDetails(bookId);
-                        console.log('Bokdata från API:', data);
+						console.log('Bokdata från API:', data);
 						setBookDetails(data);
 					}
 				} catch (err) {
@@ -52,13 +50,30 @@ export const FetchBookDetails = () => {
 		}
 	}, [bookId, bookFromContext, bookDetails]);
 
-    useEffect(() => {
-		console.log('bookDetails uppdaterades: ', bookDetails);
-	}, [bookDetails]);
+	useEffect(() => {
+		if (error || !bookDetails) {
+			setIsPopupOpen(true);
+		}
+	}, [error, bookDetails]);
 
-	if (loading) return <LoadingSpinner />;
-	if (error) return <p className='error-message'>{error}</p>;
-	if (!bookDetails) return <p>Ingen information hittades för denna boken.</p>;
+	const closePopup = () => {
+		setIsPopupOpen(false);
+	};
+
+	if (loading)
+		return (
+			<div className='spinner-wrapper'>
+				<LoadingSpinner />
+			</div>
+		);
+	if (error || !bookDetails)
+		return (
+			<Popup
+				message={error || 'Ingen information hittades för denna bok.'}
+				isOpen={isPopupOpen}
+				onClose={closePopup}
+			/>
+		);
 
 	return <BookDetails book={bookDetails} />;
 };
