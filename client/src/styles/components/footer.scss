@@ -35,17 +35,6 @@
 			max-width: 440px;
 		}
 	}
-	@media (max-height: 800px) {
-		padding-block: 0;
-		.footer-nav {
-			ul {
-				flex-direction: row;
-			}
-		}
-		.footer-info {
-			padding: 1rem;
-		}
-	}
 }
 @media (max-width: 768px) {
 	.footer-wrapper {
@@ -65,17 +54,6 @@
 		.footer-info {
 			width: 100%;
 			padding: 1rem;
-			font-size: 1rem;
-		}
-	}
-	@media (max-height: 800px) {
-		.footer-wrapper {
-			.footer-nav {
-				padding-bottom: 1rem;
-			}
-			.footer-info {
-				display: none;
-			}
 		}
 	}
 }

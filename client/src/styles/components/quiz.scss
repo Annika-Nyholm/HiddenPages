@@ -33,6 +33,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
+		max-width: 38rem;
 
 		h3 {
 			color: $navy-color;
@@ -83,6 +84,7 @@
 
 		p {
 			align-self: flex-end;
+			font-style: italic;
 		}
 	}
 }
@@ -92,15 +94,9 @@
 		padding-inline: 2rem;
 		padding-block: 4rem;
 		gap: 1rem;
-		h2 {
-			font-size: 1.5rem;
-		}
+
 		.start-button {
 			align-self: center;
-		}
-		p {
-			font-size: 1rem;
-			font-style: italic;
 		}
 	}
 
