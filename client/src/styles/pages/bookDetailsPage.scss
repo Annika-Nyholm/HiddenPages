@@ -1,34 +1,35 @@
 .details-page-wrapper {
-    width: 100%;
-    min-height: 100dvh;
-    height: 100%;
-    background-image: url('/StockCake-cozy-reading-nook_meadow.webp');
-    @include background-cover;
+	width: 100%;
+	min-height: 100dvh;
+	height: 100%;
+	background-image: url('/StockCake-cozy-reading-nook_meadow.webp');
+	@include background-cover;
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	align-items: flex-start;
 	justify-content: flex-start;
 
-    padding-inline: 2rem;
-    padding-block: 2rem;
-    button {
-        color: $light-color;
-        font-size: 1rem;
-        font-style: italic;
-        background: transparent;
-        padding: 1rem;
-        border: none;
-        display: flex;
-        cursor: pointer;
-        margin-bottom: 1rem;
-        svg {
-            padding: 2px;
-        }
-    }
+	padding-inline: 2rem;
+	padding-block: 2rem;
+	button {
+		color: $light-color;
+		font-size: 1rem;
+		font-style: italic;
+		background: transparent;
+		padding: 1rem;
+		border: none;
+		display: flex;
+		cursor: pointer;
+		margin-bottom: 1rem;
+		svg {
+			padding: 2px;
+		}
+	}
 }
 @media (max-width: 900px) {
-    .details-page-wrapper {
-        padding-inline: 0;
-        padding-block: 1rem;
-    }
+	.details-page-wrapper {
+		background-image: url('/StockCake-cozy-reading-nook_meadow-mobile.webp');
+		padding-inline: 0;
+		padding-block: 1rem;
+	}
 }

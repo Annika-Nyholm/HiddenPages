@@ -6,4 +6,8 @@
 	@include background-cover;
 	@include center-flex;
 	@include page-padding;
+
+	@media (max-width: 900px) {
+		background-image: url('/StockCake-antique-parchment-mobile.webp');
+	}
 }

@@ -1,10 +1,18 @@
 .recommendation-wrapper {
-    width: 100%;
+	width: 100%;
 	min-height: 90dvh;
 	height: 100%;
 	background-image: url('/StockCake-antique-library.webp');
-    background-blend-mode: darken;
+	background-blend-mode: darken;
 	@include background-cover;
 	@include center-flex;
 	@include page-padding;
+
+	@media (max-width: 1024px) {
+		background-image: url('/StockCake-antique-library-tablet.webp');
+	}
+
+	@media (max-width: 768px) {
+		background-image: url('/StockCake-antique-library-mobile.webp');
+	}
 }
