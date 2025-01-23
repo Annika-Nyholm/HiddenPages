@@ -67,7 +67,11 @@ export const Quiz = () => {
 	};
 
 	const handleShowRecommendations = () => {
-		// Hämta genre nyckelord
+		if (selectedOption === null) {
+			setPopupOpen(true); 
+			return;
+		}
+		// Hämta genrenyckelord
 		const genreKeywords = userAnswers
 			.map((answerIndex, index) => {
 				const question = quiz[index];
@@ -78,7 +82,7 @@ export const Quiz = () => {
 			})
 			.flat();
 
-		// Hämta subject nyckelord (börjar på index 3 för ämnesfrågor)
+		// Hämta subjectnyckelord (börjar på index 3 för ämnesfrågor)
 		const subjectKeywords = userAnswers
 			.map((answerIndex, index) => {
 				const question = quiz[index + 3];
@@ -89,7 +93,7 @@ export const Quiz = () => {
 			})
 			.flat();
 
-		// Hämta setting nyckelord (börjar på index 6 för miljöfrågor)
+		// Hämta settingnyckelord (börjar på index 6 för miljöfrågor)
 		const settingKeywords = userAnswers
 			.map((answerIndex, index) => {
 				const question = quiz[index + 6];
