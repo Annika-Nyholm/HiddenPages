@@ -2,34 +2,27 @@
 	max-width: 1200px;
 	align-self: center;
 	display: grid;
-	grid-template-rows: auto 35rem auto;
-	grid-template-columns: 22rem 30rem;
+	grid-template-rows: 30rem auto;
+	grid-template-columns: 20rem 28rem;
 	grid-template-areas:
-		'h2 h2'
 		'book fact'
 		'synopsis synopsis';
 	gap: 2rem;
 	padding-bottom: 2rem;
-	h2 {
-		//width: fit-content;
-		grid-area: h2;
-        color: $navy-color;
-        background: $background-light;
-		-webkit-backdrop-filter: blur(10px);
-		backdrop-filter: blur(10px);
-        padding-inline: 0.5rem;
-    }
 
 	.details-image {
 		grid-area: book;
 		width: 100%;
-		height: 35rem;
+		padding-block: 2rem;
+
 		aspect-ratio: 6 / 9;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 
 		img {
-			width: 100%;
-			height: 100%;
-			object-fit: cover;
+			object-fit: contain;
 			object-position: center;
 		}
 	}
@@ -106,9 +99,6 @@
 	.book-details-wrapper {
 		grid-template-columns: 18rem 24rem;
 		grid-template-rows: auto;
-		.details-image {
-			height: auto;
-		}
 	}
 }
 @media (max-width: 768px) {
@@ -117,13 +107,13 @@
 		grid-template-columns: 80dvw;
 		grid-template-rows: auto;
 		grid-template-areas:
-			'h2'
 			'book'
 			'fact'
 			'synopsis';
 		gap: 1rem;
 
 		.details-image {
+			aspect-ratio: 0;
 			height: auto;
 		}
 		.details-fact {
