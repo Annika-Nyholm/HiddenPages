@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/components/bookCard.scss';
+import { SyntheticEvent } from 'react';
 
 interface IBookCardProps {
 	id: string;
@@ -54,7 +55,7 @@ export const BookCard = ({
 	};
 
 	const handleImageError = (
-		event: React.SyntheticEvent<HTMLImageElement, Event>
+		event: SyntheticEvent<HTMLImageElement, Event>
 	) => {
 		event.currentTarget.src = '/HP-placeholder-img.webp';
 	};

@@ -38,5 +38,11 @@
 			);
 		}
 	}
-}
+	@media (max-width: 1024px) {
+		background-image: url('/StockCake-vintage-library-room-tablet.webp');
+	}
 
+	@media (max-width: 768px) {
+		background-image: url('/StockCake-vintage-library-room-mobile.webp');
+	}
+}

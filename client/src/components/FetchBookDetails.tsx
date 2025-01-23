@@ -6,6 +6,7 @@ import { BooksContext } from '../contexts/BooksContext';
 import { BookDetails } from './BookDetails';
 import { LoadingSpinner } from './LoadingSpinner';
 import { Popup } from './Popup';
+import { executeWithLoadingAndErrorHandling } from '../utils/asyncHelpers';
 
 export const FetchBookDetails = () => {
 	const { bookId } = useParams<{ bookId: string }>();
@@ -20,32 +21,29 @@ export const FetchBookDetails = () => {
 	const bookFromContext = books.find((book) => book.id === bookId);
 	console.log('Books from context:', bookFromContext);
 
+	
 	useEffect(() => {
 		if (bookFromContext && !bookDetails) {
 			console.log('Bok från context används');
+			
 			setBookDetails(bookFromContext.volumeInfo);
 			setLoading(false);
 		} else if (!bookFromContext && bookId && !bookDetails) {
-			console.log('Bok finns inte i context, hämtar från API');
 			const fetchDetails = async () => {
-				setLoading(true);
-				setError(null);
-
-				try {
-					if (bookId) {
-						const data = await fetchBookDetails(bookId);
-						console.log('Bokdata från API:', data);
-						setBookDetails(data);
-					}
-				} catch (err) {
-					console.error(err);
-					setError(
-						'Kunde inte hämta bokdetaljer. Försök igen senare.'
-					);
-				} finally {
-					setLoading(false);
-				}
+				await executeWithLoadingAndErrorHandling(
+					async () => {
+						if (bookId) {
+							const data = await fetchBookDetails(bookId);
+							console.log('Bokdata från API:', data);
+							setBookDetails(data);
+						}
+					},
+					setLoading,
+					setError
+				);
 			};
+			console.log('Bok finns inte i context, hämtar från API');
+
 			fetchDetails();
 		}
 	}, [bookId, bookFromContext, bookDetails]);
