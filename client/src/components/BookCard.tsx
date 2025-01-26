@@ -7,7 +7,7 @@ interface IBookCardProps {
 	title: string;
 	authors: string[];
 	imageURL: string;
-	rating?: number; // Betyg från Google Books
+	rating?: number; // Rating from google books
 	ratingsCount?: number;
 	genre?: string;
 	year?: string;
