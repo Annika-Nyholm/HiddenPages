@@ -1,5 +1,9 @@
 import { useNavigate } from 'react-router-dom';
 import '../styles/pages/homePage.scss';
+// import { useAuth0 } from '@auth0/auth0-react';
+// import { Auth0Login } from '../components/Auth0Login';
+// import { Auth0Logout } from '../components/Auth0Logout';
+// import { Auth0User } from '../components/Auth0User';
 
 export const HomePage = () => {
 	const navigate = useNavigate();
@@ -8,9 +12,22 @@ export const HomePage = () => {
 		navigate('/quiz');
 	};
 
+	// const { isLoading, error } = useAuth0();
+
 	return (
 		<>
 			<section className='homepage-wrapper'>
+				{/* <article className='login-wrapper'>
+					{error && <p>Inloggnings fel</p>}
+					{!error && isLoading && <p>Laddar...</p>}
+					{!error && !isLoading && (
+						<>
+							<Auth0Login />
+							<Auth0Logout />
+							<Auth0User />
+						</>
+					)}
+				</article> */}
 				<article className='home-text'>
 					<h2>Välkommen till din nästa bokresa!</h2>
 					<p>

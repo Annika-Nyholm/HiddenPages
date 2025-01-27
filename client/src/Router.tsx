@@ -5,6 +5,7 @@ import { QuizPage } from './pages/QuizPage';
 import { BookRecommendationsPage } from './pages/BookRecommendationsPage';
 import { BookDetailsPage } from './pages/BookDetailsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { Auth0CallbackPage } from './pages/Auth0CallbackPage';
 
 export const Router = createBrowserRouter([
 	{
@@ -26,6 +27,10 @@ export const Router = createBrowserRouter([
 			{
 				path: '/book/:bookId',
 				element: <BookDetailsPage />,
+			},
+			{
+				path: '/callback',
+				element: <Auth0CallbackPage />
 			},
 		],
 	},

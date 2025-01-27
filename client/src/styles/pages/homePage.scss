@@ -7,6 +7,11 @@
 	@include center-flex;
 	@include page-padding;
 
+	.login-wrapper {
+		background-color: rgba($light-color, 0.5);
+		padding: 2rem;
+	}
+
 	.home-text {
 		width: 80%;
 		max-width: 660px;
