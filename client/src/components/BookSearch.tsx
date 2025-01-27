@@ -81,7 +81,7 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 					onClose={closePopup}
 				/>
 			)}
-			<BookList books={books} />
+			{!error && !loading && <BookList books={books} />}
 		</>
 	);
 };

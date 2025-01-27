@@ -72,7 +72,7 @@ export const Header = () => {
 										</Link>
 									</li>
 									<li>
-										<Link to='/'>FAQ</Link>
+										<Link to='/faq'>FAQ</Link>
 									</li>
 								</ul>
 							</nav>
@@ -96,7 +96,7 @@ export const Header = () => {
 									</Link>
 								</li>
 								<li>
-									<Link to='/' onClick={toggleMenu}>FAQ</Link>
+									<Link to='/faq' onClick={toggleMenu}>FAQ</Link>
 								</li>
 							</ul>
 						</nav>
