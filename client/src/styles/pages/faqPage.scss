@@ -1,0 +1,35 @@
+.faq-wrapper {
+	width: 100%;
+	min-height: 90dvh;
+	height: 100%;
+	background-image: url('/StockCake-autumn-reading-nook.webp');
+	@include background-cover;
+	@include center-flex;
+	@include page-padding;
+    flex-direction: column;
+    gap: 2rem;
+
+	.faq-item {
+        width: 80%;
+		max-width: 660px;
+        background-color: rgba($light-color, 0.5);
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
+        padding-block: 1rem;
+        padding-inline: 1rem;
+        h3 {
+            color: $navy-color;
+            padding-block: 1rem;
+        }
+        p {
+            padding-block-end: 1rem;
+        }
+	}
+	@media (max-width: 1024px) {
+		background-image: url('/StockCake-autumn-reading-nook_tablet.webp');
+	}
+
+	@media (max-width: 768px) {
+		background-image: url('/StockCake-autumn-reading-nook_mobile.webp');
+	}
+}

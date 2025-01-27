@@ -17,7 +17,7 @@ export const Footer = () => {
 							<Link to='/recommendations'>Mina böcker</Link>
 						</li>
 						<li>
-							<Link to='/'>FAQ</Link>
+							<Link to='/faq'>FAQ</Link>
 						</li>
 					</ul>
 				</nav>

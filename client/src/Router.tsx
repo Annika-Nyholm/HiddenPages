@@ -5,6 +5,7 @@ import { QuizPage } from './pages/QuizPage';
 import { BookRecommendationsPage } from './pages/BookRecommendationsPage';
 import { BookDetailsPage } from './pages/BookDetailsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { FaqPage } from './pages/FaqPage';
 
 export const Router = createBrowserRouter([
 	{
@@ -22,6 +23,10 @@ export const Router = createBrowserRouter([
 			{
 				path: '/recommendations',
 				element: <BookRecommendationsPage />,
+			},
+			{
+				path: '/faq',
+				element: <FaqPage />,
 			},
 			{
 				path: '/book/:bookId',
