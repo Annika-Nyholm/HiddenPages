@@ -54,6 +54,13 @@ export const BookCard = ({
 		);
 	};
 
+	const handleImageUrl = (url: string | undefined) => {
+		if (url && url.startsWith('http://')) {
+			return url.replace('http://', 'https://');
+		}
+		return url;
+	};
+
 	const handleImageError = (
 		event: SyntheticEvent<HTMLImageElement, Event>
 	) => {
@@ -76,7 +83,7 @@ export const BookCard = ({
 			>
 				<article className='card-image'>
 					<img
-						src={imageURL}
+						src={handleImageUrl(imageURL)}
 						alt={`Bokomslag för boktitel: ${title}`}
 						width={100}
 						height={150}
