@@ -68,7 +68,7 @@ export const Quiz = () => {
 
 	const handleShowRecommendations = () => {
 		if (selectedOption === null) {
-			setPopupOpen(true); 
+			setPopupOpen(true);
 			return;
 		}
 		// Hämta genrenyckelord
@@ -136,8 +136,9 @@ export const Quiz = () => {
 				<article className='quiz-start'>
 					<h2>Välkommen till Quizet!</h2>
 					<p>
-						Något peppande och inspirerande skulle kanske kunna stå
-						här. Let´s go!
+						Dags att ta reda på vad för typ av bokmal du är! 🐛
+						Svara på några frågor, ha kul, och få boktips som passar
+						dig perfekt. Nu kör vi!
 					</p>
 					<button
 						className='start-button'
@@ -158,7 +159,7 @@ export const Quiz = () => {
 			<div className='spinner-wrapper'>
 				<LoadingSpinner />
 			</div>
-		); 
+		);
 
 	const currentQuestion = quiz[currentQuestionIndex];
 
@@ -221,7 +222,7 @@ export const Quiz = () => {
 					</p>
 				</article>
 			</section>
-			
+
 			<Popup
 				message='Välj ett alternativ innan du går vidare!'
 				isOpen={isPopupOpen}
