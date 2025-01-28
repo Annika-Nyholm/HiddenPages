@@ -45,8 +45,8 @@
 		right: 0;
 		bottom: 0;
 		background: linear-gradient(90deg, $light-color, $gold-color);
-		background-clip: text;
 		-webkit-background-clip: text;
+		background-clip: text;
 		-webkit-text-fill-color: transparent;
 		font-size: inherit;
 		font-weight: inherit;
@@ -62,8 +62,8 @@
 
 		&::before {
 			background: linear-gradient(270deg, $gold-color, $light-color);
-			background-clip: text;
 			-webkit-background-clip: text;
+			background-clip: text;
 			-webkit-text-fill-color: transparent;
 		}
 	}

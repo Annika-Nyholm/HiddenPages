@@ -2,7 +2,7 @@
 	flex: 0 0 auto;
 	width: 31.25rem;
 	height: 20rem;
-	overflow-block: hidden;
+	overflow-y: hidden;
 	background: linear-gradient(
 		90deg,
 		transparent 10%,
@@ -12,7 +12,8 @@
 	display: flex;
 	cursor: pointer;
 	transition: transform 0.2s, box-shadow 0.2s;
-	//scroll-snap-align: start;
+	text-decoration: none;
+	color: inherit;
 	&:hover {
 		transform: scale(1.02);
 		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -73,7 +74,6 @@
 			transparent 70%,
 			rgba($light-color, 0.6) 10%
 		);
-		//background: rgba($light-color, 0.7);
 		scroll-snap-align: start;
 
 		.card-image {
@@ -100,9 +100,6 @@
 				width: 100%;
 				gap: 0;
 
-				// h3 {
-				// 	//font-size: 1rem;
-				// }
 				p {
 					display: none;
 				}
