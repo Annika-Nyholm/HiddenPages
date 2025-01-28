@@ -2,7 +2,9 @@
 	background-color: rgba(white, 0.5);
 	-webkit-backdrop-filter: blur(10px);
 	backdrop-filter: blur(10px);
-	padding: 6rem;
+	padding-block: 2rem;
+	padding-inline: 4rem;
+	max-width: 40rem;
 	display: flex;
 	flex-direction: column;
 	gap: 1.5rem;
@@ -91,8 +93,8 @@
 @media (max-width: 768px) {
 	.quiz-start {
 		max-width: 90%;
-		padding-inline: 2rem;
-		padding-block: 4rem;
+		padding-inline: 1rem;
+		padding-block: 2rem;
 		gap: 1rem;
 
 		.start-button {
