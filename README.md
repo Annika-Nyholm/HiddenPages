@@ -17,9 +17,12 @@ Check out the live version of Hidden Pages: [Hidden Pages App](https://salmon-cl
 ## Screen Shots
 
 ![Home Page](client/public/HiddenPages_screengrab_home.png)
-![Quiz Page](HP_screenshot_quizpage.png)
-![Recommendations Page](HP_screenshot_bookrecommendationPage.png)
-![Book Details Page](HP_screenshot_bookdetails.png)
+
+![Quiz Page](client/public/HP_screenshot_quizpage.png)
+
+![Recommendations Page](client/public/HP_screenshot_bookrecommendationPage.png)
+
+![Book Deatils Page](client/public/HP_screenshot_bookdetails.png)
 
 ## Technologies Used
 
