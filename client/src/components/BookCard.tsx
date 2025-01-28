@@ -1,6 +1,6 @@
-import { useNavigate } from 'react-router-dom';
 import '../styles/components/bookCard.scss';
 import { SyntheticEvent } from 'react';
+import { Link } from 'react-router-dom';
 
 interface IBookCardProps {
 	id: string;
@@ -23,12 +23,6 @@ export const BookCard = ({
 	genre,
 	year,
 }: IBookCardProps) => {
-	const navigate = useNavigate();
-
-	const handleClick = () => {
-		navigate(`/book/${id}`, { state: { fromBookList: true } });
-	};
-
 	const displayAuthors = () => {
 		if (!Array.isArray(authors) || authors.length === 0) {
 			return 'Okänd författare';
@@ -69,18 +63,7 @@ export const BookCard = ({
 
 	return (
 		<>
-			<section
-				className='card'
-				role='button'
-				tabIndex={0}
-				onClick={handleClick}
-				onKeyDown={(e) => {
-					if (e.key === 'Enter' || e.key === ' ') {
-						e.preventDefault();
-						handleClick();
-					}
-				}}
-			>
+			<Link to={`/book/${id}`} className='card'>
 				<article className='card-image'>
 					<img
 						src={handleImageUrl(imageURL)}
@@ -104,7 +87,7 @@ export const BookCard = ({
 						<span className='click-indicator'>Mer info →</span>
 					</div>
 				</article>
-			</section>
+			</Link>
 		</>
 	);
 };
