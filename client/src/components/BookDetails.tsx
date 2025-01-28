@@ -1,3 +1,4 @@
+import { SyntheticEvent } from 'react';
 import { IVolumeInfo } from '../models/apiInterfaces';
 import '../styles/components/bookDetails.scss';
 import { sanitizeHtml } from '../utils/HTMLsanitize';
@@ -10,8 +11,21 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 	const sanitizedDescription = sanitizeHtml(
 		book.description || 'Ingen beskrivning tillgänglig.'
 	);
-	
+
 	const authors = Array.isArray(book.authors) ? book.authors : [];
+
+	const handleImageUrl = (url: string | undefined) => {
+		if (url && url.startsWith('http://')) {
+			return url.replace('http://', 'https://');
+		}
+		return url;
+	};
+
+	const handleImageError = (
+		event: SyntheticEvent<HTMLImageElement, Event>
+	) => {
+		event.currentTarget.src = '/HP-placeholder-img.webp';
+	};
 
 	return (
 		<>
@@ -19,13 +33,13 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 				<article className='details-image'>
 					<img
 						src={
-							book.imageLinks.medium ||
-							book.imageLinks.thumbnail ||
-							'placeholder.webp'
+							handleImageUrl(book.imageLinks?.medium) ||
+							handleImageUrl(book.imageLinks?.thumbnail)
 						}
 						alt={`Bokomslag för ${book.title}`}
 						width={200}
 						height={300}
+						onError={handleImageError}
 					/>
 				</article>
 				<article className='details-fact text-box'>
@@ -39,7 +53,9 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 						</li>
 						<li>
 							<strong>Författare:</strong>{' '}
-							{authors.length > 0 ? authors.join(', ') : 'Okänd författare'}{' '}
+							{authors.length > 0
+								? authors.join(', ')
+								: 'Okänd författare'}{' '}
 						</li>
 						<li>
 							<strong>Kategorier:</strong>{' '}
@@ -63,8 +79,7 @@ export const BookDetails = ({ book }: IBookDetailsProps) => {
 				<article
 					className='details-synopsis text-box'
 					dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
-				>
-				</article>
+				></article>
 			</section>
 		</>
 	);
