@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../styles/components/header.scss';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 export const Header = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -47,10 +47,10 @@ export const Header = () => {
 							<nav className='nav left-menu'>
 								<ul>
 									<li>
-										<Link to='/'>Hem</Link>
+										<NavLink to='/'>Hem</NavLink>
 									</li>
 									<li>
-										<Link to='/quiz'>Quiz</Link>
+										<NavLink to='/quiz'>Quiz</NavLink>
 									</li>
 								</ul>
 							</nav>
@@ -60,19 +60,19 @@ export const Header = () => {
 										src='/HiddenP_logo.webp'
 										alt='hidden pages logo'
 										width={200}
-										height={130}
+										height={108}
 									/>
 								</Link>
 							</nav>
 							<nav className='nav right-menu'>
 								<ul>
 									<li>
-										<Link to='/recommendations'>
+										<NavLink to='/recommendations'>
 											Mina böcker
-										</Link>
+										</NavLink>
 									</li>
 									<li>
-										<Link to='/faq'>FAQ</Link>
+										<NavLink to='/faq'>FAQ</NavLink>
 									</li>
 								</ul>
 							</nav>

@@ -41,6 +41,9 @@
 		}
 		a {
 			color: $darker-navy-color;
+			&:hover {
+				color: $red-color;
+			}
 		}
 
 		/* WebKit styles */

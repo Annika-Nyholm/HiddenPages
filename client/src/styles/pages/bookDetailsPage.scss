@@ -21,8 +21,12 @@
 		display: flex;
 		cursor: pointer;
 		margin-bottom: 1rem;
+		transition: scale 0.3s;
 		svg {
 			padding: 2px;
+		}
+		&:hover {
+			scale: 1.1;
 		}
 	}
 }
