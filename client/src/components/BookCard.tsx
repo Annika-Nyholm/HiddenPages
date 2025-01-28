@@ -63,7 +63,11 @@ export const BookCard = ({
 
 	return (
 		<>
-			<Link to={`/book/${id}`} className='card'>
+			<Link
+				to={`/book/${id}`}
+				className='card'
+				state={{ fromBookList: true }}
+			>
 				<article className='card-image'>
 					<img
 						src={handleImageUrl(imageURL)}
