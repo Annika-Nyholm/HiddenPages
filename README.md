@@ -14,6 +14,10 @@ With its clean design, mobile responsiveness, and intuitive navigation, Hidden P
 
 Check out the live version of Hidden Pages: [Hidden Pages App](https://salmon-cliff-059181903.4.azurestaticapps.net/)
 
+## Screen Shots
+
+![Home Page](client/public/HiddenPages_screengrab_home.png)
+
 ## Technologies Used
 
 -   **React** - A JavaScript library for building user interfaces.
