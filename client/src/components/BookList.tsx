@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { IGoogleBooksResponse } from '../models/apiInterfaces';
 import '../styles/components/bookList.scss';
 import { BookCard } from './BookCard';
+import { Link } from 'react-router-dom';
 
 interface IBookListProps {
 	books: IGoogleBooksResponse['items'];
@@ -23,7 +24,14 @@ export const BookList = ({ books }: IBookListProps) => {
 		<>
 			<div className='book-list-wrapper'>
 				<article ref={listRef} className='book-list'>
-					{books.length === 0 && <p>Inga resultat.</p>}
+					{books.length === 0 && (
+						<div className="take-quiz-wrapper">
+						<img src="/HP_bookworm_quiz.webp" alt="Bookworm som håller en skylt med texten: Take the quiz" />
+						<h3>Oj, inga böcker här just nu!</h3>
+						<p>Det verkar som att bokhyllan är tom... men oroa dig inte! Ta ett quiz och hitta böcker som matchar just din smak.</p>
+						<Link to="/quiz" aria-label='Länk till quizsidan'>Mot Quizet!</Link>
+					  </div>
+						)}
 					{books.map((book) => {
 						const imageUrl =
 							book.volumeInfo.imageLinks?.medium ||
