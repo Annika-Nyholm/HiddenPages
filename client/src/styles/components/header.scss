@@ -52,7 +52,12 @@
 
 					&:hover {
 						text-decoration: underline;
+						text-underline-offset: 4px;
 						text-decoration-color: $gold-color;
+					}
+					&[aria-current='page'] {
+						text-decoration: underline;
+						text-underline-offset: 4px;
 					}
 				}
 			}
