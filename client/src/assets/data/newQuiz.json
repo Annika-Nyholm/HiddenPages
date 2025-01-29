@@ -40,7 +40,7 @@
         },
         {
             "id": 2,
-            "question": "En bok om en ensam detektiv som navigerar genom mörka gator för att lösa ett mystiskt mordfallet i en regnig stad. Vad väcker din nyfikenhet mest?",
+            "question": "En bok om en ensam detektiv som navigerar genom mörka gator för att lösa ett mystiskt mordfall i en regnig stad. Vad väcker din nyfikenhet mest?",
             "options": [
                 {
                     "text": "Jag älskar när karaktären dras in i en komplex och dyster mordutredning.",
@@ -736,6 +736,251 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": 23,
+            "question": "Du hittar en gammal bok med en konstig titel. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag öppnar den direkt – jag älskar att avslöja hemligheter!",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "text": "Jag letar efter kartor och tecken på äventyr.",
+                    "keywords": [
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag kollar på omslaget och funderar på vilka fantastiska världar som kan finnas i boken.",
+                    "keywords": [
+                        "Fantasy"
+                    ]
+                },
+                {
+                    "text": "Jag känner på boken och undrar om det döljer sig en klassisk romantik mellan sidorna.",
+                    "keywords": [
+                        "Romance"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Vilken typ av berättelse lockar dig mest?",
+            "options": [
+                {
+                    "text": "En spännande historia som håller mig på helspänn.",
+                    "keywords": [
+                        "Thriller",
+                        "Mystery"
+                    ]
+                },
+                {
+                    "text": "En rörande berättelse som får mig att gråta.",
+                    "keywords": [
+                        "Romance",
+                        "Drama"
+                    ]
+                },
+                {
+                    "text": "Ett episkt äventyr med massor av vändningar.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "En humoristisk och lättsam berättelse som får mig att skratta högt.",
+                    "keywords": [
+                        "Comedy",
+                        "Humor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Du får en gammal karta med en X-markering. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag letar efter en skatt!",
+                    "keywords": [
+                        "Adventure",
+                        "Treasure"
+                    ]
+                },
+                {
+                    "text": "Jag undersöker kartan noggrant för att hitta ledtrådar.",
+                    "keywords": [
+                        "Mystery",
+                        "Investigation"
+                    ]
+                },
+                {
+                    "text": "Jag ser framför mig en romantisk historia där skatten är kärlek.",
+                    "keywords": [
+                        "Romance",
+                        "Love"
+                    ]
+                },
+                {
+                    "text": "Jag skrattar åt den gamla kartan och funderar på om det bara är en rolig prank.",
+                    "keywords": [
+                        "Comedy",
+                        "Humor"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "question": "Du är en hjälte i en berättelse. Vad är din roll?",
+            "options": [
+                {
+                    "text": "En modig trollkarl som besegrar mörka krafter med magi och list.",
+                    "keywords": [
+                        "Fantasy",
+                        "Magic",
+                        "Heroes"
+                    ]
+                },
+                {
+                    "text": "En klurig detektiv som alltid löser brott, även när alla andra ger upp.",
+                    "keywords": [
+                        "Mystery",
+                        "Crime",
+                        "Detective"
+                    ]
+                },
+                {
+                    "text": "En excentrisk uppfinnare som bygger en tidsmaskin för att rädda världen.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Innovation",
+                        "Time Travel"
+                    ]
+                },
+                {
+                    "text": "En hjälpsam superhjälte som räddar världen på en lunchrast.",
+                    "keywords": [
+                        "Superhero",
+                        "Adventure",
+                        "Action"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "question": "Du hittar en mystisk lampa. Vad önskar du dig?",
+            "options": [
+                {
+                    "text": "Oändliga äventyr och nya världar att utforska.",
+                    "keywords": [
+                        "Fantasy",
+                        "Adventure",
+                        "Magic"
+                    ]
+                },
+                {
+                    "text": "Visdom och kunskap från hela världen.",
+                    "keywords": [
+                        "Philosophy",
+                        "Insight"
+                    ]
+                },
+                {
+                    "text": "En livslång vänskap med någon speciell.",
+                    "keywords": [
+                        "Romance",
+                        "Friendship"
+                    ]
+                },
+                {
+                    "text": "Att alla mysterier i världen ska avslöjas.",
+                    "keywords": [
+                        "Mystery",
+                        "Thriller"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "question": "Du träffar en vän som avslöjar att de är en vampyr. Hur reagerar du?",
+            "options": [
+                {
+                    "text": "Jag frågar om deras livshistoria – det låter fascinerande!",
+                    "keywords": [
+                        "Horror",
+                        "Thriller"
+                    ]
+                },
+                {
+                    "text": "Jag springer därifrån, livrädd.",
+                    "keywords": [
+                        "Feel-good",
+                        "Lighthearted"
+                    ]
+                },
+                {
+                    "text": "Jag försöker lära mig mer om deras samhälle.",
+                    "keywords": [
+                        "Society",
+                        "Culture"
+                    ]
+                },
+                {
+                    "text": "Jag ber dem att visa mig deras hemliga värld.",
+                    "keywords": [
+                        "Fantasy",
+                        "Mystery",
+                        "Adventure"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "question": "Du står inför ett hemligt tomatsås-uppdrag. Vad gör du?",
+            "options": [
+                {
+                    "text": "Jag skapar en tomatsås så perfekt att den kan förvandla vem som helst till en gourmet-kock.",
+                    "keywords": [
+                        "Cooking",
+                        "Magic",
+                        "Adventure"
+                    ]
+                },
+                {
+                    "text": "Jag ger tomatsåsen en egen identitet och startar en restaurang där alla rätter är baserade på denna mystiska sås.",
+                    "keywords": [
+                        "Fantasy",
+                        "Business",
+                        "Food"
+                    ]
+                },
+                {
+                    "text": "Jag hittar den hemliga ingrediensen som gör tomatsåsen till ett universellt vapen, som kan rädda världen.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Action",
+                        "Superpowers"
+                    ]
+                },
+                {
+                    "text": "Jag förlorar mig i tomatsåsens magi och börjar tro att jag är en tomat – hela världen förlorar sig i min dröm.",
+                    "keywords": [
+                        "Surrealism",
+                        "Dreams",
+                        "Food Fantasy"
+                    ]
+                }
+            ]
         }
     ],
     "subject_questions": [
@@ -760,7 +1005,7 @@
                 {
                     "text": "Studerar drakens beteende på avstånd för att förstå mer om dess natur.",
                     "keywords": [
-                        "Dragos"
+                        "Dragons"
                     ]
                 },
                 {
@@ -855,16 +1100,14 @@
                     "text": "Jag reser till en värld där flygande städer svävar bland molnen och teknologin känns som magi.",
                     "keywords": [
                         "Sky Cities",
-                        "Innovation",
-                        "Adventure"
+                        "Innovation"
                     ]
                 },
                 {
                     "text": "Jag vill till en dimension där naturen regerar och gigantiska träd bildar en evig skog full av mystiska varelser.",
                     "keywords": [
                         "Nature",
-                        "Mystical Creatures",
-                        "Exploration"
+                        "Mystical Creatures"
                     ]
                 },
                 {
@@ -879,8 +1122,7 @@
                     "text": "Jag utforskar en värld under vatten där civilisationer lever i glaskupoler bland färgglada korallrev.",
                     "keywords": [
                         "Underwater Cities",
-                        "Marine Life",
-                        "Imagination"
+                        "Marine Life"
                     ]
                 }
             ]
@@ -1086,8 +1328,7 @@
                     "text": "Jag hjälper till med forskningen för att hitta en lösning.",
                     "keywords": [
                         "Science",
-                        "Animals",
-                        "Investigation"
+                        "Animals"
                     ]
                 },
                 {
@@ -1109,38 +1350,35 @@
         },
         {
             "id": 11,
-            "question": "Du är en åskådare på en olycksplats och ser hur räddningstjänsten arbetar under stressiga förhållanden. Vad fokuserar du på?",
+            "question": "Du får välja en unik förmåga från en bok. Vilken tar du?",
             "options": [
                 {
-                    "text": "Jag observerar de modiga räddningsarbetarna och deras förmåga att hålla lugnet.",
+                    "text": "Förmågan att utforska fantastiska världar som aldrig tidigare har setts.",
                     "keywords": [
-                        "Courage",
-                        "Heroism",
-                        "Resilience"
+                        "Fantasy",
+                        "World-building"
                     ]
                 },
                 {
-                    "text": "Jag följer hur människorna i området hanterar chocken och sina känslor.",
+                    "text": "Förmågan att lösa gamla mysterier genom att läsa gamla dagböcker och gömda brev.",
                     "keywords": [
-                        "Psychology",
-                        "Humanity",
-                        "Emotions"
+                        "Secrets",
+                        "History"
                     ]
                 },
                 {
-                    "text": "Jag reflekterar över hur samhället kan vara bättre förberett för denna typ av situationer.",
+                    "text": "Förmågan att förstå djurens språk och hjälpa dem i deras svårigheter.",
                     "keywords": [
-                        "Society",
-                        "Preparation",
-                        "Crisis Management"
+                        "Animal Fiction",
+                        "Friendship",
+                        "Nature"
                     ]
                 },
                 {
-                    "text": "Jag tänker på vad som krävs för att överleva och ta sig igenom svåra situationer.",
+                    "text": "Förmågan att ge liv åt föremål i din omgivning, så att de kan hjälpa dig på din resa.",
                     "keywords": [
-                        "Survival",
-                        "Adversity",
-                        "Strength"
+                        "Magical Creatures",
+                        "Magical Realism"
                     ]
                 }
             ]
@@ -1166,7 +1404,8 @@
                 {
                     "text": "Jag läser en bok om hemliga agenter och försöker förstå hur jag kan bli lika cool som dem, men med bättre stil.",
                     "keywords": [
-                        "Action"
+                        "Action",
+                        "Sports"
                     ]
                 },
                 {
@@ -1186,14 +1425,14 @@
                     "text": "Jag följer kartan och söker efter äventyret som väntar.",
                     "keywords": [
                         "Treasure Hunt",
-                        "Exploration"
+                        "Adrenaline"
                     ]
                 },
                 {
                     "text": "Jag går på en jakt efter ledtrådar och får plötsligt upptäcka gamla ruiner.",
                     "keywords": [
                         "Ruins",
-                        "Discovery"
+                        "Antiques"
                     ]
                 },
                 {
@@ -1206,7 +1445,8 @@
                 {
                     "text": "Jag låter mig själv drömma om vad som kan finnas gömt, som om kartan var nyckeln till en helt ny värld.",
                     "keywords": [
-                        "Imagination"
+                        "Imagination",
+                        "Dreams"
                     ]
                 }
             ]
@@ -1218,7 +1458,7 @@
                 {
                     "text": "Jag konfronterar dem direkt för att få veta sanningen.",
                     "keywords": [
-                        "Secrets",
+                        "Courage",
                         "Relationships"
                     ]
                 },
@@ -1226,15 +1466,14 @@
                     "text": "Jag undersöker på egen hand för att få svar.",
                     "keywords": [
                         "Investigation",
-                        "Suspense"
+                        "Lurking"
                     ]
                 },
                 {
                     "text": "Jag försöker använda hemligheten för att förstå mig själv bättre.",
                     "keywords": [
                         "Self-Discovery",
-                        "Growth",
-                        "Drama"
+                        "Growth"
                     ]
                 },
                 {
@@ -1254,26 +1493,31 @@
                 {
                     "text": "Jag följer bokens råd och reser till den mystiska världen.",
                     "keywords": [
-                        "Magic"
+                        "Adventure",
+                        "Fantasy"
                     ]
                 },
                 {
                     "text": "Jag försöker förstå hur boken fungerar och dess historia.",
                     "keywords": [
-                        "Discovery"
+                        "History",
+                        "Discovery",
+                        "Secrets"
                     ]
                 },
                 {
-                    "text": "Jag delar bokens berättelser med andra för att sprida dess budskap.",
+                    "text": "Jag fortsätter att läsa för att lära mig om de magiska väsendena och deras liv.",
                     "keywords": [
+                        "Fantasy Creatures",
                         "Magic",
-                        "Community"
+                        "Legends"
                     ]
                 },
                 {
-                    "text": "Jag läser vidare för att upptäcka alla hemligheter och äventyr som boken döljer.",
+                    "text": "Jag fortsätter läsa för att upptäcka de galna, oväntade äventyren – kanske en talande katt eller en pratglad drake.",
                     "keywords": [
-                        "Exploration"
+                        "Comedy",
+                        "Whimsy"
                     ]
                 }
             ]
@@ -1327,6 +1571,7 @@
                     "text": "Jag utforskar katastrofens epicentrum för att förstå dess mysterier.",
                     "keywords": [
                         "Exploration",
+                        "Science",
                         "Danger"
                     ]
                 },
@@ -1334,8 +1579,7 @@
                     "text": "Jag samarbetar med ett team av specialister för att ta reda på hur vi kan stoppa katastrofen.",
                     "keywords": [
                         "Teamwork",
-                        "Action",
-                        "Thriller"
+                        "Action Heroes"
                     ]
                 },
                 {
@@ -1377,7 +1621,6 @@
                     "text": "Jag tackar för erbjudandet men söker istället efter mitt eget äventyr.",
                     "keywords": [
                         "Independence",
-                        "Exploration",
                         "Freedom"
                     ]
                 }
@@ -1385,71 +1628,119 @@
         },
         {
             "id": 19,
-            "question": "Du blir del av en dokumentär om människor som övervinner stora hinder. Vilken historia berättar du?",
+            "question": "Du stiger in i en ny värld. Vad finner du där?",
             "options": [
                 {
-                    "text": "Om att kämpa för en orättvisad sak och vinna.",
+                    "text": "En stad fylld med läkare och forskare som försöker hitta botemedlet mot en mystisk sjukdom.",
                     "keywords": [
-                        "Justice",
-                        "Courage"
+                        "Medicine",
+                        "Science",
+                        "Health"
                     ]
                 },
                 {
-                    "text": "Om att övervinna en personlig utmaning som förändrade mitt liv.",
+                    "text": "En futuristisk värld där arkitekter skapar enorma byggnader och planerar en ny era av hållbara städer.",
                     "keywords": [
-                        "Inspiration",
-                        "Growth",
-                        "Motivation"
+                        "Architecture",
+                        "Innovation",
+                        "Urban Planning"
                     ]
                 },
                 {
-                    "text": "Om att upptäcka något fantastiskt som förändrade världen.",
+                    "text": "En värld där clowner och underhållare har en central roll, och använder humor för att lösa livets svårigheter.",
                     "keywords": [
-                        "Discovery"
+                        "Comedy",
+                        "Performance",
+                        "Entertainment"
                     ]
                 },
                 {
-                    "text": "Om att bygga något som för alltid kommer att finnas kvar.",
+                    "text": "En vild djungel där djurvårdare kämpar för att skydda hotade arter och bevara den naturliga balansen.",
                     "keywords": [
-                        "Legacy",
-                        "Creation",
-                        "Hope"
+                        "Animals",
+                        "Conservation",
+                        "Nature"
                     ]
                 }
             ]
         },
         {
             "id": 20,
-            "question": "En resebyrå erbjuder dig en gratis resa till en plats där ingen annan varit. Vad motiverar dig att tacka ja?",
+            "question": "Du faller ned i en brunn som leder dig till en hemlig plats. Vad finner du när du kommer fram?",
             "options": [
                 {
-                    "text": "Att upptäcka något nytt och skriva historia.",
+                    "text": "Ett bibliotek där varje bok är ett levande djur som berättar sina egna historier om galna äventyr och mysterier.",
                     "keywords": [
-                        "Exploration",
-                        "Pioneering"
+                        "Talking Animals",
+                        "Fluffy Animals"
                     ]
                 },
                 {
-                    "text": "Att inspirera andra att våga drömma stort.",
+                    "text": "En gammal teater där skådespelare är skickliga på att spela roller som inte bara är på scen, utan också förvandlar verkligheten runt omkring dem.",
                     "keywords": [
-                        "Motivation",
-                        "Inspiration",
-                        "Leadership"
+                        "Performance",
+                        "Magic"
                     ]
                 },
                 {
-                    "text": "Att hitta inre frid i en avlägsen och orörd värld.",
+                    "text": "En stad där alla är arkitekter som bygger byggnader som inte bara är fysiska, utan också kan ändra tid och rum när du går in i dem.",
                     "keywords": [
-                        "Peace",
+                        "Architecture",
+                        "Time Travel",
+                        "Innovation"
+                    ]
+                },
+                {
+                    "text": "En gammal krog där en mystisk clown bjuder på magiska cirkusnummer medan han också avslöjar hemligheter om världen som ingen trott på.",
+                    "keywords": [
+                        "Comedy",
+                        "Night Life",
+                        "Circus"
+                    ]
+                },
+                {
+                    "text": "En vild djungel där du stöter på förlorade civilisationer, talande träd, och forskare som jagar försvunna artefakter från en annan dimension.",
+                    "keywords": [
+                        "Lost Civilizations",
+                        "Jungle"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "question": "En magisk bok erbjuder dig en unik förmåga. Vilken väljer du?",
+            "options": [
+                {
+                    "text": "Förmågan att tala med djur.",
+                    "keywords": [
                         "Nature",
-                        "Reflection"
+                        "Animals",
+                        "Whimsical"
                     ]
                 },
                 {
-                    "text": "Att fotografera och dokumentera en unik plats.",
+                    "text": "Kraften att förvandla rädsla till mod.",
                     "keywords": [
-                        "Photography",
-                        "Creativity"
+                        "Self-Help",
+                        "Emotional",
+                        "Philosophy"
+                    ]
+                },
+                {
+                    "text": "Förmågan att skriva böcker som får folk att skratta.",
+                    "keywords": [
+                        "Comedy",
+                        "Author",
+                        "Lighthearted"
+                    ]
+                },
+                {
+                    "text": "Kraften att resa genom tiden.",
+                    "keywords": [
+                        "Sci-fi",
+                        "Time Travel",
+                        "Adventure"
                     ]
                 }
             ]
@@ -1834,6 +2125,81 @@
                     "keywords": [
                         "Ocean",
                         "Adventure"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "question": "Du hittar en port till en förlorad stad. Vad förväntar du dig?",
+            "options": [
+                {
+                    "text": "En gyllene stad med gamla tempel, omgivna av frodig djungel och höga berg.",
+                    "keywords": [
+                        "Ancient Ruins",
+                        "Jungle",
+                        "Mountains"
+                    ]
+                },
+                {
+                    "text": "En stillsam stad vid havet, med gamla bibliotek och tysta gator.",
+                    "keywords": [
+                        "Coastal City",
+                        "Old Libraries",
+                        "Quiet Streets"
+                    ]
+                },
+                {
+                    "text": "En mörk och farlig plats med fallfärdiga byggnader och mystiska skuggor.",
+                    "keywords": [
+                        "Ruins",
+                        "Mysterious Shadows",
+                        "Dangerous Traps"
+                    ]
+                },
+                {
+                    "text": "En vacker dal omgiven av blomstrande trädgårdar, där varje hörn känns som en ny början.",
+                    "keywords": [
+                        "Serene Valley",
+                        "Flower Gardens"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "question": "Du hittar en tidsmaskin och kan resa till en tid. Vad väljer du?",
+            "options": [
+                {
+                    "text": "En vidsträckt, öde landskap från förhistorisk tid, där vulkaner ryker och dinosaurier vandrar.",
+                    "keywords": [
+                        "Prehistoric Landscape",
+                        "Volcanoes",
+                        "Dinosaurs"
+                    ]
+                },
+                {
+                    "text": "En futuristisk stad fylld med svävande byggnader, neonljus och rymdskepp som flyger över himlen.",
+                    "keywords": [
+                        "Futuristic City",
+                        "Neon Lights",
+                        "Spaceships"
+                    ]
+                },
+                {
+                    "text": "Ett romantiskt landskap i 1800-talets Europa, med frodiga trädgårdar, slott och vackra slottshallar.",
+                    "keywords": [
+                        "Romantic Gardens",
+                        "Castle Halls",
+                        "19th Century Europe"
+                    ]
+                },
+                {
+                    "text": "En livlig amerikansk småstad från 1950-talet, där gamla diner och drive-in biografer präglar atmosfären.",
+                    "keywords": [
+                        "Small Town America",
+                        "Diner",
+                        "Drive-in Theaters"
                     ]
                 }
             ]
