@@ -5,11 +5,11 @@ import {
 	getFromLocalStorage,
 	saveToLocalStorage,
 } from '../services/localStorageService';
-import { BookList } from './BookList';
+import { executeWithLoadingAndErrorHandling } from '../utils/asyncHelpers';
 import { useBooks } from '../hooks/useBooks';
+import { BookList } from './BookList';
 import { LoadingSpinner } from './LoadingSpinner';
 import { Popup } from './Popup';
-import { executeWithLoadingAndErrorHandling } from '../utils/asyncHelpers';
 
 interface BookSearchProps {
 	keywords: string[];
@@ -31,7 +31,7 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 					keywords.join(' OR ') +
 					' -non-fiction -reference -manual -guide' +
 					' -textbooks -academic' +
-					'&langRestrict=sv' +
+					//'&langRestrict=sv' +
 					'&printType=books' +
 					'&maxResults=10';
 
