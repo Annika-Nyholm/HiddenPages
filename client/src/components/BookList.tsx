@@ -1,8 +1,8 @@
 import { useRef } from 'react';
-import { IGoogleBooksResponse } from '../models/apiInterfaces';
-import '../styles/components/bookList.scss';
-import { BookCard } from './BookCard';
 import { Link } from 'react-router-dom';
+import { IGoogleBooksResponse } from '../models/apiInterfaces';
+import { BookCard } from './BookCard';
+import '../styles/components/bookList.scss';
 
 interface IBookListProps {
 	books: IGoogleBooksResponse['items'];

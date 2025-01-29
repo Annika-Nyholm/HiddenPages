@@ -1,6 +1,6 @@
-import '../styles/components/bookCard.scss';
 import { SyntheticEvent } from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/components/bookCard.scss';
 
 interface IBookCardProps {
 	id: string;

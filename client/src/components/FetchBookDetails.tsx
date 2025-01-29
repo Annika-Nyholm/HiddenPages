@@ -1,12 +1,12 @@
 import { useContext, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { fetchBookDetails } from '../services/apiService';
+import { executeWithLoadingAndErrorHandling } from '../utils/asyncHelpers';
 import { IVolumeInfo } from '../models/apiInterfaces';
 import { BooksContext } from '../contexts/BooksContext';
 import { BookDetails } from './BookDetails';
 import { LoadingSpinner } from './LoadingSpinner';
 import { Popup } from './Popup';
-import { executeWithLoadingAndErrorHandling } from '../utils/asyncHelpers';
 
 export const FetchBookDetails = () => {
 	const { bookId } = useParams<{ bookId: string }>();
