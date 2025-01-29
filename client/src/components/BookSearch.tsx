@@ -31,7 +31,7 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 					keywords.join(' OR ') +
 					' -non-fiction -reference -manual -guide' +
 					' -textbooks -academic' +
-					'&langRestrict=sv' +
+					//'&langRestrict=sv' +
 					'&printType=books' +
 					'&maxResults=10';
 
