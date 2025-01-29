@@ -77,7 +77,7 @@
             ]
         },
         {
-            "id": 3,
+            "id": 23,
             "question": "Vilken typ av berättelse lockar dig mest?",
             "options": [
                 {
@@ -115,7 +115,7 @@
             ]
         },
         {
-            "id": 4,
+            "id": 25,
             "question": "Du får en gammal karta med en X-markering. Vad gör du?",
             "options": [
                 {
@@ -990,24 +990,21 @@
                     "text": "Jag frågar om deras livshistoria – det låter fascinerande!",
                     "keywords": [
                         "Horror",
-                        "Mystery",
-                        "Biography"
+                        "Thriller"
                     ]
                 },
                 {
                     "text": "Jag springer därifrån, livrädd.",
                     "keywords": [
-                        "Fear",
-                        "Escape",
-                        "Suspense"
+                        "Feel-good",
+                        "Lighthearted"
                     ]
                 },
                 {
                     "text": "Jag försöker lära mig mer om deras samhälle.",
                     "keywords": [
                         "Society",
-                        "Culture",
-                        "Thriller"
+                        "Culture"
                     ]
                 },
                 {

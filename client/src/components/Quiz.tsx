@@ -1,9 +1,9 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { IQuestion } from '../models/IQuiz';
 import { fetchRandomQuiz } from '../services/quizService';
-import '../styles/components/quiz.scss';
-import { useNavigate } from 'react-router-dom';
 import { removeFromLocalStorage } from '../services/localStorageService';
+import '../styles/components/quiz.scss';
 import { LoadingSpinner } from './LoadingSpinner';
 import { Popup } from './Popup';
 

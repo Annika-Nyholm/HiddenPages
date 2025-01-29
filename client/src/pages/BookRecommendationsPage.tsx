@@ -1,6 +1,6 @@
 import { useLocation } from 'react-router-dom';
-import { BookSearch } from '../components/BookSearch';
 import '../styles/pages/bookRecommendationPage.scss';
+import { BookSearch } from '../components/BookSearch';
 
 export const BookRecommendationsPage = () => {
 	const location = useLocation();
