@@ -44,7 +44,6 @@ export const sanitizeHtml = (html: string): string => {
 			: `<p class="quote">“${text}”</p>`;
 	});
 
-	// Kontrollera om HTML börjar eller slutar med <p> och justera
 	if (!sanitizedHtml.startsWith('<p>')) {
 		sanitizedHtml = `<p>${sanitizedHtml}`;
 	}

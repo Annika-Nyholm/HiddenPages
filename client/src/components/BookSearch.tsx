@@ -38,7 +38,6 @@ export const BookSearch = ({ keywords }: BookSearchProps) => {
 				const response: IGoogleBooksResponse = await fetchBooks(
 					searchQuery
 				);
-				console.log('Svar från API: ', response.items);
 
 				saveToLocalStorage('bookRecommendations', response.items || []);
 				setBooks(response.items || []);

@@ -7,5 +7,3 @@ interface IBooksContext {
 }
 
 export const BooksContext = createContext<IBooksContext | null>(null);
-
-

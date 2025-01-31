@@ -19,12 +19,9 @@ export const FetchBookDetails = () => {
 	const books = context?.books || [];
 
 	const bookFromContext = books.find((book) => book.id === bookId);
-	console.log('Books from context:', bookFromContext);
-
 	
 	useEffect(() => {
 		if (bookFromContext && !bookDetails) {
-			console.log('Bok från context används');
 			
 			setBookDetails(bookFromContext.volumeInfo);
 			setLoading(false);
@@ -34,7 +31,6 @@ export const FetchBookDetails = () => {
 					async () => {
 						if (bookId) {
 							const data = await fetchBookDetails(bookId);
-							console.log('Bokdata från API:', data);
 							setBookDetails(data);
 						}
 					},
@@ -42,7 +38,6 @@ export const FetchBookDetails = () => {
 					setError
 				);
 			};
-			console.log('Bok finns inte i context, hämtar från API');
 
 			fetchDetails();
 		}
