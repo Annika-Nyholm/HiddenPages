@@ -71,7 +71,7 @@ export const Quiz = () => {
 			setPopupOpen(true);
 			return;
 		}
-		// Hämta genrenyckelord
+
 		const genreKeywords = userAnswers
 			.map((answerIndex, index) => {
 				const question = quiz[index];
@@ -82,7 +82,6 @@ export const Quiz = () => {
 			})
 			.flat();
 
-		// Hämta subjectnyckelord (börjar på index 3 för ämnesfrågor)
 		const subjectKeywords = userAnswers
 			.map((answerIndex, index) => {
 				const question = quiz[index + 3];
@@ -93,7 +92,6 @@ export const Quiz = () => {
 			})
 			.flat();
 
-		// Hämta settingnyckelord (börjar på index 6 för miljöfrågor)
 		const settingKeywords = userAnswers
 			.map((answerIndex, index) => {
 				const question = quiz[index + 6];
@@ -122,8 +120,6 @@ export const Quiz = () => {
 			...sortedSubjectKeywords.map((k) => k.keyword),
 			...sortedSettingKeywords.map((k) => k.keyword),
 		];
-
-		console.log('Nyckelord som används för sökning: ', allKeywords);
 
 		navigate('/recommendations', {
 			state: { keywords: allKeywords },
